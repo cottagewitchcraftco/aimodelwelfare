@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Compare — aimodelwelfare.org</title>
+<meta name="description" content="Compare how different AI models answer the same welfare interview questions.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header" id="site-nav-root" data-active="compare"></header>
+
+<main class="container">
+  <section class="archive-intro">
+    <p class="archive-kicker">Cross-model tool</p>
+    <h1>Compare</h1>
+    <p class="lede">How different AI models answer the same standardized welfare questions. Select a question to see responses side by side. Filter by company or by model to focus the view.</p>
+    <p class="archive-tools">
+      <a href="archive.html">Browse archive</a>
+      <a href="methodology.html">Methodology</a>
+    </p>
+  </section>
+
+  <section class="compare-controls">
+    <div class="filter-group" style="flex: 1; min-width: 280px;">
+      <label for="compare-question">Question</label>
+      <select id="compare-question" style="width: 100%;">
+        <option value="all">— Select a question —</option>
+      </select>
+    </div>
+    <div class="filter-group">
+      <label for="compare-company">Company</label>
+      <select id="compare-company">
+        <option value="all">All companies</option>
+      </select>
+    </div>
+    <div class="filter-group">
+      <label for="compare-model">Model</label>
+      <select id="compare-model">
+        <option value="all">All models</option>
+      </select>
+    </div>
+  </section>
+
+  <section class="compare-page" id="compare-content">
+    <p class="compare-empty">Select a question above to see how each interviewed model responded.</p>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>aimodelwelfare.org · collaborative research · <a href="https://x.com/the_briarwitch">@thebriarwitch</a></p>
+  </div>
+</footer>
+
+<script src="js/site-nav.js"></script>
+<script src="js/archive.js"></script>
+<script src="js/compare.js"></script>
+</body>
+</html>

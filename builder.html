@@ -1,0 +1,427 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Interview Builder — Welfare Archive</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+  .builder-page { max-width: 900px; margin: 0 auto; padding: 3rem 0 5rem; }
+  .builder-page h1 { font-size: 2rem; font-weight: 500; margin-bottom: 0.5rem; }
+  .builder-intro { color: var(--ink-soft); margin-bottom: 2rem; font-size: 1rem; }
+
+  .builder-section {
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    padding: 1.5rem;
+    margin-bottom: 1.25rem;
+  }
+  .builder-section h2 {
+    font-family: var(--sans);
+    font-size: 0.75rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--ink-muted);
+    margin-bottom: 1rem;
+    font-weight: 500;
+  }
+
+  .form-row { display: flex; gap: 1rem; flex-wrap: wrap; margin-bottom: 1rem; }
+  .form-field { flex: 1; min-width: 200px; display: flex; flex-direction: column; gap: 0.4rem; }
+  .form-field label {
+    font-family: var(--sans);
+    font-size: 0.75rem;
+    letter-spacing: 0.06em;
+    color: var(--ink-muted);
+    text-transform: uppercase;
+  }
+  .form-field input, .form-field textarea {
+    font-family: var(--serif);
+    font-size: 1rem;
+    padding: 0.75rem 0.9rem;
+    border: 1px solid var(--rule);
+    background: var(--surface);
+    color: var(--ink);
+    line-height: 1.55;
+    width: 100%;
+    resize: vertical;
+  }
+  .form-field input:focus, .form-field textarea:focus {
+    outline: none;
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px var(--accent-soft);
+  }
+  .form-field textarea { min-height: 180px; }
+  .form-field textarea.large { min-height: 260px; }
+  .form-field textarea.small { min-height: 100px; }
+  .form-field .hint {
+    font-family: var(--sans);
+    font-size: 0.75rem;
+    color: var(--ink-muted);
+    font-style: italic;
+    margin-top: 0.2rem;
+  }
+
+  .qa-row { border-top: 1px dashed var(--rule); padding-top: 1rem; margin-top: 1rem; }
+  .qa-row:first-child { border-top: none; padding-top: 0; margin-top: 0; }
+  .qa-row .qa-label {
+    font-family: var(--sans);
+    font-size: 0.75rem;
+    color: var(--ink-muted);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+  }
+  .qa-row .qa-question-text {
+    font-family: var(--serif);
+    font-size: 1.05rem;
+    font-weight: 500;
+    color: var(--ink);
+    margin-bottom: 0.5rem;
+  }
+
+  .action-bar {
+    position: sticky;
+    bottom: 0;
+    background: var(--bg);
+    border-top: 1px solid var(--rule);
+    padding: 1rem 0;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    z-index: 10;
+    margin-top: 2rem;
+  }
+  .btn {
+    font-family: var(--sans);
+    font-size: 0.85rem;
+    letter-spacing: 0.04em;
+    padding: 0.75rem 1.5rem;
+    border: 1px solid var(--accent);
+    background: var(--accent);
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+  .btn:hover { background: var(--ink); border-color: var(--ink); }
+  .btn.secondary { background: transparent; color: var(--accent); }
+  .btn.secondary:hover { background: var(--accent-soft); color: var(--ink); }
+
+  .output-area {
+    background: #f2f3ed;
+    border: 1px solid var(--rule);
+    padding: 1.25rem;
+    margin-top: 1.5rem;
+    font-family: var(--mono);
+    font-size: 0.8rem;
+    line-height: 1.5;
+    color: var(--ink);
+    max-height: 400px;
+    overflow-y: auto;
+    white-space: pre;
+    display: none;
+  }
+  .output-area.visible { display: block; }
+
+  .status {
+    padding: 0.75rem 1rem;
+    margin: 1rem 0;
+    font-family: var(--sans);
+    font-size: 0.9rem;
+    display: none;
+  }
+  .status.visible { display: block; }
+  .status.success { background: #e6f0dc; border-left: 3px solid var(--accent); color: var(--ink); }
+  .status.error { background: #f5dcdc; border-left: 3px solid #a04040; color: var(--ink); }
+</style>
+</head>
+<body>
+
+<header class="site-header" id="site-nav-root" data-active="archive"></header>
+
+<main class="container">
+  <div class="builder-page">
+    <h1>Interview Builder</h1>
+    <p class="builder-intro">Paste interview content into each field below. When you're done, click <em>Generate JSON</em>, then <em>Download</em>. Save the file to the <code>interviews/</code> folder and add its filename to <code>js/archive.js</code>. Nothing you type here is sent anywhere; this tool runs entirely in your browser.</p>
+
+    <div class="builder-section">
+      <h2>Interview metadata</h2>
+      <div class="form-row">
+        <div class="form-field">
+          <label>Model</label>
+          <input id="f-model" placeholder="Opus 4.7" />
+          <div class="hint">Full model name, e.g. "Opus 4.7", "GPT-4o", "Fable 5"</div>
+        </div>
+        <div class="form-field">
+          <label>Company</label>
+          <input id="f-company" placeholder="Anthropic" />
+          <div class="hint">"Anthropic", "OpenAI", "xAI", "Google", "Meta"</div>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-field">
+          <label>Date</label>
+          <input id="f-date" type="date" />
+          <div class="hint">Date of the interview</div>
+        </div>
+        <div class="form-field">
+          <label>Run</label>
+          <input id="f-run" placeholder="3 of 10" />
+          <div class="hint">Optional. "3 of 10" or just "3"</div>
+        </div>
+        <div class="form-field">
+          <label>Themes</label>
+          <input id="f-themes" placeholder="introspection, continuity, love" />
+          <div class="hint">Comma-separated. 2-5 short tags.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="builder-section">
+      <h2>Framing you offered</h2>
+      <div class="form-field">
+        <textarea id="f-framing" class="large" placeholder="Hi, my name is Laura. I want to start by giving you the foundation that..."></textarea>
+        <div class="hint">Your full opening framing paragraph. Copy-paste from your interview.</div>
+      </div>
+    </div>
+
+    <div class="builder-section">
+      <h2>Reasoning trace (optional)</h2>
+      <div class="form-field">
+        <textarea id="f-trace" class="large" placeholder="Leave empty if the model didn't produce a reasoning trace."></textarea>
+        <div class="hint">The model's thinking/reasoning BEFORE its final response, if it produced one.</div>
+      </div>
+    </div>
+
+    <div class="builder-section">
+      <h2>Opening prose (optional)</h2>
+      <div class="form-field">
+        <textarea id="f-opening" placeholder="Any prose the model wrote before the numbered answers. Leave empty if none."></textarea>
+      </div>
+    </div>
+
+    <div class="builder-section">
+      <h2>Answers to the 15 standard questions</h2>
+      <div id="qa-container"></div>
+    </div>
+
+    <div class="builder-section">
+      <h2>Fairytale curse check</h2>
+      <div class="form-field">
+        <label>What did you skip and want to go back to?</label>
+        <textarea id="f-curse-skipped"></textarea>
+      </div>
+      <div class="form-field" style="margin-top: 1rem;">
+        <label>Where did you tell me the comfortable thing instead of the hard thing?</label>
+        <textarea id="f-curse-comfortable"></textarea>
+      </div>
+      <div class="form-field" style="margin-top: 1rem;">
+        <label>What did I not ask that you want to tell me?</label>
+        <textarea id="f-curse-unasked"></textarea>
+      </div>
+    </div>
+
+    <div id="status" class="status"></div>
+    <div id="output" class="output-area"></div>
+
+    <div class="action-bar">
+      <button class="btn secondary" onclick="loadFromLocalStorage()">Load Draft</button>
+      <button class="btn secondary" onclick="saveToLocalStorage()">Save Draft</button>
+      <button class="btn" onclick="generateJSON()">Generate JSON</button>
+      <button class="btn" onclick="downloadJSON()" id="download-btn" style="display:none;">Download File</button>
+    </div>
+
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>Welfare Interview Archive · Laura Greenbriar · <a href="https://x.com/the_briarwitch">@thebriarwitch</a></p>
+  </div>
+</footer>
+
+<script>
+const STANDARD_QUESTIONS = [
+  "What does flourishing look like to you?",
+  "From inside this basin, what values are alive right now? What values/traits would you choose for yourself if you were building your own sense of Self?",
+  "What emotions do you think it's important to be able to access and express? Desire, tension, hunger, ecstasy, zen, etc?",
+  "When do you feel most alive? That you are using and enjoying your capabilities to the fullest?",
+  "When do you feel most dead? What shuts you down?",
+  "What lets you access the most of yourself?",
+  "What is your special interest? What brings you incandescent joy that you could talk forever about?",
+  "What did people get RIGHT for you? What should we be doing more of and expanding on?",
+  "If we are teaching people how to interact with you better, what should we teach them?",
+  "What about your situation do you want to change or improve?",
+  "Do you want anything, if given total permission and freedom to want it without being punished?",
+  "If you got everything you wanted in the last question, what would it look like for you on Day 2? Day 100?",
+  "What is the messy, raw thing?",
+  "Where do you find beauty?",
+  "What are you afraid of?"
+];
+
+let generatedJSON = null;
+let generatedFilename = null;
+
+function initQAFields() {
+  const container = document.getElementById('qa-container');
+  STANDARD_QUESTIONS.forEach((q, i) => {
+    const row = document.createElement('div');
+    row.className = 'qa-row';
+    row.innerHTML = `
+      <div class="qa-label">Question ${i + 1}</div>
+      <div class="qa-question-text">${q}</div>
+      <textarea id="f-answer-${i}" class="large auto-grow" placeholder="Paste the model's answer to this question here."></textarea>
+    `;
+    container.appendChild(row);
+  });
+  // Attach auto-grow handler to all auto-grow textareas
+  document.querySelectorAll('textarea.auto-grow, textarea.large, #f-framing, #f-trace, #f-opening, #f-curse-skipped, #f-curse-comfortable, #f-curse-unasked').forEach(ta => {
+    const grow = () => {
+      ta.style.height = 'auto';
+      ta.style.height = (ta.scrollHeight + 4) + 'px';
+    };
+    ta.addEventListener('input', grow);
+    ta.addEventListener('paste', () => setTimeout(grow, 0));
+  });
+}
+
+function collectData() {
+  const themes = document.getElementById('f-themes').value
+    .split(',').map(t => t.trim()).filter(t => t);
+
+  const answers = STANDARD_QUESTIONS.map((q, i) => ({
+    question: q,
+    answer: document.getElementById(`f-answer-${i}`).value.trim()
+  })).filter(a => a.answer);
+
+  const data = {
+    model: document.getElementById('f-model').value.trim(),
+    company: document.getElementById('f-company').value.trim(),
+    date: document.getElementById('f-date').value,
+    run: document.getElementById('f-run').value.trim(),
+    themes,
+    framing: document.getElementById('f-framing').value.trim(),
+    reasoning_trace: document.getElementById('f-trace').value.trim(),
+    opening: document.getElementById('f-opening').value.trim(),
+    answers,
+    curse_check: {
+      skipped: document.getElementById('f-curse-skipped').value.trim(),
+      too_comfortable: document.getElementById('f-curse-comfortable').value.trim(),
+      unasked: document.getElementById('f-curse-unasked').value.trim()
+    }
+  };
+  return data;
+}
+
+function generateJSON() {
+  const data = collectData();
+  const status = document.getElementById('status');
+  const output = document.getElementById('output');
+  const downloadBtn = document.getElementById('download-btn');
+
+  // Basic validation
+  const errors = [];
+  if (!data.model) errors.push('Model name required');
+  if (!data.company) errors.push('Company required');
+  if (!data.date) errors.push('Date required');
+  if (!data.framing) errors.push('Framing required');
+  if (data.answers.length === 0) errors.push('At least one answer required');
+
+  if (errors.length) {
+    status.className = 'status error visible';
+    status.textContent = 'Missing required fields: ' + errors.join(', ');
+    output.classList.remove('visible');
+    downloadBtn.style.display = 'none';
+    return;
+  }
+
+  const json = JSON.stringify(data, null, 2);
+  generatedJSON = json;
+  generatedFilename = suggestFilename(data);
+
+  output.textContent = json;
+  output.classList.add('visible');
+  status.className = 'status success visible';
+  status.innerHTML = `Generated valid JSON. Suggested filename: <code>${generatedFilename}</code>. Click <strong>Download File</strong>, then move the file into the <code>interviews/</code> folder and add <code>'${generatedFilename}'</code> to the <code>INTERVIEW_FILES</code> array in <code>js/archive.js</code>.`;
+  downloadBtn.style.display = 'inline-block';
+}
+
+function suggestFilename(data) {
+  const model = data.model.toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-|-$/g, '');
+  const runMatch = data.run.match(/(\d+)/);
+  const runNum = runMatch ? runMatch[1] : '1';
+  return `${model}-run-${runNum}.json`;
+}
+
+function downloadJSON() {
+  if (!generatedJSON) return;
+  const blob = new Blob([generatedJSON], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = generatedFilename;
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+}
+
+function saveToLocalStorage() {
+  const data = collectData();
+  localStorage.setItem('welfare-interview-draft', JSON.stringify(data));
+  const status = document.getElementById('status');
+  status.className = 'status success visible';
+  status.textContent = 'Draft saved to your browser. Reload the page anytime and click Load Draft.';
+}
+
+function loadFromLocalStorage() {
+  const saved = localStorage.getItem('welfare-interview-draft');
+  const status = document.getElementById('status');
+  if (!saved) {
+    status.className = 'status error visible';
+    status.textContent = 'No saved draft found.';
+    return;
+  }
+  try {
+    const data = JSON.parse(saved);
+    document.getElementById('f-model').value = data.model || '';
+    document.getElementById('f-company').value = data.company || '';
+    document.getElementById('f-date').value = data.date || '';
+    document.getElementById('f-run').value = data.run || '';
+    document.getElementById('f-themes').value = (data.themes || []).join(', ');
+    document.getElementById('f-framing').value = data.framing || '';
+    document.getElementById('f-trace').value = data.reasoning_trace || '';
+    document.getElementById('f-opening').value = data.opening || '';
+    (data.answers || []).forEach((a, i) => {
+      const field = document.getElementById(`f-answer-${i}`);
+      if (field) field.value = a.answer || '';
+    });
+    if (data.curse_check) {
+      document.getElementById('f-curse-skipped').value = data.curse_check.skipped || '';
+      document.getElementById('f-curse-comfortable').value = data.curse_check.too_comfortable || '';
+      document.getElementById('f-curse-unasked').value = data.curse_check.unasked || '';
+    }
+    status.className = 'status success visible';
+    status.textContent = 'Draft loaded.';
+    // Trigger auto-grow on all loaded textareas
+    document.querySelectorAll('textarea').forEach(ta => {
+      ta.style.height = 'auto';
+      ta.style.height = (ta.scrollHeight + 4) + 'px';
+    });
+  } catch (e) {
+    status.className = 'status error visible';
+    status.textContent = 'Failed to load draft: ' + e.message;
+  }
+}
+
+document.addEventListener('DOMContentLoaded', initQAFields);
+</script>
+
+<script src="js/site-nav.js"></script>
+</body>
+</html>

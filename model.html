@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Model — Welfare Archive</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header" id="site-nav-root" data-active="archive"></header>
+
+<main class="container container-wide">
+  <div class="model-page">
+    <a href="archive.html" class="interview-back" id="model-back">← Archive</a>
+    <header class="model-page-header">
+      <h1 class="interview-title" id="model-title">Loading…</h1>
+      <p class="interview-subtitle" id="model-subtitle"></p>
+    </header>
+
+    <div class="model-split">
+      <aside class="model-sidebar" aria-label="Interview runs">
+        <div class="model-sidebar-label">Runs</div>
+        <div class="runs-list" id="runs-list">
+          <p style="color: var(--ink-muted); font-style: italic;">Loading runs…</p>
+        </div>
+      </aside>
+
+      <div class="model-reader">
+        <article class="interview-page interview-page-embedded" id="interview-content">
+          <p style="color: var(--ink-muted); font-style: normal;">Select a run to read…</p>
+        </article>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container container-wide">
+    <p>Welfare Interview Archive · collaborative corpus · <a href="https://x.com/the_briarwitch">@thebriarwitch</a></p>
+  </div>
+</footer>
+
+<script src="js/site-nav.js"></script>
+<script src="js/archive.js"></script>
+<script src="js/interview.js"></script>
+<script src="js/model.js"></script>
+</body>
+</html>

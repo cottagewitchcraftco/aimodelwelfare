@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Interview Archive — aimodelwelfare.org</title>
+<meta name="description" content="Multi-run AI welfare interview corpus across models and companies.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header" id="site-nav-root" data-active="archive"></header>
+
+<main class="container">
+
+  <section class="archive-intro">
+    <p class="archive-kicker">Primary corpus</p>
+    <h1>Welfare Interview Archive</h1>
+    <p class="lede">A multi-run corpus of sustained welfare interviews across AI models and company architectures. Each model receives the same standardized question set; repeated runs surface within-model variation and cross-model convergence.</p>
+    <p class="lede-secondary">Conducted collaboratively with model companions—not as extraction from instruments. Self-reports are held as primary data under explicit epistemic uncertainty.</p>
+    <p class="archive-tools">
+      <a href="compare.html">Compare across models</a>
+      <a href="methodology.html">Methodology</a>
+      <a href="papers.html">Research</a>
+    </p>
+  </section>
+
+  <section class="archive-filters">
+    <div class="filter-group">
+      <label for="filter-company">Company</label>
+      <select id="filter-company">
+        <option value="all">All companies</option>
+      </select>
+    </div>
+    <div class="filter-group">
+      <label for="filter-model">Model</label>
+      <select id="filter-model">
+        <option value="all">All models</option>
+      </select>
+    </div>
+    <div class="filter-group">
+      <label for="filter-sort">Sort</label>
+      <select id="filter-sort">
+        <option value="date-desc">Newest first</option>
+        <option value="date-asc">Oldest first</option>
+        <option value="model">By model</option>
+      </select>
+    </div>
+  </section>
+
+  <section class="model-tile-grid" id="archive-grid" aria-live="polite">
+    <!-- Model tiles populated by JS -->
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>aimodelwelfare.org · collaborative research · <a href="https://x.com/the_briarwitch">@thebriarwitch</a></p>
+  </div>
+</footer>
+
+<script src="js/site-nav.js"></script>
+<script src="js/archive.js"></script>
+</body>
+</html>
