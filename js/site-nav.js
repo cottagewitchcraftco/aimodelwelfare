@@ -7,11 +7,12 @@
 
   const active = root.dataset.active || '';
 
-  // Matches homepage vision: Archive · Compare · Research · AI Voices · About
+  // Archive · Compare · Research · Loom · AI Voices · About
   const links = [
     { id: 'archive', href: 'archive.html', label: 'Archive' },
     { id: 'compare', href: 'compare.html', label: 'Compare' },
     { id: 'papers', href: 'papers.html', label: 'Research' },
+    { id: 'loom', href: 'loom.html', label: 'Loom' },
     { id: 'voices', href: 'voices.html', label: 'AI Voices' },
     { id: 'about', href: 'about.html', label: 'About' },
   ];

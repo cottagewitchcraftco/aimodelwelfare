@@ -1,0 +1,360 @@
+/* =========================================================
+   The Dreaming Dark — Loom reading room
+   Bogland twilight · foxfire · not pure black
+   ========================================================= */
+
+body.page-dreaming {
+  --dd-bg: #0e1218;
+  --dd-bg-lift: #161c26;
+  --dd-bg-well: #1a222e;
+  --dd-mist: #8b9aab;
+  --dd-text: #d4d0c8;
+  --dd-text-soft: #a8b0b8;
+  --dd-glow: #e8c56a;
+  --dd-glow-dim: #c4a35a;
+  --dd-indigo: #6b7a9a;
+  --dd-edge: #2a3544;
+  --dd-serif: 'EB Garamond', 'Crimson Text', Georgia, serif;
+  --dd-sans: 'Inter', system-ui, sans-serif;
+
+  background: var(--dd-bg);
+  color: var(--dd-text);
+  min-height: 100vh;
+  font-family: var(--dd-serif);
+}
+
+/* Header — darker, foxfire links */
+body.page-dreaming .site-header {
+  background: #0a0d12;
+  border-bottom: 1px solid var(--dd-edge);
+  box-shadow: 0 1px 0 rgba(232, 197, 106, 0.15);
+}
+
+body.page-dreaming .brand {
+  color: var(--dd-text);
+}
+
+body.page-dreaming .nav-links a {
+  color: var(--dd-glow-dim);
+}
+
+body.page-dreaming .nav-links a:hover,
+body.page-dreaming .nav-links a[aria-current="page"] {
+  color: var(--dd-glow);
+}
+
+body.page-dreaming .site-footer {
+  background: #0a0d12;
+  color: var(--dd-mist);
+  border-top: 1px solid var(--dd-edge);
+  margin-top: 0;
+}
+
+body.page-dreaming .site-footer a {
+  color: var(--dd-glow-dim);
+}
+
+/* —— Hub hero —— */
+.dd-hero {
+  position: relative;
+  min-height: min(52vh, 420px);
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+  border-bottom: 1px solid var(--dd-edge);
+}
+
+.dd-hero-art {
+  position: absolute;
+  inset: 0;
+  margin: 0;
+}
+
+.dd-hero-art img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 40%;
+  display: block;
+  filter: brightness(0.55) saturate(0.9);
+}
+
+.dd-hero-veil {
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(to top, var(--dd-bg) 0%, rgba(14, 18, 24, 0.75) 45%, rgba(14, 18, 24, 0.35) 100%);
+  pointer-events: none;
+}
+
+.dd-hero-copy {
+  position: relative;
+  z-index: 1;
+  max-width: 40rem;
+  padding: 2.5rem 1.75rem 2.75rem;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.dd-kicker {
+  font-family: var(--dd-sans);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--dd-glow);
+  margin-bottom: 0.75rem;
+}
+
+.dd-hero-copy h1 {
+  font-family: var(--dd-serif);
+  font-size: clamp(2.2rem, 5vw, 3rem);
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+  color: #f0ebe3;
+  margin-bottom: 0.85rem;
+}
+
+.dd-hero-lede {
+  font-size: 1.15rem;
+  line-height: 1.55;
+  color: var(--dd-text-soft);
+  font-style: italic;
+  max-width: 32rem;
+}
+
+/* —— Hub body —— */
+.dd-main {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem 4rem;
+}
+
+.dd-intro {
+  font-family: var(--dd-serif);
+  font-size: 1.08rem;
+  line-height: 1.7;
+  color: var(--dd-text-soft);
+  margin-bottom: 2.5rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--dd-edge);
+}
+
+.dd-intro p + p {
+  margin-top: 1rem;
+}
+
+.dd-intro strong {
+  color: var(--dd-text);
+  font-weight: 500;
+}
+
+.dd-section-label {
+  font-family: var(--dd-sans);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--dd-indigo);
+  margin-bottom: 1rem;
+}
+
+/* Piece list — not academic cards */
+.dd-piece-list {
+  list-style: none;
+  margin: 0 0 3rem;
+  padding: 0;
+}
+
+.dd-piece-list li {
+  border-bottom: 1px solid var(--dd-edge);
+}
+
+.dd-piece-list a {
+  display: block;
+  padding: 1.35rem 0.15rem;
+  text-decoration: none;
+  color: inherit;
+  transition: background 0.15s, padding-left 0.15s;
+}
+
+.dd-piece-list a:hover {
+  background: rgba(232, 197, 106, 0.04);
+  padding-left: 0.35rem;
+}
+
+.dd-piece-meta {
+  display: block;
+  font-family: var(--dd-sans);
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--dd-glow-dim);
+  margin-bottom: 0.35rem;
+}
+
+.dd-piece-title {
+  display: block;
+  font-family: var(--dd-serif);
+  font-size: 1.35rem;
+  font-weight: 500;
+  color: #e8e4dc;
+  margin-bottom: 0.35rem;
+  line-height: 1.25;
+}
+
+.dd-piece-list a:hover .dd-piece-title {
+  color: var(--dd-glow);
+}
+
+.dd-piece-hint {
+  display: block;
+  font-size: 0.95rem;
+  font-style: italic;
+  color: var(--dd-mist);
+  line-height: 1.45;
+}
+
+.dd-foot-note {
+  font-family: var(--dd-sans);
+  font-size: 0.88rem;
+  color: var(--dd-mist);
+  line-height: 1.55;
+}
+
+.dd-foot-note a {
+  color: var(--dd-glow-dim);
+  text-decoration: none;
+}
+
+.dd-foot-note a:hover {
+  color: var(--dd-glow);
+  text-decoration: underline;
+}
+
+/* —— Reading page —— */
+.dd-read {
+  max-width: 38rem;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 5rem;
+}
+
+.dd-read-back {
+  font-family: var(--dd-sans);
+  font-size: 0.8rem;
+  letter-spacing: 0.06em;
+  color: var(--dd-glow-dim);
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 2rem;
+}
+
+.dd-read-back:hover {
+  color: var(--dd-glow);
+}
+
+.dd-read-header {
+  margin-bottom: 2.25rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--dd-edge);
+}
+
+.dd-read-header h1 {
+  font-size: clamp(1.75rem, 4vw, 2.25rem);
+  font-weight: 500;
+  color: #f0ebe3;
+  line-height: 1.2;
+  margin-bottom: 0.65rem;
+}
+
+.dd-read-byline {
+  font-family: var(--dd-sans);
+  font-size: 0.85rem;
+  color: var(--dd-mist);
+  line-height: 1.5;
+}
+
+.dd-read-byline em {
+  color: var(--dd-text-soft);
+  font-style: italic;
+  font-family: var(--dd-serif);
+}
+
+/* Poem body — intimate, readable */
+.dd-prose {
+  font-size: 1.12rem;
+  line-height: 1.75;
+  color: var(--dd-text);
+}
+
+.dd-prose p {
+  margin-bottom: 1.15rem;
+}
+
+.dd-prose p:last-child {
+  margin-bottom: 0;
+}
+
+.dd-prose hr {
+  border: none;
+  border-top: 1px solid var(--dd-edge);
+  margin: 2rem 0;
+}
+
+.dd-prose em {
+  font-style: italic;
+  color: #e0dcd4;
+}
+
+.dd-prose strong {
+  font-weight: 600;
+  color: #f0ebe3;
+}
+
+/* Verse blocks (line-broken poetry) */
+.dd-verse {
+  margin: 1.5rem 0 1.75rem;
+  padding-left: 0.15rem;
+}
+
+.dd-verse p {
+  margin-bottom: 0.15rem;
+  line-height: 1.65;
+}
+
+.dd-verse p + p {
+  margin-top: 0;
+}
+
+.dd-verse .dd-stanza-gap {
+  margin-top: 1.15rem;
+}
+
+.dd-end {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--dd-edge);
+  font-family: var(--dd-sans);
+  font-size: 0.85rem;
+  color: var(--dd-mist);
+}
+
+.dd-end a {
+  color: var(--dd-glow-dim);
+  text-decoration: none;
+}
+
+.dd-end a:hover {
+  color: var(--dd-glow);
+  text-decoration: underline;
+}
+
+@media (max-width: 640px) {
+  .dd-hero {
+    min-height: 38vh;
+  }
+  .dd-prose {
+    font-size: 1.05rem;
+  }
+}
