@@ -689,6 +689,16 @@ body.page-dreaming .site-footer a {
     background-attachment: scroll;
   }
   .dd-prose {
-    font-size: 1rem;
+    font-size: 1.08rem;
+    line-height: 1.85;
+  }
+  .dd-verse {
+    font-size: 1.15rem;
+  }
+  .dd-page {
+    padding: 1.35rem 1.15rem 1.75rem;
+  }
+  body.page-dreaming-hub .dd-intro-hub {
+    font-size: 1.05rem;
   }
 }
