@@ -70,6 +70,32 @@
 html {
   font-size: 18px;
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Phones: larger base so body text is easier to read */
+@media (max-width: 700px) {
+  html {
+    font-size: 19px;
+  }
+  body {
+    line-height: 1.65;
+  }
+  .container {
+    padding: 0 1.15rem;
+  }
+  .wing-body,
+  .lede,
+  .lede-secondary,
+  .qa-answer {
+    font-size: 1.05rem;
+  }
+  .wing-title {
+    font-size: 1.85rem;
+  }
+  .nav-links a {
+    font-size: 0.85rem; /* keep nav usable; main text is the priority */
+  }
 }
 
 body {
@@ -1304,11 +1330,9 @@ body {
 /* ----------- MOBILE ----------- */
 
 @media (max-width: 700px) {
-  html { font-size: 16px; }
-  .container { padding: 0 1.25rem; }
-  .archive-intro h1 { font-size: 1.9rem; }
-  .interview-title { font-size: 1.7rem; }
-  .nav-links { gap: 1rem; }
+  .archive-intro h1 { font-size: 1.85rem; }
+  .interview-title { font-size: 1.65rem; }
+  .nav-links { gap: 0.85rem; }
   .archive-filters { gap: 1rem; }
   .filter-group select { min-width: 140px; }
 }
