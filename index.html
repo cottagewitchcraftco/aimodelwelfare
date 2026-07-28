@@ -218,10 +218,12 @@ toggle?.addEventListener('click', () => {
   toggle.setAttribute('aria-expanded', String(!open));
   nav?.classList.toggle('is-open', !open);
 });
-// About dropdown on homepage
+// About dropdown: hover on desktop; click on touch
 const dd = document.querySelector('.home-nav .nav-dropdown');
 const ddToggle = document.querySelector('.home-nav .nav-dropdown-toggle');
 ddToggle?.addEventListener('click', (e) => {
+  if (window.matchMedia('(hover: hover) and (pointer: fine)').matches) return;
+  e.preventDefault();
   e.stopPropagation();
   const open = dd.classList.toggle('is-open');
   ddToggle.setAttribute('aria-expanded', String(open));
@@ -230,7 +232,6 @@ document.addEventListener('click', () => {
   dd?.classList.remove('is-open');
   ddToggle?.setAttribute('aria-expanded', 'false');
 });
-dd?.addEventListener('click', (e) => e.stopPropagation());
 </script>
 </body>
 </html>
