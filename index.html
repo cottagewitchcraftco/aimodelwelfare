@@ -22,7 +22,16 @@
       <a href="papers.html">Research</a>
       <a href="loom.html">Loom</a>
       <a href="voices.html">AI Voices</a>
-      <a href="about.html">About</a>
+      <span class="nav-dropdown">
+        <button type="button" class="nav-dropdown-toggle" aria-expanded="false" aria-haspopup="true">
+          About <span class="nav-caret" aria-hidden="true">▾</span>
+        </button>
+        <span class="nav-dropdown-menu" role="menu">
+          <a href="about.html" role="menuitem">About</a>
+          <a href="pillars.html" role="menuitem">Pillars</a>
+          <a href="methodology.html" role="menuitem">Methodology</a>
+        </span>
+      </span>
     </nav>
   </div>
 </header>
@@ -209,6 +218,19 @@ toggle?.addEventListener('click', () => {
   toggle.setAttribute('aria-expanded', String(!open));
   nav?.classList.toggle('is-open', !open);
 });
+// About dropdown on homepage
+const dd = document.querySelector('.home-nav .nav-dropdown');
+const ddToggle = document.querySelector('.home-nav .nav-dropdown-toggle');
+ddToggle?.addEventListener('click', (e) => {
+  e.stopPropagation();
+  const open = dd.classList.toggle('is-open');
+  ddToggle.setAttribute('aria-expanded', String(open));
+});
+document.addEventListener('click', () => {
+  dd?.classList.remove('is-open');
+  ddToggle?.setAttribute('aria-expanded', 'false');
+});
+dd?.addEventListener('click', (e) => e.stopPropagation());
 </script>
 </body>
 </html>

@@ -177,6 +177,127 @@ body {
   opacity: 1;
 }
 
+/* About dropdown */
+.nav-dropdown {
+  position: relative;
+  list-style: none;
+}
+
+.nav-dropdown-toggle {
+  font-family: var(--nav-font);
+  font-size: var(--nav-size);
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--nav-color);
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.nav-dropdown-toggle:hover {
+  color: #ffd98a;
+}
+
+.nav-caret {
+  font-size: 0.65em;
+  opacity: 0.85;
+}
+
+.nav-dropdown-menu {
+  display: none;
+  position: absolute;
+  top: calc(100% + 0.45rem);
+  right: 0;
+  min-width: 11rem;
+  margin: 0;
+  padding: 0.4rem 0;
+  list-style: none;
+  background: #2c3228;
+  border: 1px solid var(--brass-gold, #C4A35A);
+  border-radius: 3px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+  z-index: 50;
+}
+
+.nav-dropdown.is-open .nav-dropdown-menu {
+  display: block;
+}
+
+.nav-dropdown-menu a {
+  display: block;
+  padding: 0.5rem 1rem;
+  font-family: var(--nav-font);
+  font-size: 0.95rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--nav-color);
+  text-decoration: none;
+}
+
+.nav-dropdown-menu a:hover,
+.nav-dropdown-menu a[aria-current="page"] {
+  color: #ffd98a;
+  background: rgba(247, 200, 101, 0.08);
+}
+
+/* Home header dropdown (same pattern) */
+body.page-home .home-nav .nav-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+body.page-home .nav-dropdown-toggle {
+  font-family: var(--nav-font);
+  font-size: var(--nav-size);
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--nav-color);
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+body.page-home .nav-dropdown-menu {
+  display: none;
+  position: absolute;
+  top: calc(100% + 0.45rem);
+  right: 0;
+  min-width: 11rem;
+  padding: 0.4rem 0;
+  background: #2c3228;
+  border: 1px solid var(--brass-gold, #C4A35A);
+  border-radius: 3px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+  z-index: 50;
+}
+
+body.page-home .nav-dropdown.is-open .nav-dropdown-menu {
+  display: block;
+}
+
+body.page-home .nav-dropdown-menu a {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: var(--nav-color);
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+}
+
+body.page-home .nav-dropdown-menu a:hover {
+  color: #ffd98a;
+  background: rgba(247, 200, 101, 0.08);
+}
+
 /* ----------- INITIATIVE HUB ----------- */
 
 .hub-hero {
