@@ -200,6 +200,15 @@ body.page-dreaming-hub .dd-foot-hub a:hover {
   border-color: var(--dd-foxfire);
 }
 
+.dd-credit-line {
+  font-family: var(--dd-sans);
+  font-size: 0.82rem;
+  color: var(--dd-ink-muted);
+  line-height: 1.5;
+  margin: 0.85rem 0 0;
+  max-width: 36rem;
+}
+
 /* Header — thin strip of dark room, candle nav */
 body.page-dreaming .site-header {
   background: rgba(8, 10, 12, 0.88);
