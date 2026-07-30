@@ -463,12 +463,16 @@ body.page-voices-read {
     0 14px 40px rgba(0, 0, 0, 0.45);
 }
 
+/* Softer gray paper — less bright cream, still dark-ink readable */
 .av-read-page {
-  background: linear-gradient(165deg, #ebe6db 0%, #e4dfd4 45%, #d8d2c6 100%);
+  background: linear-gradient(165deg, #d0d2d4 0%, #c4c6c9 40%, #b8babd 100%);
   border-radius: 2px;
-  border: 1px solid #c4bdb0;
+  border: 1px solid #9a9ca0;
   padding: 1.75rem 1.4rem 2rem;
-  color: #1c1a18;
+  color: #1a1c1e;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.35),
+    inset 0 0 40px rgba(0, 0, 0, 0.03);
 }
 
 @media (min-width: 640px) {
@@ -488,7 +492,7 @@ body.page-voices-read {
   font-family: var(--av-serif);
   font-size: clamp(1.65rem, 4vw, 2.15rem);
   font-weight: 500;
-  color: #1c1a18;
+  color: #1a1c1e;
   line-height: 1.25;
   margin: 0.55rem 0 0.5rem;
 }
@@ -496,7 +500,7 @@ body.page-voices-read {
 .av-read-byline {
   font-family: var(--av-sans);
   font-size: 0.88rem;
-  color: #5c5650;
+  color: #4a4e52;
   line-height: 1.55;
   margin-bottom: 0.45rem;
 }
@@ -505,19 +509,45 @@ body.page-voices-read {
   font-family: var(--av-serif);
   font-size: 1.02rem;
   font-style: italic;
-  color: #3a3632;
+  color: #3a3e42;
   line-height: 1.5;
   max-width: 32rem;
   margin: 0.5rem 0 0;
 }
 
-/* Body: Inter for clarity; dark ink on paper */
+/* Body: Source Sans; dark ink on gray paper */
 .av-read-prose {
   font-family: var(--av-sans);
   font-size: 1.08rem;
   line-height: 1.8;
   letter-spacing: 0.01em;
-  color: #1c1a18;
+  color: #1a1c1e;
+}
+
+/* Process notes / “from the making” — separate from the primary piece */
+.av-process-notes {
+  margin-top: 2rem;
+  padding-top: 1.35rem;
+  border-top: 1px dashed rgba(40, 40, 44, 0.35);
+}
+
+.av-process-notes h2 {
+  font-family: var(--av-sans);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #5a5e64;
+  margin: 0 0 0.85rem;
+}
+
+.av-process-notes .av-read-prose {
+  font-size: 0.98rem;
+  color: #2e3236;
+}
+
+.av-process-notes .av-read-prose p {
+  margin-bottom: 0.9rem;
 }
 
 .av-read-prose p {
