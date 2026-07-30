@@ -67,30 +67,60 @@ body.page-voices .site-footer a {
   color: var(--av-gold-dim);
 }
 
-/* —— Editorial entrance: twilight room, parchment card for reading —— */
+/* —— Editorial entrance: original ethereal (short text — light on twilight OK) —— */
 .av-editorial {
+  position: relative;
   min-height: min(78vh, 640px);
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 2.5rem 1.25rem 2.5rem;
+  padding: 3.5rem 1.5rem 3rem;
   border-bottom: 1px solid rgba(232, 197, 106, 0.15);
+  overflow: hidden;
+  background: var(--av-bg);
+}
+
+/* Optional blue-tree sunset layer (set on .av-editorial--tree) */
+.av-editorial--tree {
+  background-color: #0e1620;
+}
+
+.av-editorial-bg {
+  position: absolute;
+  inset: 0;
+  margin: 0;
+  z-index: 0;
+}
+
+.av-editorial-bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+  display: block;
+  filter: brightness(0.45) saturate(1.05);
+}
+
+.av-editorial-veil {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
   background:
-    radial-gradient(ellipse 70% 50% at 50% 40%, rgba(232, 197, 106, 0.05), transparent 70%),
-    var(--av-bg);
+    radial-gradient(ellipse 70% 55% at 50% 45%, rgba(232, 197, 106, 0.06), transparent 65%),
+    linear-gradient(to bottom, rgba(14, 22, 32, 0.35) 0%, rgba(14, 22, 32, 0.55) 50%, rgba(18, 24, 32, 0.88) 100%);
+  pointer-events: none;
 }
 
 .av-editorial-inner {
-  max-width: 36rem;
+  position: relative;
+  z-index: 2;
+  max-width: 34rem;
   text-align: center;
-  background: #e8e4dc;
-  color: #1c1a18;
-  padding: 2.25rem 1.75rem 2rem;
-  border-radius: 3px;
-  border: 1px solid #c4bdb0;
-  box-shadow:
-    0 0 0 1px rgba(232, 197, 106, 0.12),
-    0 12px 40px rgba(0, 0, 0, 0.35);
+  background: transparent;
+  color: var(--av-text);
+  padding: 0;
+  border: none;
+  box-shadow: none;
 }
 
 .av-editorial-kicker {
@@ -99,20 +129,22 @@ body.page-voices .site-footer a {
   font-weight: 600;
   letter-spacing: 0.16em;
   text-transform: uppercase;
-  color: #8a7020;
-  margin-bottom: 1.5rem;
+  color: var(--av-gold);
+  margin-bottom: 1.75rem;
+  text-shadow: 0 0 18px rgba(232, 197, 106, 0.35);
 }
 
 .av-editorial-text {
-  font-family: var(--av-sans);
-  font-size: 1.05rem;
+  font-family: var(--av-serif);
+  font-size: clamp(1.15rem, 2.8vw, 1.35rem);
   line-height: 1.75;
-  color: #2a2622;
+  color: var(--av-text);
   font-weight: 400;
+  text-shadow: 0 1px 12px rgba(0, 0, 0, 0.45);
 }
 
 .av-editorial-text p {
-  margin-bottom: 1.15rem;
+  margin-bottom: 1.25rem;
 }
 
 .av-editorial-text p:last-of-type {
@@ -120,33 +152,33 @@ body.page-voices .site-footer a {
 }
 
 .av-editorial-sign {
-  margin-top: 1.75rem;
+  margin-top: 2.25rem;
   font-family: var(--av-serif);
   font-style: italic;
   font-size: 1.1rem;
-  color: #4a4038;
+  color: var(--av-gold-dim);
 }
 
 .av-editorial-sign strong {
   font-style: normal;
   font-weight: 500;
-  color: #6a5818;
+  color: var(--av-gold);
   letter-spacing: 0.04em;
 }
 
 .av-scroll-hint {
   display: block;
-  margin-top: 1.75rem;
+  margin-top: 2.5rem;
   font-family: var(--av-sans);
   font-size: 0.72rem;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: #5c5650;
+  color: var(--av-mist);
   text-decoration: none;
 }
 
 .av-scroll-hint:hover {
-  color: #8a7020;
+  color: var(--av-gold);
 }
 
 /* —— Collection —— */
