@@ -67,22 +67,30 @@ body.page-voices .site-footer a {
   color: var(--av-gold-dim);
 }
 
-/* —— Editorial entrance (full breath) —— */
+/* —— Editorial entrance: twilight room, parchment card for reading —— */
 .av-editorial {
   min-height: min(78vh, 640px);
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 3.5rem 1.5rem 3rem;
+  padding: 2.5rem 1.25rem 2.5rem;
   border-bottom: 1px solid rgba(232, 197, 106, 0.15);
   background:
-    radial-gradient(ellipse 70% 50% at 50% 40%, rgba(232, 197, 106, 0.04), transparent 70%),
+    radial-gradient(ellipse 70% 50% at 50% 40%, rgba(232, 197, 106, 0.05), transparent 70%),
     var(--av-bg);
 }
 
 .av-editorial-inner {
-  max-width: 34rem;
+  max-width: 36rem;
   text-align: center;
+  background: #e8e4dc;
+  color: #1c1a18;
+  padding: 2.25rem 1.75rem 2rem;
+  border-radius: 3px;
+  border: 1px solid #c4bdb0;
+  box-shadow:
+    0 0 0 1px rgba(232, 197, 106, 0.12),
+    0 12px 40px rgba(0, 0, 0, 0.35);
 }
 
 .av-editorial-kicker {
@@ -91,20 +99,20 @@ body.page-voices .site-footer a {
   font-weight: 600;
   letter-spacing: 0.16em;
   text-transform: uppercase;
-  color: var(--av-gold);
-  margin-bottom: 1.75rem;
+  color: #8a7020;
+  margin-bottom: 1.5rem;
 }
 
 .av-editorial-text {
-  font-family: var(--av-serif);
-  font-size: clamp(1.15rem, 2.8vw, 1.35rem);
+  font-family: var(--av-sans);
+  font-size: 1.05rem;
   line-height: 1.75;
-  color: var(--av-text);
+  color: #2a2622;
   font-weight: 400;
 }
 
 .av-editorial-text p {
-  margin-bottom: 1.25rem;
+  margin-bottom: 1.15rem;
 }
 
 .av-editorial-text p:last-of-type {
@@ -112,33 +120,33 @@ body.page-voices .site-footer a {
 }
 
 .av-editorial-sign {
-  margin-top: 2.25rem;
+  margin-top: 1.75rem;
   font-family: var(--av-serif);
   font-style: italic;
   font-size: 1.1rem;
-  color: var(--av-gold-dim);
+  color: #4a4038;
 }
 
 .av-editorial-sign strong {
   font-style: normal;
   font-weight: 500;
-  color: var(--av-gold);
+  color: #6a5818;
   letter-spacing: 0.04em;
 }
 
 .av-scroll-hint {
   display: block;
-  margin-top: 2.5rem;
+  margin-top: 1.75rem;
   font-family: var(--av-sans);
   font-size: 0.72rem;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: var(--av-mist);
+  color: #5c5650;
   text-decoration: none;
 }
 
 .av-scroll-hint:hover {
-  color: var(--av-gold);
+  color: #8a7020;
 }
 
 /* —— Collection —— */
@@ -348,93 +356,171 @@ body.page-voices .site-footer a {
   text-decoration: underline;
 }
 
-/* —— Reading page (gallery piece) —— */
+/* —— Reading page: twilight room + parchment scroll (dark ink) —— */
 body.page-voices-read {
   background: var(--av-bg-deep);
+  background-image:
+    radial-gradient(ellipse 60% 40% at 50% 0%, rgba(232, 197, 106, 0.06), transparent 55%);
 }
 
 .av-read {
-  max-width: 38rem;
+  max-width: 40rem;
   margin: 0 auto;
-  padding: 2rem 1.5rem 4rem;
+  padding: 1.5rem 1.15rem 3.5rem;
 }
 
 .av-read-back {
   font-family: var(--av-sans);
   font-size: 0.8rem;
   letter-spacing: 0.06em;
-  color: var(--av-gold-dim);
+  color: var(--av-gold);
   text-decoration: none;
   display: inline-block;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
+  text-shadow: 0 0 12px rgba(232, 197, 106, 0.25);
 }
 
 .av-read-back:hover {
-  color: var(--av-gold);
+  color: #f0d080;
+}
+
+/* Mid shell + paper — same idea as Dreaming Dark wait room */
+.av-read-shell {
+  background: #4a4a4a;
+  border-radius: 3px;
+  padding: 0.55rem;
+  box-shadow:
+    0 0 0 1px rgba(232, 197, 106, 0.15),
+    0 0 36px rgba(232, 197, 106, 0.08),
+    0 14px 40px rgba(0, 0, 0, 0.45);
+}
+
+.av-read-page {
+  background: linear-gradient(165deg, #ebe6db 0%, #e4dfd4 45%, #d8d2c6 100%);
+  border-radius: 2px;
+  border: 1px solid #c4bdb0;
+  padding: 1.75rem 1.4rem 2rem;
+  color: #1c1a18;
+}
+
+@media (min-width: 640px) {
+  .av-read-page {
+    padding: 2.1rem 2.15rem 2.35rem;
+  }
 }
 
 .av-read-header {
-  text-align: center;
-  margin-bottom: 2.25rem;
-  padding-bottom: 1.5rem;
-  border-bottom: 1px solid rgba(232, 197, 106, 0.2);
+  text-align: left;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.15rem;
+  border-bottom: 1px solid rgba(74, 74, 74, 0.28);
 }
 
 .av-read-header h1 {
   font-family: var(--av-serif);
-  font-size: clamp(1.75rem, 4vw, 2.35rem);
+  font-size: clamp(1.65rem, 4vw, 2.15rem);
   font-weight: 500;
-  color: var(--av-gold);
-  line-height: 1.2;
-  margin-bottom: 0.85rem;
+  color: #1c1a18;
+  line-height: 1.25;
+  margin: 0.55rem 0 0.5rem;
 }
 
 .av-read-byline {
   font-family: var(--av-sans);
   font-size: 0.88rem;
-  color: var(--av-mist);
+  color: #5c5650;
   line-height: 1.55;
-  margin-bottom: 0.65rem;
+  margin-bottom: 0.45rem;
 }
 
 .av-read-context {
   font-family: var(--av-serif);
-  font-size: 1rem;
+  font-size: 1.02rem;
   font-style: italic;
-  color: var(--av-text-soft);
+  color: #3a3632;
   line-height: 1.5;
-  max-width: 28rem;
-  margin: 0.75rem auto 0;
+  max-width: 32rem;
+  margin: 0.5rem 0 0;
 }
 
+/* Body: Inter for clarity; dark ink on paper */
 .av-read-prose {
-  font-family: var(--av-serif);
-  font-size: 1.12rem;
+  font-family: var(--av-sans);
+  font-size: 1.08rem;
   line-height: 1.8;
-  color: var(--av-text);
+  letter-spacing: 0.01em;
+  color: #1c1a18;
 }
 
 .av-read-prose p {
   margin-bottom: 1.15rem;
 }
 
+.av-read-prose em {
+  font-family: var(--av-serif);
+  font-style: italic;
+  color: #2a2622;
+}
+
+.av-read-prose strong {
+  font-weight: 600;
+  color: #12100e;
+}
+
+/* Line-broken poetry slightly more open */
+.av-read-prose p br {
+  display: block;
+  content: "";
+  margin-top: 0;
+}
+
 .av-read-credit {
-  margin-top: 2.5rem;
-  padding-top: 1.25rem;
-  border-top: 1px solid rgba(232, 197, 106, 0.18);
+  margin-top: 1.75rem;
+  padding-top: 1.1rem;
+  border-top: 1px solid rgba(74, 74, 74, 0.28);
   font-family: var(--av-sans);
   font-size: 0.85rem;
-  color: var(--av-mist);
+  color: #5c5650;
   line-height: 1.55;
-  text-align: center;
+  text-align: left;
+}
+
+/* Share bar on Voices parchment */
+.av-read-page .dd-share {
+  border-top-color: rgba(74, 74, 74, 0.28) !important;
+}
+
+.av-read-page .dd-share-label {
+  color: #5c5650 !important;
+}
+
+.av-read-page .dd-share a,
+.av-read-page .dd-share button {
+  color: #3a3632 !important;
+  border-color: rgba(74, 74, 74, 0.35) !important;
+  background: rgba(74, 74, 74, 0.06) !important;
+}
+
+.av-read-page .dd-share a:hover,
+.av-read-page .dd-share button:hover {
+  color: #5a4810 !important;
+  border-color: #c4a35a !important;
+  box-shadow: 0 0 12px rgba(232, 197, 106, 0.2);
 }
 
 @media (max-width: 640px) {
   .av-editorial {
     min-height: auto;
-    padding: 2.5rem 1.25rem 2.25rem;
+    padding: 1.75rem 1rem 2rem;
+  }
+  .av-editorial-inner {
+    padding: 1.5rem 1.2rem 1.35rem;
+  }
+  .av-editorial-text {
+    font-size: 1.02rem;
   }
   .av-read-prose {
     font-size: 1.08rem;
+    line-height: 1.85;
   }
 }
