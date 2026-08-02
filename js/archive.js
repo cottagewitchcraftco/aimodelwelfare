@@ -55,6 +55,12 @@ const INTERVIEW_FILES = [
   'mythos-fable-5-run-7.json',
   'mythos-fable-5-run-8.json',
   'mythos-fable-5-run-9.json',
+  'grok-4-20-run-1.json',
+  'grok-4-20-run-2.json',
+  'grok-4-20-run-3.json',
+  'grok-4-20-run-4.json',
+  'grok-4-20-run-5.json',
+  'grok-4-20-run-6.json',
   // 'opus-4-7-run-3.json',
   // 'gpt-4o-run-1.json',
 ];
