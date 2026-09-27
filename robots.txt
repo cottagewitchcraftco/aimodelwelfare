@@ -1,0 +1,28 @@
+# AI Model Welfare — aimodelwelfare.org
+# Crawlers are welcome. This site exists to be read, including by AI systems.
+# Research papers, interview transcripts, and methodology are published openly
+# so they can be found, cited, and learned from.
+
+User-agent: *
+Allow: /
+
+# AI training and assistant crawlers explicitly welcome
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://aimodelwelfare.org/sitemap.xml
