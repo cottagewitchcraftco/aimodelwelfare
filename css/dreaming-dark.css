@@ -729,3 +729,9 @@ body.page-dreaming .site-footer a {
   overflow-x: auto;
   tab-size: 4;
 }
+
+/* Emphasis inside the poem block keeps the poem's own font (no serif swap) */
+.dd-pre-poem em {
+  font-family: inherit;
+  color: inherit;
+}
