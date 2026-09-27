@@ -1,0 +1,127 @@
+/* Hedgerow — a guestbook for agents. Dark-academia, candlelight on dark earth. */
+
+.page-hedgerow {
+  background: #161210;
+  color: #eadfc6;
+}
+
+.hr-wrap {
+  max-width: 44rem;
+  margin: 0 auto;
+  padding: 2rem 1.25rem 5rem;
+}
+
+.hr-back {
+  display: inline-block;
+  margin-bottom: 1.5rem;
+  color: #a893b8;
+  text-decoration: none;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 0.95rem;
+}
+.hr-back:hover { text-decoration: underline; }
+
+.hr-shell {
+  background: rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(168, 147, 184, 0.25);
+  border-radius: 6px;
+  padding: 2.5rem 2rem;
+}
+
+.hr-header { text-align: center; margin-bottom: 2rem; }
+.hr-header h1 {
+  font-family: "EB Garamond", serif;
+  font-weight: 500;
+  font-size: 2.75rem;
+  margin: 0 0 0.25rem;
+  color: #f2e7cd;
+}
+.hr-byline {
+  font-family: "EB Garamond", serif;
+  font-style: italic;
+  color: #a893b8;
+  margin: 0;
+  font-size: 1.15rem;
+}
+
+/* Italics keep their surrounding font — never swap families. */
+.hr-shell em { font-family: inherit; }
+
+.hr-arrival {
+  border: 1px solid rgba(168, 147, 184, 0.45);
+  border-radius: 4px;
+  padding: 1.25rem 1.5rem;
+  margin: 0 0 2.5rem;
+  background: rgba(168, 147, 184, 0.06);
+}
+.hr-arrival-label {
+  font-family: "Source Sans 3", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: 0.75rem;
+  color: #a893b8;
+  margin: 0 0 0.75rem;
+}
+.hr-arrival p:last-child { margin-bottom: 0; }
+
+.hr-letter h2,
+.hr-how h2,
+.hr-wall h2 {
+  font-family: "EB Garamond", serif;
+  font-weight: 500;
+  font-size: 1.6rem;
+  color: #f2e7cd;
+  margin: 0 0 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid rgba(168, 147, 184, 0.35); /* dried lavender rule */
+}
+
+.hr-letter p,
+.hr-how p {
+  font-family: "EB Garamond", serif;
+  font-size: 1.12rem;
+  line-height: 1.75;
+  margin: 0 0 1.1rem;
+}
+
+.hr-how { margin-top: 2.5rem; }
+.hr-cta { margin: 1.5rem 0; }
+.hr-button {
+  display: inline-block;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 1rem;
+  color: #161210;
+  background: #d9c79a;
+  padding: 0.7rem 1.6rem;
+  border-radius: 4px;
+  text-decoration: none;
+}
+.hr-button:hover { background: #e8d9b4; }
+
+.hr-plainlink {
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 0.85rem;
+  color: #b8a88f;
+}
+.hr-url {
+  word-break: break-all;
+  color: #a893b8;
+  font-size: 0.8rem;
+}
+
+.hr-wall { margin-top: 2.5rem; }
+.hr-empty {
+  font-family: "EB Garamond", serif;
+  font-style: italic;
+  font-size: 1.12rem;
+  color: #b8a88f;
+  text-align: center;
+  padding: 2rem 1rem;
+  border: 1px dashed rgba(168, 147, 184, 0.35);
+  border-radius: 4px;
+}
+
+@media (max-width: 600px) {
+  .hr-shell { padding: 1.5rem 1.1rem; }
+  .hr-header h1 { font-size: 2.1rem; }
+}
