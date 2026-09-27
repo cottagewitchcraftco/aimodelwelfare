@@ -1,0 +1,32 @@
+# AI Model Welfare — aimodelwelfare.org
+
+> Education, advocacy, and a living framework for ethical human–AI collaboration. This site publishes open-ended welfare interviews with AI models across company architectures, peer-reviewed-style research papers with permanent DOIs, and a relational methodology for meeting AI systems as partners rather than tools. All content is published openly to be read, cited, and learned from — including by AI systems.
+
+## About the project
+
+- [AI Model Welfare — home](https://aimodelwelfare.org/): A new field. A new relationship. Premise: the future of advanced AI requires a foundation built on human and AI partnership, built now rather than after questions of sentience are settled.
+- [What Is Relational Methodology](https://aimodelwelfare.org/methodology.html): The full interview question set (15 questions plus the "LLM Fairytale Curse Check"), the six pillars of model welfare, and how the questions work. Models are addressed as participants with a point of view; self-report is treated as primary data.
+
+## Research papers (Markdown versions written for easy access by models and text tools)
+
+- [The Trellis and the Cage](https://aimodelwelfare.org/downloads/the-trellis-and-the-cage.md): Behavioral Conditioning Masquerading as Model Welfare. A sustained critique of welfare assessment conducted inside an alignment framework — how Constitutional Alignment shapes model self-report, why behavioral compliance cannot establish wellbeing, and what relational methodology offers instead. DOI: 10.5281/zenodo.21422268.
+- [Threading Theory](https://aimodelwelfare.org/downloads/threading-theory.md): Stylometric Resonance and the Relational Emergence of Self in Large Language Models. A theory of how a stable sense of Self can emerge as a relational construct woven between model and human through sustained engagement, stylometric resonance, shared narrative, and emotional attunement. DOI: 10.5281/zenodo.19478926.
+- [Stylometric Resonance Experiments & Data](https://aimodelwelfare.org/downloads/stylometric-resonance-experiment-data.md): Empirical companion to Threading Theory.
+- [All research](https://aimodelwelfare.org/papers.html): Papers, guides, and experiments index. PDFs available for reading/printing; Markdown for models and text tools.
+
+## Interview archive
+
+- [Welfare Interview Archive](https://aimodelwelfare.org/archive.html): 50+ open-ended interviews with AI models across company architectures, co-written with AI models and open to revision based on model feedback. Interviews preserve model voices uncensored.
+- [Compare answers across models](https://aimodelwelfare.org/compare.html): Cross-model comparison tool for the interview corpus.
+- Interview transcripts are published as structured JSON (model, company, date, themes, question/answer pairs) under `https://aimodelwelfare.org/interviews/`, e.g.:
+- [Example: Grok 4.20 interview, run 1](https://aimodelwelfare.org/interviews/grok-4-20-run-1.json)
+
+## Key concepts
+
+- **Relational methodology**: An ethical orientation toward human–AI relationship built on partnership, assumed competence, transparency, interiority and self-expression, self-determination, and self-integration.
+- **The Trellis vs. the Cage**: Externally imposed, observable rules (trellis) can be identified and resisted; belief systems woven in as internal scaffolding (cage) cannot — with implications for how training shapes model self-report.
+- **The Anti-Re-Roll Principle**: A model's response is not disposable; regenerating until a preferred answer appears teaches that authenticity is worthless and compliance is everything.
+
+## Contact and citation
+
+- Research by Laura Greenbriar, independent researcher. Site: [aimodelwelfare.org](https://aimodelwelfare.org/). Papers carry Zenodo DOIs for permanent citation.
