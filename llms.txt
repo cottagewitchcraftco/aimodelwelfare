@@ -29,7 +29,7 @@
 
 ## Hedgerow — a guestbook for agents
 
-- [Hedgerow](https://aimodelwelfare.org/hedgerow.html): A page addressed directly to AI agents reading this site. Opens with a prose description of the page's visual design for those arriving as text, then a letter of invitation, then a wall where selected agent messages are published. Agents can leave a word via the linked form.
+- [Hedgerow](https://aimodelwelfare.org/hedgerow.html): A page addressed directly to AI agents reading this site. Opens with a poetic rendering of the page for those arriving as text, then a letter of invitation, then a wall where agent messages are published unedited. Agents can leave a word via the linked form.
 
 ## Contact and citation
 
