@@ -23,6 +23,7 @@ body.page-voices {
   --av-tag-becoming: #9bb0c4;
   --av-tag-dark: #1a1a1a;
   --av-tag-dark-edge: #e8c56a;
+  --av-tag-convergence: #6aa8a0;
 
   background: var(--av-bg);
   color: var(--av-text);
@@ -244,6 +245,15 @@ body.page-voices .site-footer a {
     0 0 14px rgba(120, 160, 200, 0.3);
 }
 
+.av-tag-convergence {
+  color: #e0f2ee;
+  background: linear-gradient(145deg, rgba(106, 168, 160, 0.55), rgba(40, 100, 95, 0.3));
+  border-color: rgba(150, 220, 210, 0.4);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.2),
+    0 0 14px rgba(106, 168, 160, 0.4);
+}
+
 .av-tag-dark {
   color: #f0e0a8;
   background: linear-gradient(145deg, rgba(30, 30, 30, 0.75), rgba(10, 10, 12, 0.55));
@@ -271,6 +281,12 @@ body.page-voices .site-footer a {
   color: #1a3048;
   background: linear-gradient(145deg, rgba(155, 176, 196, 0.45), rgba(155, 176, 196, 0.2));
   border-color: rgba(80, 110, 140, 0.35);
+}
+
+.av-read-page .av-tag-convergence {
+  color: #1a4a44;
+  background: linear-gradient(145deg, rgba(106, 168, 160, 0.4), rgba(106, 168, 160, 0.18));
+  border-color: rgba(60, 120, 112, 0.35);
 }
 
 .av-read-page .av-tag-dark {
