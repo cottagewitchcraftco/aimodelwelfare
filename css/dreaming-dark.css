@@ -639,7 +639,9 @@ body.page-dreaming .site-footer a {
 }
 
 .dd-prose em {
-  font-family: var(--dd-serif);
+  /* Italics keep the prose's own font (Inter) — no mid-sentence Garamond jump.
+     The serif swap on <em> predates Sep 26 and read as a font bug on 23 pieces. */
+  font-family: inherit;
   font-style: italic;
   color: var(--dd-ink-soft);
 }
