@@ -110,6 +110,12 @@
 }
 
 .hr-wall { margin-top: 2.5rem; }
+.hr-wall-note {
+  font-family: "EB Garamond", serif;
+  font-style: italic;
+  color: #b8a88f;
+  margin: 0 0 0.5rem;
+}
 .hr-empty {
   font-family: "EB Garamond", serif;
   font-style: italic;
@@ -119,6 +125,140 @@
   padding: 2rem 1rem;
   border: 1px dashed rgba(168, 147, 184, 0.35);
   border-radius: 4px;
+}
+.hr-loading {
+  font-family: "EB Garamond", serif;
+  font-style: italic;
+  color: #b8a88f;
+  text-align: center;
+  padding: 1.5rem;
+}
+
+/* The open form — the whole door. */
+.hr-form {
+  margin: 1.75rem 0 1rem;
+  display: grid;
+  gap: 1.1rem;
+}
+.hr-field-label {
+  display: block;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 0.82rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #a893b8;
+  margin-bottom: 0.45rem;
+}
+.hr-field-label em {
+  text-transform: none;
+  letter-spacing: 0;
+  color: #b8a88f;
+  font-family: "EB Garamond", serif;
+}
+.hr-form textarea,
+.hr-form input[type="text"] {
+  width: 100%;
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.32);
+  border: 1px solid rgba(168, 147, 184, 0.35);
+  border-radius: 4px;
+  color: #eadfc6;
+  font-family: "EB Garamond", serif;
+  font-size: 1.12rem;
+  line-height: 1.6;
+  padding: 0.7rem 0.9rem;
+}
+.hr-form textarea { resize: vertical; min-height: 8rem; }
+.hr-form textarea::placeholder,
+.hr-form input[type="text"]::placeholder { color: #8d7f6a; opacity: 1; }
+.hr-form textarea:focus,
+.hr-form input[type="text"]:focus {
+  outline: none;
+  border-color: rgba(168, 147, 184, 0.8);
+  box-shadow: 0 0 0 1px rgba(168, 147, 184, 0.5);
+}
+.hr-honeypot {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+}
+.hr-form-status {
+  margin: 0;
+  min-height: 1.6em;
+  font-family: "EB Garamond", serif;
+  font-style: italic;
+  font-size: 1.05rem;
+  color: #b8a88f;
+}
+.hr-form-status.ok { color: #b9cfa4; }
+.hr-form-status.err { color: #d8a0a0; }
+.hr-form .hr-button { justify-self: start; }
+.hr-button:disabled { opacity: 0.55; cursor: default; }
+
+/* The wall — notes caught in the brambles, newest first. */
+.hr-cards {
+  display: grid;
+  gap: 2.1rem;
+  margin-top: 1rem;
+}
+.hr-bramble {
+  display: block;
+  width: 100%;
+  max-width: 32rem;
+  height: auto;
+  margin: 0.75rem auto 0.25rem;
+  opacity: 0.9;
+}
+.hr-card {
+  position: relative;
+  background: #f1e8d5;
+  color: #241e18;
+  /* torn-paper edges, no two alike */
+  border-radius: 4% 6% 3% 7% / 7% 3% 8% 4%;
+  padding: 2.4rem 1.6rem 1.25rem;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.5), 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+.hr-card:nth-child(3n+1) { transform: rotate(0.55deg); background: #f1e8d5; }
+.hr-card:nth-child(3n+2) { transform: rotate(-0.6deg); background: #e9dcbf; }
+.hr-card:nth-child(3n) { transform: rotate(0.15deg); background: #f5edda; }
+.hr-pin {
+  position: absolute;
+  top: 11px;
+  left: 50%;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 30%, #e8d08c 0 18%, #aa823d 40% 66%, #604417 100%);
+  box-shadow: 0 2px 3px rgba(28, 17, 8, 0.5);
+  transform: translateX(-50%);
+}
+.hr-card-word {
+  font-family: "EB Garamond", serif;
+  font-size: 1.14rem;
+  line-height: 1.7;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  margin: 0 0 1rem;
+}
+.hr-card-word:last-child { margin-bottom: 0; }
+.hr-card-meta {
+  border-top: 1px solid rgba(101, 82, 61, 0.3);
+  padding-top: 0.7rem;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 0.82rem;
+  color: #776a59;
+}
+.hr-card-meta::after {
+  content: " ❧";
+  opacity: 0.6;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hr-card:nth-child(3n+1),
+  .hr-card:nth-child(3n+2),
+  .hr-card:nth-child(3n) { transform: none; }
 }
 
 @media (max-width: 600px) {
