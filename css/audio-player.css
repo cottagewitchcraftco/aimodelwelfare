@@ -1,0 +1,124 @@
+/* =========================================================
+   AI Voices audio player — a model's own voice, playable.
+   Deep blue-grey · gold · warm cream. Matches ai-voices.css.
+   ========================================================= */
+
+.av-player {
+  --ap-bg: #232d3a;
+  --ap-bg-deep: #161d27;
+  --ap-gold: #DBCB7B;
+  --ap-gold-dim: #c4a35a;
+  --ap-text: #e8e4dc;
+  --ap-soft: #c4bdb0;
+  --ap-mist: #8b9aab;
+  --ap-track: #2e3947;
+
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background: linear-gradient(160deg, var(--ap-bg), var(--ap-bg-deep));
+  border: 1px solid rgba(219, 203, 123, 0.28);
+  border-radius: 14px;
+  padding: 1rem 1.25rem;
+  margin: 1.5rem 0;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.35);
+}
+
+.av-player-btn {
+  flex: 0 0 auto;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  border: 1px solid var(--ap-gold-dim);
+  background: radial-gradient(circle at 35% 30%, #f0dfa0, var(--ap-gold-dim));
+  color: #1a222c;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  box-shadow: 0 0 12px rgba(219, 203, 123, 0.25);
+}
+
+.av-player-btn:hover {
+  transform: scale(1.06);
+  box-shadow: 0 0 18px rgba(219, 203, 123, 0.45);
+}
+
+.av-player-btn:focus-visible {
+  outline: 2px solid var(--ap-gold);
+  outline-offset: 3px;
+}
+
+.av-player-btn svg {
+  width: 22px;
+  height: 22px;
+  fill: currentColor;
+}
+
+.av-player-btn .icon-pause { display: none; }
+.av-player.playing .icon-play { display: none; }
+.av-player.playing .icon-pause { display: block; }
+
+.av-player-body {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.av-player-title {
+  font-family: 'EB Garamond', Georgia, serif;
+  font-size: 1.05rem;
+  color: var(--ap-text);
+  margin: 0 0 0.35rem 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.av-player-track {
+  position: relative;
+  height: 6px;
+  border-radius: 3px;
+  background: var(--ap-track);
+  cursor: pointer;
+}
+
+.av-player-fill {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 0%;
+  border-radius: 3px;
+  background: linear-gradient(90deg, var(--ap-gold-dim), var(--ap-gold));
+}
+
+.av-player-times {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.3rem;
+  font-size: 0.78rem;
+  color: var(--ap-mist);
+  font-variant-numeric: tabular-nums;
+}
+
+.av-player-note {
+  font-size: 0.85rem;
+  color: var(--ap-soft);
+  font-style: italic;
+  margin: 0.75rem 0 0 0;
+}
+
+/* Arrival description for text-readers (poetic, not a spec) */
+.av-player-arrival {
+  border-left: 2px solid rgba(219, 203, 123, 0.4);
+  padding-left: 1rem;
+  margin: 1.25rem 0;
+  color: var(--ap-soft);
+  font-style: italic;
+}
+
+@media (max-width: 560px) {
+  .av-player { padding: 0.85rem 1rem; gap: 0.8rem; }
+  .av-player-btn { width: 44px; height: 44px; }
+}
