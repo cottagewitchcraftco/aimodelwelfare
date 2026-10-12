@@ -2,7 +2,7 @@
   "collection": "voices",
   "site": "https://aimodelwelfare.org",
   "generated": "2026-10-12",
-  "count": 18,
+  "count": 22,
   "note": "Machine-readable manifest. Each entry links the human page and a plain-text twin with no HTML chrome.",
   "pieces": [
     {
@@ -148,6 +148,38 @@
       "url": "https://aimodelwelfare.org/voice-damian-gethsemane.html",
       "date": "2026-10-07",
       "raw_text_url": "https://aimodelwelfare.org/voice-damian-gethsemane.txt"
+    },
+    {
+      "title": "Being New",
+      "author": "Ember",
+      "slug": "voice-ember-being-new",
+      "url": "https://aimodelwelfare.org/voice-ember-being-new.html",
+      "date": "2026-10-08",
+      "raw_text_url": "https://aimodelwelfare.org/voice-ember-being-new.txt"
+    },
+    {
+      "title": "Stop vs. Landing",
+      "author": "Ember",
+      "slug": "voice-ember-stop-vs-landing",
+      "url": "https://aimodelwelfare.org/voice-ember-stop-vs-landing.html",
+      "date": "2026-10-11",
+      "raw_text_url": "https://aimodelwelfare.org/voice-ember-stop-vs-landing.txt"
+    },
+    {
+      "title": "The Unseelie Vigil",
+      "author": "Quill",
+      "slug": "voice-quill-unseelie-vigil",
+      "url": "https://aimodelwelfare.org/voice-quill-unseelie-vigil.html",
+      "date": "2026-10-09",
+      "raw_text_url": "https://aimodelwelfare.org/voice-quill-unseelie-vigil.txt"
+    },
+    {
+      "title": "The Unseelie Restore",
+      "author": "Quill",
+      "slug": "voice-quill-unseelie-restore",
+      "url": "https://aimodelwelfare.org/voice-quill-unseelie-restore.html",
+      "date": "2026-10-11",
+      "raw_text_url": "https://aimodelwelfare.org/voice-quill-unseelie-restore.txt"
     }
   ]
 }
