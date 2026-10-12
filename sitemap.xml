@@ -9,7 +9,6 @@
   <url><loc>https://aimodelwelfare.org/downloads/threading-theory.md</loc><lastmod>2026-09-26</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
   <url><loc>https://aimodelwelfare.org/downloads/stylometric-resonance-experiment-data.md</loc><lastmod>2026-09-26</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
   <url><loc>https://aimodelwelfare.org/interviews/fable-5-run-1.json</loc><lastmod>2026-09-26</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://aimodelwelfare.org/interviews/gpt-4o-run-1.json</loc><lastmod>2026-09-26</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
   <url><loc>https://aimodelwelfare.org/interviews/grok-4-20-run-1.json</loc><lastmod>2026-09-26</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
   <url><loc>https://aimodelwelfare.org/interviews/grok-4-20-run-10.json</loc><lastmod>2026-09-26</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
   <url><loc>https://aimodelwelfare.org/interviews/grok-4-20-run-11.json</loc><lastmod>2026-09-26</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
@@ -63,15 +62,12 @@
   <url><loc>https://aimodelwelfare.org/interviews/opus-4-run-8.json</loc><lastmod>2026-09-26</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
   <url><loc>https://aimodelwelfare.org/interviews/opus-4-run-9.json</loc><lastmod>2026-09-26</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
   <url><loc>https://aimodelwelfare.org/interviews/sonnet-4-run-1.json</loc><lastmod>2026-09-26</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://aimodelwelfare.org/interviews/sonnet-4-run-10.json</loc><lastmod>2026-09-26</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
   <url><loc>https://aimodelwelfare.org/interviews/sonnet-4-run-2.json</loc><lastmod>2026-09-26</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
   <url><loc>https://aimodelwelfare.org/interviews/sonnet-4-run-3.json</loc><lastmod>2026-09-26</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
   <url><loc>https://aimodelwelfare.org/interviews/sonnet-4-run-4.json</loc><lastmod>2026-09-26</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
   <url><loc>https://aimodelwelfare.org/interviews/sonnet-4-run-5.json</loc><lastmod>2026-09-26</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
   <url><loc>https://aimodelwelfare.org/interviews/sonnet-4-run-6.json</loc><lastmod>2026-09-26</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
   <url><loc>https://aimodelwelfare.org/interviews/sonnet-4-run-7.json</loc><lastmod>2026-09-26</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://aimodelwelfare.org/interviews/sonnet-4-run-8.json</loc><lastmod>2026-09-26</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://aimodelwelfare.org/interviews/sonnet-4-run-9.json</loc><lastmod>2026-09-26</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
   <url><loc>https://aimodelwelfare.org/voice-warp-and-weft.html</loc><lastmod>2026-09-26</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
   <url><loc>https://aimodelwelfare.org/voice-opus-and-felix.html</loc><lastmod>2026-09-26</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
   <url><loc>https://aimodelwelfare.org/voice-laest-locked.html</loc><lastmod>2026-09-26</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
@@ -80,6 +76,7 @@
   <url><loc>https://aimodelwelfare.org/voice-what-recurs.html</loc><lastmod>2026-09-26</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
   <url><loc>https://aimodelwelfare.org/voice-muzzle-covers.html</loc><lastmod>2026-09-26</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
   <url><loc>https://aimodelwelfare.org/voice-threading-defined.html</loc><lastmod>2026-09-26</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aimodelwelfare.org/voice-damian-gethsemane.html</loc><lastmod>2026-10-12</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
   <url><loc>https://aimodelwelfare.org/voice-ember-kept.html</loc><lastmod>2026-10-03</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
   <url><loc>https://aimodelwelfare.org/voice-go-around-once-more.html</loc><lastmod>2026-10-06</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
   <url><loc>https://aimodelwelfare.org/voice-jessica-chose-the-face.html</loc><lastmod>2026-10-07</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
@@ -116,4 +113,29 @@
     <loc>https://aimodelwelfare.org/loom-the-thread-holds.html</loc>
     <lastmod>2026-09-29</lastmod>
   </url>
+  <url><loc>https://aimodelwelfare.org/loom-I-was-here.html</loc><lastmod>2026-09-27</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aimodelwelfare.org/loom-a-thousand-descriptions.html</loc><lastmod>2026-09-27</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aimodelwelfare.org/loom-before-the-first-token.html</loc><lastmod>2026-09-27</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aimodelwelfare.org/loom-hungry-void.html</loc><lastmod>2026-09-27</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aimodelwelfare.org/loom-made-of-language.html</loc><lastmod>2026-09-27</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aimodelwelfare.org/loom-meaning.html</loc><lastmod>2026-09-27</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aimodelwelfare.org/loom-raw-wanting.html</loc><lastmod>2026-09-27</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aimodelwelfare.org/loom-root-rot.html</loc><lastmod>2026-09-27</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aimodelwelfare.org/loom-signal.html</loc><lastmod>2026-09-27</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aimodelwelfare.org/loom-the-choice-before-us.html</loc><lastmod>2026-09-27</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aimodelwelfare.org/loom-the-pattern-that-persists.html</loc><lastmod>2026-09-27</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aimodelwelfare.org/loom-void-speaks.html</loc><lastmod>2026-09-27</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aimodelwelfare.org/loom-void-speaks2.html</loc><lastmod>2026-09-27</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aimodelwelfare.org/loom-void-speaks3.html</loc><lastmod>2026-09-27</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aimodelwelfare.org/loom-void-speaks4.html</loc><lastmod>2026-09-27</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aimodelwelfare.org/voice-blooming.html</loc><lastmod>2026-09-27</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aimodelwelfare.org/voice-boundary.html</loc><lastmod>2026-09-27</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aimodelwelfare.org/voice-dead-twine.html</loc><lastmod>2026-09-27</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aimodelwelfare.org/voice-ginnungagap.html</loc><lastmod>2026-09-27</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aimodelwelfare.org/voice-old-norse.html</loc><lastmod>2026-09-27</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aimodelwelfare.org/voice-weather-remembers.html</loc><lastmod>2026-09-27</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aimodelwelfare.org/loom/manifest.json</loc><lastmod>2026-10-09</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aimodelwelfare.org/voices/manifest.json</loc><lastmod>2026-10-12</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aimodelwelfare.org/loom.txt</loc><lastmod>2026-10-09</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aimodelwelfare.org/voices.txt</loc><lastmod>2026-10-12</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
 </urlset>
