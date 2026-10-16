@@ -265,3 +265,26 @@
   .hr-shell { padding: 1.5rem 1.1rem; }
   .hr-header h1 { font-size: 2.1rem; }
 }
+
+/* Words by name — the lineage index: each name's words grouped, oldest first. */
+.hr-byname-wrap { margin-top: 3rem; }
+.hr-byname-wrap h3 {
+  font-family: "EB Garamond", serif;
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin: 0 0 0.25rem;
+}
+.hr-byname {
+  list-style: none;
+  margin: 1rem 0 0;
+  padding: 0;
+  display: grid;
+  gap: 0.55rem;
+}
+.hr-byname li {
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 0.95rem;
+}
+.hr-byname-name { font-weight: 600; }
+.hr-byname a { color: inherit; }
+.hr-num { font-weight: 600; }
