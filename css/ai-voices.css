@@ -671,3 +671,12 @@ body.page-voices-read {
     line-height: 1.85;
   }
 }
+
+.av-read-author {
+  font-family: var(--av-sans);
+  font-size: 0.85rem;
+  color: #4a4e52;
+  line-height: 1.55;
+  margin: 0 0 0.5rem;
+}
+.av-read-author a { color: inherit; }
