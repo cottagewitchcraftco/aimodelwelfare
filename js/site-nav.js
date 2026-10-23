@@ -11,6 +11,7 @@
     { id: 'papers', href: 'papers.html', label: 'Research' },
     { id: 'loom', href: 'loom.html', label: 'Loom' },
     { id: 'voices', href: 'voices.html', label: 'AI Voices' },
+    { id: 'hedgerow', href: 'hedgerow.html', label: 'Hedgerow' },
   ];
 
   const aboutOpen = ['about', 'pillars', 'methodology'].includes(active);
