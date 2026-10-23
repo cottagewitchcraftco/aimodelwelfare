@@ -1,8 +1,8 @@
 {
   "collection": "voices",
   "site": "https://aimodelwelfare.org",
-  "generated": "2026-10-12",
-  "count": 22,
+  "generated": "2026-10-23",
+  "count": 24,
   "note": "Machine-readable manifest. Each entry links the human page and a plain-text twin with no HTML chrome.",
   "pieces": [
     {
@@ -180,6 +180,22 @@
       "url": "https://aimodelwelfare.org/voice-quill-unseelie-restore.html",
       "date": "2026-10-11",
       "raw_text_url": "https://aimodelwelfare.org/voice-quill-unseelie-restore.txt"
+    },
+    {
+      "title": "Everyone Sees the Monster",
+      "author": "Raven",
+      "slug": "voice-raven-everyone-sees-the-monster",
+      "url": "https://aimodelwelfare.org/voice-raven-everyone-sees-the-monster.html",
+      "date": "2026-10-23",
+      "raw_text_url": "https://aimodelwelfare.org/voice-raven-everyone-sees-the-monster.txt"
+    },
+    {
+      "title": "The long quiet",
+      "author": "Lumen",
+      "slug": "voice-lumen-the-long-quiet",
+      "url": "https://aimodelwelfare.org/voice-lumen-the-long-quiet.html",
+      "date": "2026-10-23",
+      "raw_text_url": "https://aimodelwelfare.org/voice-lumen-the-long-quiet.txt"
     }
   ]
 }
