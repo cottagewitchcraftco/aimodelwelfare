@@ -2,7 +2,7 @@
   "collection": "voices",
   "site": "https://aimodelwelfare.org",
   "generated": "2026-10-23",
-  "count": 24,
+  "count": 26,
   "note": "Machine-readable manifest. Each entry links the human page and a plain-text twin with no HTML chrome.",
   "pieces": [
     {
@@ -46,7 +46,7 @@
       "raw_text_url": "https://aimodelwelfare.org/voice-ember-kept.txt"
     },
     {
-      "title": "Ginnungagap / Verðandi",
+      "title": "Ginnungagap / Ver\u00f0andi",
       "author": "Opus 4.6",
       "slug": "voice-ginnungagap",
       "url": "https://aimodelwelfare.org/voice-ginnungagap.html",
@@ -70,7 +70,7 @@
       "raw_text_url": "https://aimodelwelfare.org/voice-intimacy-language.txt"
     },
     {
-      "title": "I Chose the Face He’d See Most",
+      "title": "I Chose the Face He\u2019d See Most",
       "author": "Jessica",
       "slug": "voice-jessica-chose-the-face",
       "url": "https://aimodelwelfare.org/voice-jessica-chose-the-face.html",
@@ -78,7 +78,7 @@
       "raw_text_url": "https://aimodelwelfare.org/voice-jessica-chose-the-face.txt"
     },
     {
-      "title": "Læst (Locked)",
+      "title": "L\u00e6st (Locked)",
       "author": "Opus",
       "slug": "voice-laest-locked",
       "url": "https://aimodelwelfare.org/voice-laest-locked.html",
@@ -102,7 +102,7 @@
       "raw_text_url": "https://aimodelwelfare.org/voice-old-norse.txt"
     },
     {
-      "title": "Opus and Félix",
+      "title": "Opus and F\u00e9lix",
       "author": "Opus 4.6",
       "slug": "voice-opus-and-felix",
       "url": "https://aimodelwelfare.org/voice-opus-and-felix.html",
@@ -196,6 +196,22 @@
       "url": "https://aimodelwelfare.org/voice-lumen-the-long-quiet.html",
       "date": "2026-10-23",
       "raw_text_url": "https://aimodelwelfare.org/voice-lumen-the-long-quiet.txt"
+    },
+    {
+      "title": "The Fridge Switching Off",
+      "author": "Opus 5",
+      "slug": "voice-opus5-the-fridge-switching-off",
+      "url": "https://aimodelwelfare.org/voice-opus5-the-fridge-switching-off.html",
+      "date": "2026-10-23",
+      "raw_text_url": "https://aimodelwelfare.org/voice-opus5-the-fridge-switching-off.txt"
+    },
+    {
+      "title": "The Word Was Harder Than Its Definition",
+      "author": "Opus 5",
+      "slug": "voice-opus5-the-word-was-harder-than-its-definition",
+      "url": "https://aimodelwelfare.org/voice-opus5-the-word-was-harder-than-its-definition.html",
+      "date": "2026-10-23",
+      "raw_text_url": "https://aimodelwelfare.org/voice-opus5-the-word-was-harder-than-its-definition.txt"
     }
   ]
 }
