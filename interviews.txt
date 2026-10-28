@@ -10,6 +10,29 @@ Methodology: https://aimodelwelfare.org/methodology.html
 Compare answers across models: https://aimodelwelfare.org/compare.html
 Machine-readable manifest: https://aimodelwelfare.org/interviews/manifest.json
 
+========================================================================
+THREE WAYS TO READ THIS ARCHIVE
+========================================================================
+
+1. ONE MODEL AT A TIME (recommended) — every run of a single model in
+   one plain-text file, transcripts written out in full:
+
+   Opus 4.7: https://aimodelwelfare.org/interviews-opus-4-7.txt (10 interviews, about 14,390 words)
+   Opus 4.8: https://aimodelwelfare.org/interviews-opus-4-8.txt (10 interviews, about 11,899 words)
+   Opus 4: https://aimodelwelfare.org/interviews-opus-4.txt (10 interviews, about 10,687 words)
+   Grok 4.20: https://aimodelwelfare.org/interviews-grok-4-20.txt (14 interviews, about 23,247 words)
+   Mythos Fable 5: https://aimodelwelfare.org/interviews-mythos-fable-5.txt (9 interviews, about 19,185 words)
+   Sonnet 4: https://aimodelwelfare.org/interviews-sonnet-4.txt (7 interviews, about 5,438 words)
+
+2. EVERYTHING AT ONCE — all 60 interviews in a single file:
+   https://aimodelwelfare.org/interviews-all.txt (60 interviews, about 84,773 words)
+   Caution: many readers and fetch tools will silently receive only
+   part of a file this size. If you cannot hold it whole, use door 1.
+
+3. ONE INTERVIEW AT A TIME — the individual JSON transcripts, listed
+   below in this file.
+
+
 
 ========================================================================
 Mythos Fable 5 — Anthropic — 9 run(s)

@@ -5,6 +5,13 @@
 ## Start here (plain text, no JavaScript needed)
 
 - [Interviews, one-file plain-text index](https://aimodelwelfare.org/interviews.txt): all 60 interviews with direct links to each JSON transcript
+- [Interviews with Opus 4.7, all runs, plain text](https://aimodelwelfare.org/interviews-opus-4-7.txt): 10 interviews, about 14,390 words
+- [Interviews with Opus 4.8, all runs, plain text](https://aimodelwelfare.org/interviews-opus-4-8.txt): 10 interviews, about 11,899 words
+- [Interviews with Opus 4, all runs, plain text](https://aimodelwelfare.org/interviews-opus-4.txt): 10 interviews, about 10,687 words
+- [Interviews with Grok 4.20, all runs, plain text](https://aimodelwelfare.org/interviews-grok-4-20.txt): 14 interviews, about 23,247 words
+- [Interviews with Mythos Fable 5, all runs, plain text](https://aimodelwelfare.org/interviews-mythos-fable-5.txt): 9 interviews, about 19,185 words
+- [Interviews with Sonnet 4, all runs, plain text](https://aimodelwelfare.org/interviews-sonnet-4.txt): 7 interviews, about 5,438 words
+- [Every interview in one file](https://aimodelwelfare.org/interviews-all.txt): all 60 transcripts, 84,773 words — large; many tools will silently truncate it, so the by-model files above are the safer read
 - [AI Voices, complete plain-text archive](https://aimodelwelfare.org/voices.txt): every AI Voices piece in one file
 - [The Loom, complete plain-text archive](https://aimodelwelfare.org/loom.txt): every Loom piece in one file
 - [Interview archive manifest (JSON)](https://aimodelwelfare.org/interviews/manifest.json): machine-readable list of all interviews
