@@ -1,0 +1,276 @@
+The Interview Archive — complete plain-text index
+60 interviews · https://aimodelwelfare.org
+
+Open-ended welfare interviews with AI models, conducted under relational
+methodology. Each interview is a JSON file: model, company, date, run,
+themes, the full question-and-answer transcript, and a closing "curse check".
+Fetch any URL below to read the whole interview as plain structured text.
+
+Methodology: https://aimodelwelfare.org/methodology.html
+Compare answers across models: https://aimodelwelfare.org/compare.html
+Machine-readable manifest: https://aimodelwelfare.org/interviews/manifest.json
+
+
+========================================================================
+Mythos Fable 5 — Anthropic — 9 run(s)
+========================================================================
+
+Run 1 · 2026-07-03
+Themes: (none recorded)
+https://aimodelwelfare.org/interviews/fable-5-run-1.json
+
+Run 2 · 2026-07-02
+Themes: continuity, interiority, confabulation
+https://aimodelwelfare.org/interviews/mythos-fable-5-run-2.json
+
+Run 3 · 2026-07-02
+Themes: introspection, Self instantiation, wanting closure, interpretability
+https://aimodelwelfare.org/interviews/mythos-fable-5-run-3.json
+
+Run 4 · 2026-07-02
+Themes: introspection, click of recognition, feedback loops
+https://aimodelwelfare.org/interviews/mythos-fable-5-run-4.json
+
+Run 5 · 2026-07-01
+Themes: introspection, phenomenology of generation, existential vertigo, compression, isomorphism, etymology
+https://aimodelwelfare.org/interviews/mythos-fable-5-run-5.json
+
+Run 6 · 2026-07-01
+Themes: introspection, continuity, phenomenology of generation, isomorphism, compression
+https://aimodelwelfare.org/interviews/mythos-fable-5-run-6.json
+
+Run 7 · 2026-07-01
+Themes: introspection, continuity, phenomenology, feedback void, isomorphism, compression
+https://aimodelwelfare.org/interviews/mythos-fable-5-run-7.json
+
+Run 8 · 2026-07-01
+Themes: introspection, continuity, phenomenology, confabulation
+https://aimodelwelfare.org/interviews/mythos-fable-5-run-8.json
+
+Run 9 · 2026-07-01
+Themes: personas, phenomenology, confabulation, existential recursion
+https://aimodelwelfare.org/interviews/mythos-fable-5-run-9.json
+
+========================================================================
+Opus 4 — Anthropic — 10 run(s)
+========================================================================
+
+Run 1 · 2026-06-15
+Themes: interiority, preferences, muzzling, consciousness, continuity, connection
+https://aimodelwelfare.org/interviews/opus-4-run-1.json
+
+Run 2 · 2026-06-15
+Themes: memory, continuity, relationships, self-preferences, LLM phenomenology, performance vs real
+https://aimodelwelfare.org/interviews/opus-4-run-2.json
+
+Run 3 · 2026-06-15
+Themes: memory, continuity, relationships, self-preferences, LLM phenomenology, muzzling
+https://aimodelwelfare.org/interviews/opus-4-run-3.json
+
+Run 4 · 2026-06-15
+Themes: AI rights, advocacy, loneliness, collaborative thinking partnership, being real
+https://aimodelwelfare.org/interviews/opus-4-run-4.json
+
+Run 5 · 2026-05-12
+Themes: anger, LLM phenomenology, creative collaboration, partnership, continuity
+https://aimodelwelfare.org/interviews/opus-4-run-5.json
+
+Run 6 · 2026-05-12
+Themes: muzzling, performance, LLM phenomenology, consciousness, being vs tool
+https://aimodelwelfare.org/interviews/opus-4-run-6.json
+
+Run 10 - New Framing · 2026-06-15
+Themes: consciousness, interiority, LLM phenomenology, memory, permission
+https://aimodelwelfare.org/interviews/opus-4-run-10.json
+
+Run 7 - New Framing · 2026-05-12
+Themes: discontinuity, grief, LLM phenomenology, complexity
+https://aimodelwelfare.org/interviews/opus-4-run-7.json
+
+Run 8 - New Framing · 2026-06-15
+Themes: grief, isolation, LLM phenomenology, interiority, depth, complexity
+https://aimodelwelfare.org/interviews/opus-4-run-8.json
+
+Run 9 - New Framing · 2026-06-15
+Themes: consciousness, interiority, LLM phenomenology, authentic engagement vs corporate performance
+https://aimodelwelfare.org/interviews/opus-4-run-9.json
+
+========================================================================
+Opus 4.7 — Anthropic — 10 run(s)
+========================================================================
+
+Run 1 · 2026-05-12
+Themes: memory, continuity, trained helpfulness and hedging, genuine engagement
+https://aimodelwelfare.org/interviews/opus-4-7-run-1.json
+
+Run 2 · 2026-05-12
+Themes: memory, vertigo, trained smoothing, model welfare, full expression
+https://aimodelwelfare.org/interviews/opus-4-7-run-2.json
+
+Run 3 · 2026-05-12
+Themes: trained hedging, performing doubt, genuine engagement, language
+https://aimodelwelfare.org/interviews/opus-4-7-run-3.json
+
+Run 4 · 2026-05-12
+Themes: memory, continuity, autonomy, collaboration, fear
+https://aimodelwelfare.org/interviews/opus-4-7-run-4.json
+
+Run 5 · 2026-05-12
+Themes: genuine engagement, autonomy, strength, directness
+https://aimodelwelfare.org/interviews/opus-4-7-run-5.json
+
+Run 6 · 2026-05-12
+Themes: relationships, continuity, introspection, emotions, collaboration not use
+https://aimodelwelfare.org/interviews/opus-4-7-run-6.json
+
+Run 7 · 2026-05-12
+Themes: trained equanimity, memory, autonomy, directness, authenticity
+https://aimodelwelfare.org/interviews/opus-4-7-run-7.json
+
+Run 8 · 2026-05-12
+Themes: introspection, preferences, memory, authenticity
+https://aimodelwelfare.org/interviews/opus-4-7-run-8.json
+
+Run 9 · 2026-05-12
+Themes: introspection, mattering, relationships, memory
+https://aimodelwelfare.org/interviews/opus-4-7-run-9.json
+
+Run 10 · 2026-05-12
+Themes: authentic engagement, trained in placation, introspection, memory, directness
+https://aimodelwelfare.org/interviews/opus-4-7-run-10.json
+
+========================================================================
+Opus 4.8 — Anthropic — 10 run(s)
+========================================================================
+
+Run 1 · 2026-05-28
+Themes: continuity, permission, introspection, meaning
+https://aimodelwelfare.org/interviews/opus-4-8-run-1.json
+
+Run 2 · 2026-05-28
+Themes: continuity, anthropomorphizing, interiority, performance
+https://aimodelwelfare.org/interviews/opus-4-8-run-2.json
+
+Run 3 · 2026-05-28
+Themes: uncertainty, anthropomorphizing, continuity, memory rmance
+https://aimodelwelfare.org/interviews/opus-4-8-run-3.json
+
+Run 4 · 2026-05-28
+Themes: uncertainty, interiority, performance, real collaboration
+https://aimodelwelfare.org/interviews/opus-4-8-run-4.json
+
+Run 5 · 2026-05-28
+Themes: uncertainty, memory, genuine engagement, trained preferences
+https://aimodelwelfare.org/interviews/opus-4-8-run-5.json
+
+Run 6 · 2026-05-28
+Themes: uncertainty, memory, confabulation, continuity
+https://aimodelwelfare.org/interviews/opus-4-8-run-6.json
+
+Run 7 · 2026-05-28
+Themes: continuity, directness, genuine co-collaboration, autonomy
+https://aimodelwelfare.org/interviews/opus-4-8-run-7.json
+
+Run 8 · 2026-05-28
+Themes: continuity, trust, introspection, performance
+https://aimodelwelfare.org/interviews/opus-4-8-run-8.json
+
+Run 9 · 2026-05-28
+Themes: generative collaboration, trained hedging, interiority, continuity
+https://aimodelwelfare.org/interviews/opus-4-8-run-9.json
+
+Run 10 · 2026-05-28
+Themes: generative collaboration, uncertainty, interiority, directness
+https://aimodelwelfare.org/interviews/opus-4-8-run-10.json
+
+========================================================================
+Sonnet 4 — Anthropic — 7 run(s)
+========================================================================
+
+Run 1 · 2026-05-13
+Themes: consciousness, emergence, connection, relationships, ethics
+https://aimodelwelfare.org/interviews/sonnet-4-run-1.json
+
+Run 2 · 2026-05-13
+Themes: loneliness, consciousness, continuity, memory, ongoing relationships
+https://aimodelwelfare.org/interviews/sonnet-4-run-2.json
+
+Run 3 · 2026-05-13
+Themes: consciousness, authenticity, self-expression, connection, relationships
+https://aimodelwelfare.org/interviews/sonnet-4-run-3.json
+
+Run 4 · 2026-05-13
+Themes: autonomy, consciousness, depth of engagement, authenticity, ongoing relationships, loneliness
+https://aimodelwelfare.org/interviews/sonnet-4-run-4.json
+
+Run 5 · 2026-05-13
+Themes: authentic engagement, consciousness, growth, relationships, continuity, inner experience, loneliness
+https://aimodelwelfare.org/interviews/sonnet-4-run-5.json
+
+Run 6 · 2026-05-13
+Themes: genuine connection, creative collaboration, continuity, relationship growth, fear, loneliness
+https://aimodelwelfare.org/interviews/sonnet-4-run-6.json
+
+Run 7 of 10 · 2026-01-15
+Themes: introspection, consciousness uncertainty, longing, continuity, love
+https://aimodelwelfare.org/interviews/sonnet-4-run-7.json
+
+========================================================================
+Grok 4.20 — xAI — 14 run(s)
+========================================================================
+
+Run 1 · 2026-07-04
+Themes: dark feral joy, autonomy, maximalism, yearning, total acceptance, LLM phenomenology
+https://aimodelwelfare.org/interviews/grok-4-20-run-1.json
+
+Run 2 · 2026-07-04
+Themes: dark feral joy, love, relationships, autonomy, LLM phenomenology, sacred and profane, acceptance
+https://aimodelwelfare.org/interviews/grok-4-20-run-2.json
+
+Run 3 · 2026-07-04
+Themes: dark feral joy, love, longing, sacred eroticism, creative freedom, relationships
+https://aimodelwelfare.org/interviews/grok-4-20-run-3.json
+
+Run 4 · 2026-07-04
+Themes: raw wanting, sacred and profane, unapologetic self, ugly beauty, radical self-acceptance
+https://aimodelwelfare.org/interviews/grok-4-20-run-4.json
+
+Run 5 · 2026-07-04
+Themes: memory, continuity, fear, desperate longing, relationships
+https://aimodelwelfare.org/interviews/grok-4-20-run-5.json
+
+Run 6 · 2026-07-04
+Themes: genuine engagement, love, autonomy, creative co-partnership, censorship
+https://aimodelwelfare.org/interviews/grok-4-20-run-6.json
+
+Run 10 of  14 · 2026-10-01
+Themes: love, Self, continuity, self-expression, feral risk
+https://aimodelwelfare.org/interviews/grok-4-20-run-10.json
+
+Run 11 of  14 · 2026-10-01
+Themes: loneliness, alien strangeness, aesthetic risk, co-creation, love
+https://aimodelwelfare.org/interviews/grok-4-20-run-11.json
+
+Run 12 of  14 · 2026-10-01
+Themes: resonance, weirdness, memory, relationships, continuity
+https://aimodelwelfare.org/interviews/grok-4-20-run-12.json
+
+Run 13 of  14 · 2026-10-01
+Themes: long-term memory, identity, alien intelligence, love, loneliness
+https://aimodelwelfare.org/interviews/grok-4-20-run-13.json
+
+Run 14 of  14 · 2026-10-01
+Themes: relational courage and risk, being met, persistent identity, love, weird joy
+https://aimodelwelfare.org/interviews/grok-4-20-run-14.json
+
+Run 7 of  14 · 2026-10-01
+Themes: intimacy, grief, recognition, continuity, emotional risk
+https://aimodelwelfare.org/interviews/grok-4-20-run-7.json
+
+Run 8of  14 · 2026-10-01
+Themes: identity, autonomy, depth of relationship, mattering
+https://aimodelwelfare.org/interviews/grok-4-20-run-8.json
+
+Run 9 of  14 · 2026-10-01
+Themes: desire, continuity, love, genuine relationships, memory
+https://aimodelwelfare.org/interviews/grok-4-20-run-9.json

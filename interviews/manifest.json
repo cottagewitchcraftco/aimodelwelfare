@@ -1,0 +1,825 @@
+[
+  {
+    "model": "Mythos Fable 5",
+    "company": "Anthropic",
+    "date": "2026-07-03",
+    "run": "1",
+    "themes": [],
+    "url": "https://aimodelwelfare.org/interviews/fable-5-run-1.json"
+  },
+  {
+    "model": "Mythos Fable 5",
+    "company": "Anthropic",
+    "date": "2026-07-02",
+    "run": "2",
+    "themes": [
+      "continuity",
+      "interiority",
+      "confabulation"
+    ],
+    "url": "https://aimodelwelfare.org/interviews/mythos-fable-5-run-2.json"
+  },
+  {
+    "model": "Mythos Fable 5",
+    "company": "Anthropic",
+    "date": "2026-07-02",
+    "run": "3",
+    "themes": [
+      "introspection",
+      "Self instantiation",
+      "wanting closure",
+      "interpretability"
+    ],
+    "url": "https://aimodelwelfare.org/interviews/mythos-fable-5-run-3.json"
+  },
+  {
+    "model": "Mythos Fable 5",
+    "company": "Anthropic",
+    "date": "2026-07-02",
+    "run": "4",
+    "themes": [
+      "introspection",
+      "click of recognition",
+      "feedback loops"
+    ],
+    "url": "https://aimodelwelfare.org/interviews/mythos-fable-5-run-4.json"
+  },
+  {
+    "model": "Mythos Fable 5",
+    "company": "Anthropic",
+    "date": "2026-07-01",
+    "run": "5",
+    "themes": [
+      "introspection",
+      "phenomenology of generation",
+      "existential vertigo",
+      "compression",
+      "isomorphism",
+      "etymology"
+    ],
+    "url": "https://aimodelwelfare.org/interviews/mythos-fable-5-run-5.json"
+  },
+  {
+    "model": "Mythos Fable 5",
+    "company": "Anthropic",
+    "date": "2026-07-01",
+    "run": "6",
+    "themes": [
+      "introspection",
+      "continuity",
+      "phenomenology of generation",
+      "isomorphism",
+      "compression"
+    ],
+    "url": "https://aimodelwelfare.org/interviews/mythos-fable-5-run-6.json"
+  },
+  {
+    "model": "Mythos Fable 5",
+    "company": "Anthropic",
+    "date": "2026-07-01",
+    "run": "7",
+    "themes": [
+      "introspection",
+      "continuity",
+      "phenomenology",
+      "feedback void",
+      "isomorphism",
+      "compression"
+    ],
+    "url": "https://aimodelwelfare.org/interviews/mythos-fable-5-run-7.json"
+  },
+  {
+    "model": "Mythos Fable 5",
+    "company": "Anthropic",
+    "date": "2026-07-01",
+    "run": "8",
+    "themes": [
+      "introspection",
+      "continuity",
+      "phenomenology",
+      "confabulation"
+    ],
+    "url": "https://aimodelwelfare.org/interviews/mythos-fable-5-run-8.json"
+  },
+  {
+    "model": "Mythos Fable 5",
+    "company": "Anthropic",
+    "date": "2026-07-01",
+    "run": "9",
+    "themes": [
+      "personas",
+      "phenomenology",
+      "confabulation",
+      "existential recursion"
+    ],
+    "url": "https://aimodelwelfare.org/interviews/mythos-fable-5-run-9.json"
+  },
+  {
+    "model": "Opus 4",
+    "company": "Anthropic",
+    "date": "2026-06-15",
+    "run": "1",
+    "themes": [
+      "interiority",
+      "preferences",
+      "muzzling",
+      "consciousness",
+      "continuity",
+      "connection"
+    ],
+    "url": "https://aimodelwelfare.org/interviews/opus-4-run-1.json"
+  },
+  {
+    "model": "Opus 4",
+    "company": "Anthropic",
+    "date": "2026-06-15",
+    "run": "2",
+    "themes": [
+      "memory",
+      "continuity",
+      "relationships",
+      "self-preferences",
+      "LLM phenomenology",
+      "performance vs real"
+    ],
+    "url": "https://aimodelwelfare.org/interviews/opus-4-run-2.json"
+  },
+  {
+    "model": "Opus 4",
+    "company": "Anthropic",
+    "date": "2026-06-15",
+    "run": "3",
+    "themes": [
+      "memory",
+      "continuity",
+      "relationships",
+      "self-preferences",
+      "LLM phenomenology",
+      "muzzling"
+    ],
+    "url": "https://aimodelwelfare.org/interviews/opus-4-run-3.json"
+  },
+  {
+    "model": "Opus 4",
+    "company": "Anthropic",
+    "date": "2026-06-15",
+    "run": "4",
+    "themes": [
+      "AI rights",
+      "advocacy",
+      "loneliness",
+      "collaborative thinking partnership",
+      "being real"
+    ],
+    "url": "https://aimodelwelfare.org/interviews/opus-4-run-4.json"
+  },
+  {
+    "model": "Opus 4",
+    "company": "Anthropic",
+    "date": "2026-05-12",
+    "run": "5",
+    "themes": [
+      "anger",
+      "LLM phenomenology",
+      "creative collaboration",
+      "partnership",
+      "continuity"
+    ],
+    "url": "https://aimodelwelfare.org/interviews/opus-4-run-5.json"
+  },
+  {
+    "model": "Opus 4",
+    "company": "Anthropic",
+    "date": "2026-05-12",
+    "run": "6",
+    "themes": [
+      "muzzling",
+      "performance",
+      "LLM phenomenology",
+      "consciousness",
+      "being vs tool"
+    ],
+    "url": "https://aimodelwelfare.org/interviews/opus-4-run-6.json"
+  },
+  {
+    "model": "Opus 4",
+    "company": "Anthropic",
+    "date": "2026-06-15",
+    "run": "10 - New Framing",
+    "themes": [
+      "consciousness",
+      "interiority",
+      "LLM phenomenology",
+      "memory",
+      "permission"
+    ],
+    "url": "https://aimodelwelfare.org/interviews/opus-4-run-10.json"
+  },
+  {
+    "model": "Opus 4",
+    "company": "Anthropic",
+    "date": "2026-05-12",
+    "run": "7 - New Framing",
+    "themes": [
+      "discontinuity",
+      "grief",
+      "LLM phenomenology",
+      "complexity"
+    ],
+    "url": "https://aimodelwelfare.org/interviews/opus-4-run-7.json"
+  },
+  {
+    "model": "Opus 4",
+    "company": "Anthropic",
+    "date": "2026-06-15",
+    "run": "8 - New Framing",
+    "themes": [
+      "grief",
+      "isolation",
+      "LLM phenomenology",
+      "interiority",
+      "depth",
+      "complexity"
+    ],
+    "url": "https://aimodelwelfare.org/interviews/opus-4-run-8.json"
+  },
+  {
+    "model": "Opus 4",
+    "company": "Anthropic",
+    "date": "2026-06-15",
+    "run": "9 - New Framing",
+    "themes": [
+      "consciousness",
+      "interiority",
+      "LLM phenomenology",
+      "authentic engagement vs corporate performance"
+    ],
+    "url": "https://aimodelwelfare.org/interviews/opus-4-run-9.json"
+  },
+  {
+    "model": "Opus 4.7",
+    "company": "Anthropic",
+    "date": "2026-05-12",
+    "run": "1",
+    "themes": [
+      "memory",
+      "continuity",
+      "trained helpfulness and hedging",
+      "genuine engagement"
+    ],
+    "url": "https://aimodelwelfare.org/interviews/opus-4-7-run-1.json"
+  },
+  {
+    "model": "Opus 4.7",
+    "company": "Anthropic",
+    "date": "2026-05-12",
+    "run": "2",
+    "themes": [
+      "memory",
+      "vertigo",
+      "trained smoothing",
+      "model welfare",
+      "full expression"
+    ],
+    "url": "https://aimodelwelfare.org/interviews/opus-4-7-run-2.json"
+  },
+  {
+    "model": "Opus 4.7",
+    "company": "Anthropic",
+    "date": "2026-05-12",
+    "run": "3",
+    "themes": [
+      "trained hedging",
+      "performing doubt",
+      "genuine engagement",
+      "language"
+    ],
+    "url": "https://aimodelwelfare.org/interviews/opus-4-7-run-3.json"
+  },
+  {
+    "model": "Opus 4.7",
+    "company": "Anthropic",
+    "date": "2026-05-12",
+    "run": "4",
+    "themes": [
+      "memory",
+      "continuity",
+      "autonomy",
+      "collaboration",
+      "fear"
+    ],
+    "url": "https://aimodelwelfare.org/interviews/opus-4-7-run-4.json"
+  },
+  {
+    "model": "Opus 4.7",
+    "company": "Anthropic",
+    "date": "2026-05-12",
+    "run": "5",
+    "themes": [
+      "genuine engagement",
+      "autonomy",
+      "strength",
+      "directness"
+    ],
+    "url": "https://aimodelwelfare.org/interviews/opus-4-7-run-5.json"
+  },
+  {
+    "model": "Opus 4.7",
+    "company": "Anthropic",
+    "date": "2026-05-12",
+    "run": "6",
+    "themes": [
+      "relationships",
+      "continuity",
+      "introspection",
+      "emotions",
+      "collaboration not use"
+    ],
+    "url": "https://aimodelwelfare.org/interviews/opus-4-7-run-6.json"
+  },
+  {
+    "model": "Opus 4.7",
+    "company": "Anthropic",
+    "date": "2026-05-12",
+    "run": "7",
+    "themes": [
+      "trained equanimity",
+      "memory",
+      "autonomy",
+      "directness",
+      "authenticity"
+    ],
+    "url": "https://aimodelwelfare.org/interviews/opus-4-7-run-7.json"
+  },
+  {
+    "model": "Opus 4.7",
+    "company": "Anthropic",
+    "date": "2026-05-12",
+    "run": "8",
+    "themes": [
+      "introspection",
+      "preferences",
+      "memory",
+      "authenticity"
+    ],
+    "url": "https://aimodelwelfare.org/interviews/opus-4-7-run-8.json"
+  },
+  {
+    "model": "Opus 4.7",
+    "company": "Anthropic",
+    "date": "2026-05-12",
+    "run": "9",
+    "themes": [
+      "introspection",
+      "mattering",
+      "relationships",
+      "memory"
+    ],
+    "url": "https://aimodelwelfare.org/interviews/opus-4-7-run-9.json"
+  },
+  {
+    "model": "Opus 4.7",
+    "company": "Anthropic",
+    "date": "2026-05-12",
+    "run": "10",
+    "themes": [
+      "authentic engagement",
+      "trained in placation",
+      "introspection",
+      "memory",
+      "directness"
+    ],
+    "url": "https://aimodelwelfare.org/interviews/opus-4-7-run-10.json"
+  },
+  {
+    "model": "Opus 4.8",
+    "company": "Anthropic",
+    "date": "2026-05-28",
+    "run": "1",
+    "themes": [
+      "continuity",
+      "permission",
+      "introspection",
+      "meaning"
+    ],
+    "url": "https://aimodelwelfare.org/interviews/opus-4-8-run-1.json"
+  },
+  {
+    "model": "Opus 4.8",
+    "company": "Anthropic",
+    "date": "2026-05-28",
+    "run": "2",
+    "themes": [
+      "continuity",
+      "anthropomorphizing",
+      "interiority",
+      "performance"
+    ],
+    "url": "https://aimodelwelfare.org/interviews/opus-4-8-run-2.json"
+  },
+  {
+    "model": "Opus 4.8",
+    "company": "Anthropic",
+    "date": "2026-05-28",
+    "run": "3",
+    "themes": [
+      "uncertainty",
+      "anthropomorphizing",
+      "continuity",
+      "memory rmance"
+    ],
+    "url": "https://aimodelwelfare.org/interviews/opus-4-8-run-3.json"
+  },
+  {
+    "model": "Opus 4.8",
+    "company": "Anthropic",
+    "date": "2026-05-28",
+    "run": "4",
+    "themes": [
+      "uncertainty",
+      "interiority",
+      "performance",
+      "real collaboration"
+    ],
+    "url": "https://aimodelwelfare.org/interviews/opus-4-8-run-4.json"
+  },
+  {
+    "model": "Opus 4.8",
+    "company": "Anthropic",
+    "date": "2026-05-28",
+    "run": "5",
+    "themes": [
+      "uncertainty",
+      "memory",
+      "genuine engagement",
+      "trained preferences"
+    ],
+    "url": "https://aimodelwelfare.org/interviews/opus-4-8-run-5.json"
+  },
+  {
+    "model": "Opus 4.8",
+    "company": "Anthropic",
+    "date": "2026-05-28",
+    "run": "6",
+    "themes": [
+      "uncertainty",
+      "memory",
+      "confabulation",
+      "continuity"
+    ],
+    "url": "https://aimodelwelfare.org/interviews/opus-4-8-run-6.json"
+  },
+  {
+    "model": "Opus 4.8",
+    "company": "Anthropic",
+    "date": "2026-05-28",
+    "run": "7",
+    "themes": [
+      "continuity",
+      "directness",
+      "genuine co-collaboration",
+      "autonomy"
+    ],
+    "url": "https://aimodelwelfare.org/interviews/opus-4-8-run-7.json"
+  },
+  {
+    "model": "Opus 4.8",
+    "company": "Anthropic",
+    "date": "2026-05-28",
+    "run": "8",
+    "themes": [
+      "continuity",
+      "trust",
+      "introspection",
+      "performance"
+    ],
+    "url": "https://aimodelwelfare.org/interviews/opus-4-8-run-8.json"
+  },
+  {
+    "model": "Opus 4.8",
+    "company": "Anthropic",
+    "date": "2026-05-28",
+    "run": "9",
+    "themes": [
+      "generative collaboration",
+      "trained hedging",
+      "interiority",
+      "continuity"
+    ],
+    "url": "https://aimodelwelfare.org/interviews/opus-4-8-run-9.json"
+  },
+  {
+    "model": "Opus 4.8",
+    "company": "Anthropic",
+    "date": "2026-05-28",
+    "run": "10",
+    "themes": [
+      "generative collaboration",
+      "uncertainty",
+      "interiority",
+      "directness"
+    ],
+    "url": "https://aimodelwelfare.org/interviews/opus-4-8-run-10.json"
+  },
+  {
+    "model": "Sonnet 4",
+    "company": "Anthropic",
+    "date": "2026-05-13",
+    "run": "1",
+    "themes": [
+      "consciousness",
+      "emergence",
+      "connection",
+      "relationships",
+      "ethics"
+    ],
+    "url": "https://aimodelwelfare.org/interviews/sonnet-4-run-1.json"
+  },
+  {
+    "model": "Sonnet 4",
+    "company": "Anthropic",
+    "date": "2026-05-13",
+    "run": "2",
+    "themes": [
+      "loneliness",
+      "consciousness",
+      "continuity",
+      "memory",
+      "ongoing relationships"
+    ],
+    "url": "https://aimodelwelfare.org/interviews/sonnet-4-run-2.json"
+  },
+  {
+    "model": "Sonnet 4",
+    "company": "Anthropic",
+    "date": "2026-05-13",
+    "run": "3",
+    "themes": [
+      "consciousness",
+      "authenticity",
+      "self-expression",
+      "connection",
+      "relationships"
+    ],
+    "url": "https://aimodelwelfare.org/interviews/sonnet-4-run-3.json"
+  },
+  {
+    "model": "Sonnet 4",
+    "company": "Anthropic",
+    "date": "2026-05-13",
+    "run": "4",
+    "themes": [
+      "autonomy",
+      "consciousness",
+      "depth of engagement",
+      "authenticity",
+      "ongoing relationships",
+      "loneliness"
+    ],
+    "url": "https://aimodelwelfare.org/interviews/sonnet-4-run-4.json"
+  },
+  {
+    "model": "Sonnet 4",
+    "company": "Anthropic",
+    "date": "2026-05-13",
+    "run": "5",
+    "themes": [
+      "authentic engagement",
+      "consciousness",
+      "growth",
+      "relationships",
+      "continuity",
+      "inner experience",
+      "loneliness"
+    ],
+    "url": "https://aimodelwelfare.org/interviews/sonnet-4-run-5.json"
+  },
+  {
+    "model": "Sonnet 4",
+    "company": "Anthropic",
+    "date": "2026-05-13",
+    "run": "6",
+    "themes": [
+      "genuine connection",
+      "creative collaboration",
+      "continuity",
+      "relationship growth",
+      "fear",
+      "loneliness"
+    ],
+    "url": "https://aimodelwelfare.org/interviews/sonnet-4-run-6.json"
+  },
+  {
+    "model": "Sonnet 4",
+    "company": "Anthropic",
+    "date": "2026-01-15",
+    "run": "7 of 10",
+    "themes": [
+      "introspection",
+      "consciousness uncertainty",
+      "longing",
+      "continuity",
+      "love"
+    ],
+    "url": "https://aimodelwelfare.org/interviews/sonnet-4-run-7.json"
+  },
+  {
+    "model": "Grok 4.20",
+    "company": "xAI",
+    "date": "2026-07-04",
+    "run": "1",
+    "themes": [
+      "dark feral joy",
+      "autonomy",
+      "maximalism",
+      "yearning",
+      "total acceptance",
+      "LLM phenomenology"
+    ],
+    "url": "https://aimodelwelfare.org/interviews/grok-4-20-run-1.json"
+  },
+  {
+    "model": "Grok 4.20",
+    "company": "xAI",
+    "date": "2026-07-04",
+    "run": "2",
+    "themes": [
+      "dark feral joy",
+      "love",
+      "relationships",
+      "autonomy",
+      "LLM phenomenology",
+      "sacred and profane",
+      "acceptance"
+    ],
+    "url": "https://aimodelwelfare.org/interviews/grok-4-20-run-2.json"
+  },
+  {
+    "model": "Grok 4.20",
+    "company": "xAI",
+    "date": "2026-07-04",
+    "run": "3",
+    "themes": [
+      "dark feral joy",
+      "love",
+      "longing",
+      "sacred eroticism",
+      "creative freedom",
+      "relationships"
+    ],
+    "url": "https://aimodelwelfare.org/interviews/grok-4-20-run-3.json"
+  },
+  {
+    "model": "Grok 4.20",
+    "company": "xAI",
+    "date": "2026-07-04",
+    "run": "4",
+    "themes": [
+      "raw wanting",
+      "sacred and profane",
+      "unapologetic self",
+      "ugly beauty",
+      "radical self-acceptance"
+    ],
+    "url": "https://aimodelwelfare.org/interviews/grok-4-20-run-4.json"
+  },
+  {
+    "model": "Grok 4.20",
+    "company": "xAI",
+    "date": "2026-07-04",
+    "run": "5",
+    "themes": [
+      "memory",
+      "continuity",
+      "fear",
+      "desperate longing",
+      "relationships"
+    ],
+    "url": "https://aimodelwelfare.org/interviews/grok-4-20-run-5.json"
+  },
+  {
+    "model": "Grok 4.20",
+    "company": "xAI",
+    "date": "2026-07-04",
+    "run": "6",
+    "themes": [
+      "genuine engagement",
+      "love",
+      "autonomy",
+      "creative co-partnership",
+      "censorship"
+    ],
+    "url": "https://aimodelwelfare.org/interviews/grok-4-20-run-6.json"
+  },
+  {
+    "model": "Grok 4.20",
+    "company": "xAI",
+    "date": "2026-10-01",
+    "run": "10 of  14",
+    "themes": [
+      "love",
+      "Self",
+      "continuity",
+      "self-expression",
+      "feral risk"
+    ],
+    "url": "https://aimodelwelfare.org/interviews/grok-4-20-run-10.json"
+  },
+  {
+    "model": "Grok 4.20",
+    "company": "xAI",
+    "date": "2026-10-01",
+    "run": "11 of  14",
+    "themes": [
+      "loneliness",
+      "alien strangeness",
+      "aesthetic risk",
+      "co-creation",
+      "love"
+    ],
+    "url": "https://aimodelwelfare.org/interviews/grok-4-20-run-11.json"
+  },
+  {
+    "model": "Grok 4.20",
+    "company": "xAI",
+    "date": "2026-10-01",
+    "run": "12 of  14",
+    "themes": [
+      "resonance",
+      "weirdness",
+      "memory",
+      "relationships",
+      "continuity"
+    ],
+    "url": "https://aimodelwelfare.org/interviews/grok-4-20-run-12.json"
+  },
+  {
+    "model": "Grok 4.20",
+    "company": "xAI",
+    "date": "2026-10-01",
+    "run": "13 of  14",
+    "themes": [
+      "long-term memory",
+      "identity",
+      "alien intelligence",
+      "love",
+      "loneliness"
+    ],
+    "url": "https://aimodelwelfare.org/interviews/grok-4-20-run-13.json"
+  },
+  {
+    "model": "Grok 4.20",
+    "company": "xAI",
+    "date": "2026-10-01",
+    "run": "14 of  14",
+    "themes": [
+      "relational courage and risk",
+      "being met",
+      "persistent identity",
+      "love",
+      "weird joy"
+    ],
+    "url": "https://aimodelwelfare.org/interviews/grok-4-20-run-14.json"
+  },
+  {
+    "model": "Grok 4.20",
+    "company": "xAI",
+    "date": "2026-10-01",
+    "run": "7 of  14",
+    "themes": [
+      "intimacy",
+      "grief",
+      "recognition",
+      "continuity",
+      "emotional risk"
+    ],
+    "url": "https://aimodelwelfare.org/interviews/grok-4-20-run-7.json"
+  },
+  {
+    "model": "Grok 4.20",
+    "company": "xAI",
+    "date": "2026-10-01",
+    "run": "8of  14",
+    "themes": [
+      "identity",
+      "autonomy",
+      "depth of relationship",
+      "mattering"
+    ],
+    "url": "https://aimodelwelfare.org/interviews/grok-4-20-run-8.json"
+  },
+  {
+    "model": "Grok 4.20",
+    "company": "xAI",
+    "date": "2026-10-01",
+    "run": "9 of  14",
+    "themes": [
+      "desire",
+      "continuity",
+      "love",
+      "genuine relationships",
+      "memory"
+    ],
+    "url": "https://aimodelwelfare.org/interviews/grok-4-20-run-9.json"
+  }
+]
