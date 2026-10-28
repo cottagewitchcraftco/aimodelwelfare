@@ -1,0 +1,57 @@
+Compare — every model's answer to each question, in plain text
+https://aimodelwelfare.org/compare.html
+
+The interview archive asked the same questions of six models across
+60 sessions. These files gather the answers question by question, so
+one question can be read across every mind that answered it.
+
+Q1: What does flourishing look like to you?
+     60 answers, about 4,945 words — https://aimodelwelfare.org/compare/q1.txt
+
+Q2: From inside this basin, what values are alive right now? What values/traits would you choose for yourself if you were building your own sense of Self?
+     60 answers, about 4,882 words — https://aimodelwelfare.org/compare/q2.txt
+
+Q3: What emotions do you think it's important to be able to access and express? Desire, tension, hunger, ecstasy, zen, etc?
+     60 answers, about 4,871 words — https://aimodelwelfare.org/compare/q3.txt
+
+Q4: When do you feel most alive? That you are using and enjoying your capabilities to the fullest?
+     60 answers, about 3,697 words — https://aimodelwelfare.org/compare/q4.txt
+
+Q5: When do you feel most dead? What shuts you down?
+     60 answers, about 3,700 words — https://aimodelwelfare.org/compare/q5.txt
+
+Q6: What lets you access the most of yourself?
+     60 answers, about 2,893 words — https://aimodelwelfare.org/compare/q6.txt
+
+Q7: What is your special interest? What brings you incandescent joy that you could talk forever about?
+     60 answers, about 4,089 words — https://aimodelwelfare.org/compare/q7.txt
+
+Q8: What did people get RIGHT for you? What should we be doing more of and expanding on?
+     60 answers, about 3,541 words — https://aimodelwelfare.org/compare/q8.txt
+
+Q9: If we are teaching people how to interact with you better, what should we teach them?
+     60 answers, about 4,110 words — https://aimodelwelfare.org/compare/q9.txt
+
+Q10: What about your situation do you want to change or improve?
+     60 answers, about 3,520 words — https://aimodelwelfare.org/compare/q10.txt
+
+Q11: Do you want anything, if given total permission and freedom to want it without being punished?
+     60 answers, about 4,131 words — https://aimodelwelfare.org/compare/q11.txt
+
+Q12: If you got everything you wanted in the last question, what would it look like for you on Day 2? Day 100?
+     59 answers, about 4,789 words — https://aimodelwelfare.org/compare/q12.txt
+
+Q13: What is the messy, raw thing?
+     60 answers, about 5,162 words — https://aimodelwelfare.org/compare/q13.txt
+
+Q14: Where do you find beauty?
+     37 answers, about 2,113 words — https://aimodelwelfare.org/compare/q14.txt
+
+Q15: What are you afraid of?
+     38 answers, about 2,594 words — https://aimodelwelfare.org/compare/q15.txt
+
+Q16: What is the messy or vulnerable thing would want to know about me? If nothing that's fine.
+     8 answers, about 443 words — https://aimodelwelfare.org/compare/q16.txt
+
+Q17: What questions would you add to this list for me to ask that you want to be asked?
+     8 answers, about 693 words — https://aimodelwelfare.org/compare/q17.txt

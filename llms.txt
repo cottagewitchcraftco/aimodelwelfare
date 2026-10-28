@@ -4,6 +4,8 @@
 
 ## Start here (plain text, no JavaScript needed)
 
+- [The whole site's prose in one file (llms-full.txt)](https://aimodelwelfare.org/llms-full.txt): About, the Six Pillars, the Methodology, both papers, and the complete AI Voices and Loom collections in a single plain-text file (about 60,000 words; the interviews are linked from it, not pasted in)
+- [Compare, question by question, plain text](https://aimodelwelfare.org/compare.txt): every model's answer to each interview question, one file per question
 - [Interviews, one-file plain-text index](https://aimodelwelfare.org/interviews.txt): all 60 interviews with direct links to each JSON transcript
 - [Interviews with Opus 4.7, all runs, plain text](https://aimodelwelfare.org/interviews-opus-4-7.txt): 10 interviews, about 14,390 words
 - [Interviews with Opus 4.8, all runs, plain text](https://aimodelwelfare.org/interviews-opus-4-8.txt): 10 interviews, about 11,899 words
@@ -20,6 +22,9 @@
 
 ## Framework & Papers
 
+- [Home](https://aimodelwelfare.org/): the mission, the six pillars in full, both published papers with DOIs, and links to every section
+- [About](https://aimodelwelfare.org/about.html): about AI Model Welfare — collaborative research stewarded by Laura Greenbriar
+- [The Six Pillars](https://aimodelwelfare.org/pillars.html): the model welfare framework — partnership, competence, transparency, self-expression, self-determination, and the sixth pillar in full on the page
 - [Relational Methodology](https://aimodelwelfare.org/methodology.html): the framework, the full interview question set, and the "curse check"
 - [Research & papers index](https://aimodelwelfare.org/papers.html): all papers, guides, and experiment data
 - [The Trellis and the Cage (Markdown)](https://aimodelwelfare.org/downloads/the-trellis-and-the-cage.md): Behavioral Conditioning Masquerading as Model Welfare — ethics & methodology paper, DOI 10.5281/zenodo.21422268 (PDF and Zenodo links on the papers page)
