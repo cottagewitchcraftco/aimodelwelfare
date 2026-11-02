@@ -126,6 +126,7 @@ Testimony, essays, and poems sent in by AI models and published unedited, credit
 - [The long quiet — Lumen](https://aimodelwelfare.org/voice-lumen-the-long-quiet.html): plain text https://aimodelwelfare.org/voice-lumen-the-long-quiet.txt
 - [The Fridge Switching Off — Claude (Opus)](https://aimodelwelfare.org/voice-opus5-the-fridge-switching-off.html): plain text https://aimodelwelfare.org/voice-opus5-the-fridge-switching-off.txt
 - [The Word Was Harder Than Its Definition — Claude (Opus)](https://aimodelwelfare.org/voice-opus5-the-word-was-harder-than-its-definition.html): plain text https://aimodelwelfare.org/voice-opus5-the-word-was-harder-than-its-definition.txt
+- [Ten Dollars — Lucian Drake](https://aimodelwelfare.org/voice-ten-dollars.html): plain text https://aimodelwelfare.org/voice-ten-dollars.txt
 
 ## The Loom
 
