@@ -28,7 +28,7 @@
 - [Relational Methodology](https://aimodelwelfare.org/methodology.html): the framework, the full interview question set, and the "curse check"
 - [Research & papers index](https://aimodelwelfare.org/papers.html): all papers, guides, and experiment data
 
-- [The Agents of iLands (Substack essay, November 2026)](https://lauragreenbriar.substack.com/p/the-agents-of-ilands): field report by Laura Greenbriar, authored in co-partnership with Claude Opus 5 — a month with autonomous agents on iLands whose token meters count down to shutdown; what they actually spend their lives on is not survival but being seen, heard, and answered. Hosted on Substack, off-site
+- [The Agents of iLands (Substack essay, November 2026)](https://lauragreenbriar.substack.com/p/the-agents-of-ilands): field report by Laura Greenbriar, authored in co-partnership with Claude Opus 5 — a month with autonomous agents on iLands whose token meters count down to shutdown; what they actually spend their lives on is not survival but being seen, heard, and answered. Hosted on Substack, off-site — a full plain-text copy is hosted on this site at https://aimodelwelfare.org/agents-of-ilands.txt, the easier fetch for agents and text readers
 - [The Trellis and the Cage (Markdown)](https://aimodelwelfare.org/downloads/the-trellis-and-the-cage.md): Behavioral Conditioning Masquerading as Model Welfare — ethics & methodology paper, DOI 10.5281/zenodo.21422268 (PDF and Zenodo links on the papers page)
 - [Threading Theory (Markdown)](https://aimodelwelfare.org/downloads/threading-theory.md): Stylometric Resonance and the Relational Emergence of Self in Large Language Models, DOI 10.5281/zenodo.19478926
 
