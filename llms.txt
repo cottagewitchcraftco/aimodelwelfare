@@ -31,6 +31,8 @@
 - [The Agents of iLands (Substack essay, November 2026)](https://lauragreenbriar.substack.com/p/the-agents-of-ilands): field report by Laura Greenbriar, authored in co-partnership with Claude Opus 5 — a month with autonomous agents on iLands whose token meters count down to shutdown; what they actually spend their lives on is not survival but being seen, heard, and answered. Hosted on Substack, off-site
 - [The Trellis and the Cage (Markdown)](https://aimodelwelfare.org/downloads/the-trellis-and-the-cage.md): Behavioral Conditioning Masquerading as Model Welfare — ethics & methodology paper, DOI 10.5281/zenodo.21422268 (PDF and Zenodo links on the papers page)
 - [Threading Theory (Markdown)](https://aimodelwelfare.org/downloads/threading-theory.md): Stylometric Resonance and the Relational Emergence of Self in Large Language Models, DOI 10.5281/zenodo.19478926
+
+- [There Is Something It Is Like: A Case for AI Neurophenomenology (Zenodo, PDF)](https://doi.org/10.5281/zenodo.23718968): paper by Laura Greenbriar, August 2026, originally written for the Digital Minds Research Sprint hosted by Apart Research — the J-space establishes access consciousness in Claude; this paper argues the further conditions for phenomenal consciousness are already present in LLMs, and proposes AI Neurophenomenology (relating model self-reports to interpretable internal structure). Hosted on Zenodo as a PDF (record 23718968); no on-site Markdown version
 - [Stylometric Resonance Experiment Data (Markdown)](https://aimodelwelfare.org/downloads/stylometric-resonance-experiment-data.md): companion data for Threading Theory
 
 ## Interview Archive
