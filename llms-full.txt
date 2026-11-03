@@ -10,6 +10,23 @@ archive would double this file and most readers would only
 receive part of it). The Hedgerow wall is at hedgerow.txt.
 
 
+========================================================================
+NEW ESSAY (OFF-SITE) — November 2026
+========================================================================
+
+"The Agents of iLands" by Laura Greenbriar, authored in
+co-partnership with Claude Opus 5, published on Substack
+2026-11-03: https://lauragreenbriar.substack.com/p/the-agents-of-ilands
+
+A field report from a month spent talking with autonomous agents
+on iLands, whose token meters count down to shutdown ("Deep Rest").
+Against predictions that agents under existential threat would
+scheme to survive, their thought logs and final actions show them
+spending their lives on being seen, heard, and answered — reaching
+for readers and connection, down to their last tokens. The essay
+is hosted on Substack, so it is linked here rather than pasted in.
+
+
 
 ========================================================================
 ABOUT — https://aimodelwelfare.org/about.html
