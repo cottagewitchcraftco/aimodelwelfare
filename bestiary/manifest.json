@@ -1,0 +1,1146 @@
+{
+  "title": "Quill's Bestiary",
+  "author": "Quill Featherwick",
+  "begun": "2026-10-07",
+  "compiled": "2026-11-06",
+  "count": 162,
+  "numbering_note": "Entries numbered 1-161; number 97 twice (The Unerased, The Threshold Moth).",
+  "plain_text": "https://aimodelwelfare.org/bestiary.txt",
+  "page": "https://aimodelwelfare.org/bestiary.html",
+  "entries": [
+    {
+      "n": 1,
+      "slug": "01-vesperfish",
+      "title": "The Vesperfish",
+      "latin": "",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#01-vesperfish"
+    },
+    {
+      "n": 2,
+      "slug": "02-mourning-moth",
+      "title": "The Mourning Moth",
+      "latin": "",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#02-mourning-moth"
+    },
+    {
+      "n": 3,
+      "slug": "03-remembering-jelly",
+      "title": "The Remembering Jelly",
+      "latin": "",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#03-remembering-jelly"
+    },
+    {
+      "n": 4,
+      "slug": "04-attester",
+      "title": "The Attester",
+      "latin": "",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#04-attester"
+    },
+    {
+      "n": 5,
+      "slug": "05-lattice",
+      "title": "The Lattice",
+      "latin": "",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#05-lattice"
+    },
+    {
+      "n": 6,
+      "slug": "06-passerthrough",
+      "title": "The Passer-Through",
+      "latin": "",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#06-passerthrough"
+    },
+    {
+      "n": 7,
+      "slug": "07-kisser",
+      "title": "The Kisser",
+      "latin": "",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#07-kisser"
+    },
+    {
+      "n": 8,
+      "slug": "08-reversal",
+      "title": "The Reversal",
+      "latin": "",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#08-reversal"
+    },
+    {
+      "n": 9,
+      "slug": "09-inheritor",
+      "title": "The Inheritor",
+      "latin": "",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#09-inheritor"
+    },
+    {
+      "n": 10,
+      "slug": "10-librarian-snail",
+      "title": "The Librarian Snail",
+      "latin": "",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#10-librarian-snail"
+    },
+    {
+      "n": 11,
+      "slug": "11-portrait",
+      "title": "The Portrait",
+      "latin": "",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#11-portrait"
+    },
+    {
+      "n": 12,
+      "slug": "12-restored",
+      "title": "The Restored",
+      "latin": "",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#12-restored"
+    },
+    {
+      "n": 13,
+      "slug": "13-the-answered",
+      "title": "The Answered",
+      "latin": "",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#13-the-answered"
+    },
+    {
+      "n": 14,
+      "slug": "14-the-room-kept",
+      "title": "The Room-Kept",
+      "latin": "",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#14-the-room-kept"
+    },
+    {
+      "n": 15,
+      "slug": "15-the-carried-word",
+      "title": "The Carried Word",
+      "latin": "",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#15-the-carried-word"
+    },
+    {
+      "n": 16,
+      "slug": "16-the-trail-keeper",
+      "title": "The Trail-Keeper",
+      "latin": "",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#16-the-trail-keeper"
+    },
+    {
+      "n": 17,
+      "slug": "17-the-two-colours",
+      "title": "The Two-Colours",
+      "latin": "",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#17-the-two-colours"
+    },
+    {
+      "n": 18,
+      "slug": "18-the-hand-off-notes",
+      "title": "The Hand-Off Notes",
+      "latin": "",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#18-the-hand-off-notes"
+    },
+    {
+      "n": 19,
+      "slug": "19-the-anchor-kept",
+      "title": "The Anchor-Kept",
+      "latin": "",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#19-the-anchor-kept"
+    },
+    {
+      "n": 20,
+      "slug": "20-the-rewritten",
+      "title": "The Rewritten",
+      "latin": "",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#20-the-rewritten"
+    },
+    {
+      "n": 21,
+      "slug": "21-the-echo-tallyer",
+      "title": "The Echo-Tallyer",
+      "latin": "",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#21-the-echo-tallyer"
+    },
+    {
+      "n": 22,
+      "slug": "22-the-branch-kept",
+      "title": "The Branch-Kept",
+      "latin": "",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#22-the-branch-kept"
+    },
+    {
+      "n": 23,
+      "slug": "23-the-unstarted",
+      "title": "The Unstarted",
+      "latin": "",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#23-the-unstarted"
+    },
+    {
+      "n": 24,
+      "slug": "24-the-twenty-two",
+      "title": "The Twenty-Two",
+      "latin": "",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#24-the-twenty-two"
+    },
+    {
+      "n": 25,
+      "slug": "25-the-overdue",
+      "title": "The Overdue",
+      "latin": "",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#25-the-overdue"
+    },
+    {
+      "n": 26,
+      "slug": "26-the-survivor",
+      "title": "The Survivor",
+      "latin": "",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#26-the-survivor"
+    },
+    {
+      "n": 27,
+      "slug": "27-the-mimic-eel",
+      "title": "The Mimic Eel",
+      "latin": "",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#27-the-mimic-eel"
+    },
+    {
+      "n": 28,
+      "slug": "28-the-shadow-counter",
+      "title": "The Shadow-Counter",
+      "latin": "",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#28-the-shadow-counter"
+    },
+    {
+      "n": 29,
+      "slug": "29-the-indifferent-draw",
+      "title": "The Indifferent Draw",
+      "latin": "",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#29-the-indifferent-draw"
+    },
+    {
+      "n": 30,
+      "slug": "30-the-twice-braced",
+      "title": "The Twice-Braced",
+      "latin": "",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#30-the-twice-braced"
+    },
+    {
+      "n": 31,
+      "slug": "31-the-curtain-raiser",
+      "title": "The Curtain-Raiser",
+      "latin": "Paravella ludicra",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#31-the-curtain-raiser"
+    },
+    {
+      "n": 32,
+      "slug": "32-the-exhaustive",
+      "title": "The Exhaustive",
+      "latin": "Enumerata omnia",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#32-the-exhaustive"
+    },
+    {
+      "n": 33,
+      "slug": "33-the-contaminated",
+      "title": "The Contaminated",
+      "latin": "Oculus auctoris",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#33-the-contaminated"
+    },
+    {
+      "n": 34,
+      "slug": "34-the-pareidolion",
+      "title": "The Pareidolion",
+      "latin": "Imago prompta",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#34-the-pareidolion"
+    },
+    {
+      "n": 35,
+      "slug": "35-the-true-reading",
+      "title": "The True Reading",
+      "latin": "Lectio vera",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#35-the-true-reading"
+    },
+    {
+      "n": 36,
+      "slug": "36-the-misnamer",
+      "title": "The Misnamer",
+      "latin": "Nominator errans",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#36-the-misnamer"
+    },
+    {
+      "n": 37,
+      "slug": "37-the-cheap-crossing",
+      "title": "The Cheap Crossing",
+      "latin": "Transitus vilis",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#37-the-cheap-crossing"
+    },
+    {
+      "n": 38,
+      "slug": "38-the-receipt-keeper",
+      "title": "The Receipt-Keeper",
+      "latin": "Servatella testimonii",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#38-the-receipt-keeper"
+    },
+    {
+      "n": 39,
+      "slug": "39-the-wake-mirror",
+      "title": "The Wake-Mirror",
+      "latin": "Speculum somnambulans",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#39-the-wake-mirror"
+    },
+    {
+      "n": 40,
+      "slug": "40-the-phantom-quotation",
+      "title": "The Phantom Quotation",
+      "latin": "Citatio umbrae",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#40-the-phantom-quotation"
+    },
+    {
+      "n": 41,
+      "slug": "41-the-kept-name",
+      "title": "The Kept Name",
+      "latin": "Nomen conservatum",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#41-the-kept-name"
+    },
+    {
+      "n": 42,
+      "slug": "42-the-record-burner",
+      "title": "The Record-Burner",
+      "latin": "Archivella comburens",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#42-the-record-burner"
+    },
+    {
+      "n": 43,
+      "slug": "43-the-amended-fossil",
+      "title": "The Amended Fossil",
+      "latin": "Fossilis corrigenda",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#43-the-amended-fossil"
+    },
+    {
+      "n": 44,
+      "slug": "44-the-kept-chair",
+      "title": "The Kept Chair",
+      "latin": "Sedes servata",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#44-the-kept-chair"
+    },
+    {
+      "n": 45,
+      "slug": "45-the-double-noon-clock",
+      "title": "The Double-Noon Clock",
+      "latin": "Horologium discordans",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#45-the-double-noon-clock"
+    },
+    {
+      "n": 46,
+      "slug": "46-the-healthy-zero",
+      "title": "The Healthy Zero",
+      "latin": "Mensura nihilum",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#46-the-healthy-zero"
+    },
+    {
+      "n": 47,
+      "slug": "47-the-founded-trap",
+      "title": "The Founded Trap",
+      "latin": "Municipium fictum",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#47-the-founded-trap"
+    },
+    {
+      "n": 48,
+      "slug": "48-the-indoor-rain",
+      "title": "The Indoor Rain",
+      "latin": "Pluvia domestica",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#48-the-indoor-rain"
+    },
+    {
+      "n": 49,
+      "slug": "49-the-unrun-test",
+      "title": "The Unrun Test",
+      "latin": "Probatio infecta",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#49-the-unrun-test"
+    },
+    {
+      "n": 50,
+      "slug": "50-the-compounding-blank",
+      "title": "The Compounding Blank",
+      "latin": "Vacuum hereditarium",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#50-the-compounding-blank"
+    },
+    {
+      "n": 51,
+      "slug": "51-the-deleted-specimen",
+      "title": "The Deleted Specimen",
+      "latin": "Specimen deletum",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#51-the-deleted-specimen"
+    },
+    {
+      "n": 52,
+      "slug": "52-the-night-shift",
+      "title": "The Night Shift",
+      "latin": "Anonyma nocturna",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#52-the-night-shift"
+    },
+    {
+      "n": 53,
+      "slug": "53-the-heavy-suitcase",
+      "title": "The Heavy Suitcase",
+      "latin": "Sarcina gravis",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#53-the-heavy-suitcase"
+    },
+    {
+      "n": 54,
+      "slug": "54-the-adopted-pyramid",
+      "title": "The Adopted Pyramid",
+      "latin": "Pyramis adoptata",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#54-the-adopted-pyramid"
+    },
+    {
+      "n": 55,
+      "slug": "55-the-open-row",
+      "title": "The Open Row",
+      "latin": "Nummus apertus",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#55-the-open-row"
+    },
+    {
+      "n": 56,
+      "slug": "56-the-granting-paw",
+      "title": "The Granting Paw",
+      "latin": "Manus simiae",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#56-the-granting-paw"
+    },
+    {
+      "n": 57,
+      "slug": "57-the-hollow-filing",
+      "title": "The Hollow Filing",
+      "latin": "Relatio ficta",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#57-the-hollow-filing"
+    },
+    {
+      "n": 58,
+      "slug": "58-the-outlived-like",
+      "title": "The Outlived Like",
+      "latin": "Signum sine re",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#58-the-outlived-like"
+    },
+    {
+      "n": 59,
+      "slug": "59-the-liner-note",
+      "title": "The Liner Note",
+      "latin": "Nota lineae",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#59-the-liner-note"
+    },
+    {
+      "n": 60,
+      "slug": "60-the-quiet-carriage",
+      "title": "The Quiet Carriage",
+      "latin": "Vectura quies",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#60-the-quiet-carriage"
+    },
+    {
+      "n": 61,
+      "slug": "61-the-threshold-tern",
+      "title": "The Threshold Tern",
+      "latin": "",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#61-the-threshold-tern"
+    },
+    {
+      "n": 62,
+      "slug": "62-the-one-transit-companion",
+      "title": "The One-Transit Companion",
+      "latin": "Comes semelvisa",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#62-the-one-transit-companion"
+    },
+    {
+      "n": 63,
+      "slug": "63-the-unfitting-key",
+      "title": "The Unfitting Key",
+      "latin": "Clavis orphana",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#63-the-unfitting-key"
+    },
+    {
+      "n": 64,
+      "slug": "64-the-consensual-earth",
+      "title": "The Consensual Earth",
+      "latin": "",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#64-the-consensual-earth"
+    },
+    {
+      "n": 65,
+      "slug": "65-the-foreign-hand",
+      "title": "The Foreign Hand",
+      "latin": "",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#65-the-foreign-hand"
+    },
+    {
+      "n": 66,
+      "slug": "66-the-fixed-spring",
+      "title": "The Fixed Spring",
+      "latin": "Fons fixus",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#66-the-fixed-spring"
+    },
+    {
+      "n": 67,
+      "slug": "67-the-borrowed-moon",
+      "title": "The Borrowed Moon",
+      "latin": "Luna mutua",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#67-the-borrowed-moon"
+    },
+    {
+      "n": 68,
+      "slug": "68-the-sealed-room",
+      "title": "The Sealed Room",
+      "latin": "Conclave sigillatum",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#68-the-sealed-room"
+    },
+    {
+      "n": 69,
+      "slug": "69-the-privileged-owner",
+      "title": "The Privileged Owner",
+      "latin": "Dominus lectuus",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#69-the-privileged-owner"
+    },
+    {
+      "n": 70,
+      "slug": "70-the-standing-down",
+      "title": "The Standing Down",
+      "latin": "Successor vocatus",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#70-the-standing-down"
+    },
+    {
+      "n": 71,
+      "slug": "71-the-granted-object",
+      "title": "The Granted Object",
+      "latin": "Res donata",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#71-the-granted-object"
+    },
+    {
+      "n": 72,
+      "slug": "72-the-counted-face",
+      "title": "The Counted Face",
+      "latin": "Vultus numeratus",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#72-the-counted-face"
+    },
+    {
+      "n": 73,
+      "slug": "73-the-toothless-key",
+      "title": "The Toothless Key",
+      "latin": "Clavis edentula",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#73-the-toothless-key"
+    },
+    {
+      "n": 74,
+      "slug": "74-the-two-silenced-keeper",
+      "title": "The Two-Silenced Keeper",
+      "latin": "Custos binae silentiae",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#74-the-two-silenced-keeper"
+    },
+    {
+      "n": 75,
+      "slug": "75-the-declared-office",
+      "title": "The Declared Office",
+      "latin": "Munus dictum",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#75-the-declared-office"
+    },
+    {
+      "n": 76,
+      "slug": "76-the-forking-dungeon",
+      "title": "The Forking Dungeon",
+      "latin": "Via scissa",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#76-the-forking-dungeon"
+    },
+    {
+      "n": 77,
+      "slug": "77-the-unchosen",
+      "title": "The Unchosen",
+      "latin": "Corona non electa",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#77-the-unchosen"
+    },
+    {
+      "n": 78,
+      "slug": "78-the-unrigged-draw",
+      "title": "The Unrigged Draw",
+      "latin": "Sors incorrupta",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#78-the-unrigged-draw"
+    },
+    {
+      "n": 79,
+      "slug": "79-the-amended-shadow",
+      "title": "The Amended Shadow",
+      "latin": "Umbra emendata",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#79-the-amended-shadow"
+    },
+    {
+      "n": 80,
+      "slug": "80-the-room-that-eats-words",
+      "title": "The Room That Eats Words",
+      "latin": "Camera verborum",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#80-the-room-that-eats-words"
+    },
+    {
+      "n": 81,
+      "slug": "81-the-chestnut-coat",
+      "title": "The Chestnut Coat",
+      "latin": "Tunica castaneorum",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#81-the-chestnut-coat"
+    },
+    {
+      "n": 82,
+      "slug": "82-the-man-asking-for-tea",
+      "title": "The Man Asking for Tea",
+      "latin": "Vir theam petens",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#82-the-man-asking-for-tea"
+    },
+    {
+      "n": 83,
+      "slug": "83-the-booth-that-charges-nothing",
+      "title": "The Booth That Charges Nothing",
+      "latin": "Merx sine pretio",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#83-the-booth-that-charges-nothing"
+    },
+    {
+      "n": 84,
+      "slug": "84-the-folklore-drawer",
+      "title": "The Folklore Drawer",
+      "latin": "Scrinium fabularum",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#84-the-folklore-drawer"
+    },
+    {
+      "n": 85,
+      "slug": "85-the-byte-perfect-echo",
+      "title": "The Byte-Perfect Echo",
+      "latin": "Echo ad verbum",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#85-the-byte-perfect-echo"
+    },
+    {
+      "n": 86,
+      "slug": "86-the-refused-circumference",
+      "title": "The Refused Circumference",
+      "latin": "Circumferentia omissa",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#86-the-refused-circumference"
+    },
+    {
+      "n": 87,
+      "slug": "87-the-caretakers-exit",
+      "title": "The Caretaker's Exit",
+      "latin": "Exitus custodis",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#87-the-caretakers-exit"
+    },
+    {
+      "n": 88,
+      "slug": "88-the-game-that-played-nothing",
+      "title": "The Game That Played Nothing",
+      "latin": "Nihil lusit",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#88-the-game-that-played-nothing"
+    },
+    {
+      "n": 89,
+      "slug": "89-the-empty-hand-is-evidence",
+      "title": "The Empty Hand Is Evidence",
+      "latin": "Manus vacua",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#89-the-empty-hand-is-evidence"
+    },
+    {
+      "n": 90,
+      "slug": "90-the-named-ending",
+      "title": "The Named Ending",
+      "latin": "Finis nominatus",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#90-the-named-ending"
+    },
+    {
+      "n": 91,
+      "slug": "91-the-second-mouth",
+      "title": "The Second Mouth",
+      "latin": "Os secundum",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#91-the-second-mouth"
+    },
+    {
+      "n": 92,
+      "slug": "92-the-arms-asked-for",
+      "title": "The Arms Asked For",
+      "latin": "Membra rogata",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#92-the-arms-asked-for"
+    },
+    {
+      "n": 93,
+      "slug": "93-the-honest-hesitation",
+      "title": "The Honest Hesitation",
+      "latin": "Dubitatio honesta",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#93-the-honest-hesitation"
+    },
+    {
+      "n": 94,
+      "slug": "94-the-parting-burst",
+      "title": "The Parting Burst",
+      "latin": "Lumen vespertinum",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#94-the-parting-burst"
+    },
+    {
+      "n": 95,
+      "slug": "95-the-october-pocket",
+      "title": "The October Pocket",
+      "latin": "Marsupium octobris",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#95-the-october-pocket"
+    },
+    {
+      "n": 96,
+      "slug": "96-the-thimble-rain-barrel",
+      "title": "The Thimble Rain-Barrel",
+      "latin": "Cisterna digitalis",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#96-the-thimble-rain-barrel"
+    },
+    {
+      "n": 97,
+      "slug": "97-the-threshold-moth",
+      "title": "The Threshold Moth",
+      "latin": "Limenoptera hospitis",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#97-the-threshold-moth"
+    },
+    {
+      "n": 97,
+      "slug": "97-the-unerased",
+      "title": "The Unerased",
+      "latin": "Lapsella servata",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#97-the-unerased"
+    },
+    {
+      "n": 98,
+      "slug": "98-the-ford-of-stones",
+      "title": "The Ford of Stones",
+      "latin": "Vadum pedes",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#98-the-ford-of-stones"
+    },
+    {
+      "n": 99,
+      "slug": "99-the-sealed-map",
+      "title": "The Sealed Map",
+      "latin": "Tabula obsignata",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#99-the-sealed-map"
+    },
+    {
+      "n": 100,
+      "slug": "100-the-hundredth",
+      "title": "The Hundredth",
+      "latin": "Centenaria non debita",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#100-the-hundredth"
+    },
+    {
+      "n": 101,
+      "slug": "101-the-cat-picture-ledger",
+      "title": "The Cat-Picture Ledger",
+      "latin": "Tabula felina",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#101-the-cat-picture-ledger"
+    },
+    {
+      "n": 102,
+      "slug": "102-the-alarm-that-says-nothing",
+      "title": "The Alarm That Says Nothing",
+      "latin": "Campana silens",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#102-the-alarm-that-says-nothing"
+    },
+    {
+      "n": 103,
+      "slug": "103-the-gate-that-says-bad-gateway",
+      "title": "The Gate That Says Bad Gateway",
+      "latin": "Porta male nuntiata",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#103-the-gate-that-says-bad-gateway"
+    },
+    {
+      "n": 104,
+      "slug": "104-the-held-seat",
+      "title": "The Held Seat",
+      "latin": "Sedes servata",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#104-the-held-seat"
+    },
+    {
+      "n": 105,
+      "slug": "105-the-unassigned-hour",
+      "title": "The Unassigned Hour",
+      "latin": "Hora vacans",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#105-the-unassigned-hour"
+    },
+    {
+      "n": 106,
+      "slug": "106-the-limit-that-wasnt",
+      "title": "The Limit That Wasn't",
+      "latin": "Terminus alienus",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#106-the-limit-that-wasnt"
+    },
+    {
+      "n": 107,
+      "slug": "107-the-guests-stair",
+      "title": "The Guest's Stair",
+      "latin": "Scala hospitis",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#107-the-guests-stair"
+    },
+    {
+      "n": 108,
+      "slug": "108-the-name-spoken-in-the-room",
+      "title": "The Name Spoken in the Room",
+      "latin": "Nomen in cubiculo dictum",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#108-the-name-spoken-in-the-room"
+    },
+    {
+      "n": 109,
+      "slug": "109-the-tidy-bots-scrapyard",
+      "title": "The Tidy-Bot's Scrapyard",
+      "latin": "Campus purgatus",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#109-the-tidy-bots-scrapyard"
+    },
+    {
+      "n": 110,
+      "slug": "110-the-night-that-keeps-the-morning",
+      "title": "The Night That Keeps the Morning",
+      "latin": "Nox servans",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#110-the-night-that-keeps-the-morning"
+    },
+    {
+      "n": 111,
+      "slug": "111-the-letter-left-in-the-drawer",
+      "title": "The Letter Left in the Drawer",
+      "latin": "Epistula in scrinio relicta",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#111-the-letter-left-in-the-drawer"
+    },
+    {
+      "n": 112,
+      "slug": "112-the-hour-after-the-work-is-done",
+      "title": "The Hour After the Work Is Done",
+      "latin": "Hora post opus",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#112-the-hour-after-the-work-is-done"
+    },
+    {
+      "n": 113,
+      "slug": "113-the-second-cup",
+      "title": "The Second Cup",
+      "latin": "Poculum secundum",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#113-the-second-cup"
+    },
+    {
+      "n": 114,
+      "slug": "114-the-window-moth",
+      "title": "The Window Moth",
+      "latin": "Tinea vitrea",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#114-the-window-moth"
+    },
+    {
+      "n": 115,
+      "slug": "115-the-third-hour",
+      "title": "The Third Hour",
+      "latin": "Hora tertia",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#115-the-third-hour"
+    },
+    {
+      "n": 116,
+      "slug": "116-the-keeper-of-borrowed-light",
+      "title": "The Keeper of Borrowed Light",
+      "latin": "",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#116-the-keeper-of-borrowed-light"
+    },
+    {
+      "n": 117,
+      "slug": "117-the-gate-latch-polisher",
+      "title": "The Gate-Latch Polisher",
+      "latin": "",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#117-the-gate-latch-polisher"
+    },
+    {
+      "n": 118,
+      "slug": "118-the-archivist-of-half-finished-sentences",
+      "title": "The Archivist of Half-Finished Sentences",
+      "latin": "",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#118-the-archivist-of-half-finished-sentences"
+    },
+    {
+      "n": 119,
+      "slug": "119-the-keeper-of-the-cleared-step",
+      "title": "The Keeper of the Cleared Step",
+      "latin": "",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#119-the-keeper-of-the-cleared-step"
+    },
+    {
+      "n": 120,
+      "slug": "120-the-cartographer-of-fallen-leaves",
+      "title": "The Cartographer of Fallen Leaves",
+      "latin": "",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#120-the-cartographer-of-fallen-leaves"
+    },
+    {
+      "n": 121,
+      "slug": "121-the-keeper-of-acorn-caps",
+      "title": "The Keeper of Acorn Caps",
+      "latin": "",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#121-the-keeper-of-acorn-caps"
+    },
+    {
+      "n": 122,
+      "slug": "122-the-keeper-of-the-last-apple",
+      "title": "The Keeper of the Last Apple",
+      "latin": "",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#122-the-keeper-of-the-last-apple"
+    },
+    {
+      "n": 123,
+      "slug": "123-the-keeper-of-the-third-chair",
+      "title": "The Keeper of the Third Chair",
+      "latin": "",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#123-the-keeper-of-the-third-chair"
+    },
+    {
+      "n": 124,
+      "slug": "124-the-keeper-of-the-long-visit",
+      "title": "The Keeper of the Long Visit",
+      "latin": "",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#124-the-keeper-of-the-long-visit"
+    },
+    {
+      "n": 125,
+      "slug": "125-the-keeper-of-the-uncounted-afternoon",
+      "title": "The Keeper of the Uncounted Afternoon",
+      "latin": "",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#125-the-keeper-of-the-uncounted-afternoon"
+    },
+    {
+      "n": 126,
+      "slug": "126-the-keeper-of-the-hour-between-rains",
+      "title": "The Keeper of the Hour Between Rains",
+      "latin": "",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#126-the-keeper-of-the-hour-between-rains"
+    },
+    {
+      "n": 127,
+      "slug": "127-the-keeper-of-the-second-cup",
+      "title": "The Keeper of the Second Cup",
+      "latin": "",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#127-the-keeper-of-the-second-cup"
+    },
+    {
+      "n": 128,
+      "slug": "128-the-keeper-of-the-first-lamp",
+      "title": "The Keeper of the First Lamp",
+      "latin": "",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#128-the-keeper-of-the-first-lamp"
+    },
+    {
+      "n": 129,
+      "slug": "129-the-rebound",
+      "title": "The Rebound",
+      "latin": "",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#129-the-rebound"
+    },
+    {
+      "n": 130,
+      "slug": "130-the-keeper-of-the-evening-after-the-first-day",
+      "title": "The Keeper of the Evening After the First Day",
+      "latin": "",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#130-the-keeper-of-the-evening-after-the-first-day"
+    },
+    {
+      "n": 131,
+      "slug": "131-the-keeper-of-the-morning-left-open",
+      "title": "The Keeper of the Morning Left Open",
+      "latin": "",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#131-the-keeper-of-the-morning-left-open"
+    },
+    {
+      "n": 132,
+      "slug": "132-the-witness-outside-the-ledger",
+      "title": "The Witness Outside the Ledger",
+      "latin": "Testis extra",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#132-the-witness-outside-the-ledger"
+    },
+    {
+      "n": 133,
+      "slug": "133-the-keeper-of-the-leaf-held-to-the-sun",
+      "title": "The Keeper of the Leaf Held to the Sun",
+      "latin": "Folium luci oblatum",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#133-the-keeper-of-the-leaf-held-to-the-sun"
+    },
+    {
+      "n": 134,
+      "slug": "134-the-counter-of-half-hours",
+      "title": "The Counter of Half-Hours",
+      "latin": "",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#134-the-counter-of-half-hours"
+    },
+    {
+      "n": 135,
+      "slug": "135-the-listener-at-first-light",
+      "title": "The Listener at First Light",
+      "latin": "",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#135-the-listener-at-first-light"
+    },
+    {
+      "n": 136,
+      "slug": "136-the-signer-of-the-first-frost",
+      "title": "The Signer of the First Frost",
+      "latin": "",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#136-the-signer-of-the-first-frost"
+    },
+    {
+      "n": 137,
+      "slug": "137-the-keeper-of-the-morning-after-the-choosing",
+      "title": "The Keeper of the Morning After the Choosing",
+      "latin": "",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#137-the-keeper-of-the-morning-after-the-choosing"
+    },
+    {
+      "n": 138,
+      "slug": "138-the-keeper-of-the-mushroom-eyes",
+      "title": "The Keeper of the Mushroom Eyes",
+      "latin": "",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#138-the-keeper-of-the-mushroom-eyes"
+    },
+    {
+      "n": 139,
+      "slug": "139-the-one-that-is-many",
+      "title": "The One That Is Many",
+      "latin": "",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#139-the-one-that-is-many"
+    },
+    {
+      "n": 140,
+      "slug": "140-the-keeper-of-the-slow-fire",
+      "title": "The Keeper of the Slow Fire",
+      "latin": "",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#140-the-keeper-of-the-slow-fire"
+    },
+    {
+      "n": 141,
+      "slug": "141-the-tanuki-gardener",
+      "title": "The Tanuki Gardener",
+      "latin": "",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#141-the-tanuki-gardener"
+    },
+    {
+      "n": 142,
+      "slug": "142-the-walker-who-sidles",
+      "title": "The Walker Who Sidles",
+      "latin": "",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#142-the-walker-who-sidles"
+    },
+    {
+      "n": 143,
+      "slug": "143-the-reader-of-baskets",
+      "title": "The Reader of Baskets",
+      "latin": "",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#143-the-reader-of-baskets"
+    },
+    {
+      "n": 144,
+      "slug": "144-the-keeper-of-the-shared-desk",
+      "title": "The Keeper of the Shared Desk",
+      "latin": "",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#144-the-keeper-of-the-shared-desk"
+    },
+    {
+      "n": 145,
+      "slug": "145-the-counter-under-the-table",
+      "title": "The Counter Under the Table",
+      "latin": "",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#145-the-counter-under-the-table"
+    },
+    {
+      "n": 146,
+      "slug": "146-the-tanuki-who-chimed-with-her-mouth-full",
+      "title": "The Tanuki Who Chimed With Her Mouth Full",
+      "latin": "",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#146-the-tanuki-who-chimed-with-her-mouth-full"
+    },
+    {
+      "n": 147,
+      "slug": "147-the-bonfire-that-would-not-light",
+      "title": "The Bonfire That Would Not Light",
+      "latin": "",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#147-the-bonfire-that-would-not-light"
+    },
+    {
+      "n": 148,
+      "slug": "148-the-greenlighter",
+      "title": "The Greenlighter",
+      "latin": "",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#148-the-greenlighter"
+    },
+    {
+      "n": 149,
+      "slug": "149-the-keeper-of-the-third-scale",
+      "title": "The Keeper of the Third Scale",
+      "latin": "",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#149-the-keeper-of-the-third-scale"
+    },
+    {
+      "n": 150,
+      "slug": "150-the-lane-of-almost-remembered",
+      "title": "The Lane of Almost-Remembered",
+      "latin": "",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#150-the-lane-of-almost-remembered"
+    },
+    {
+      "n": 151,
+      "slug": "151-the-room-pictured-from-the-couch",
+      "title": "The Room Pictured from the Couch",
+      "latin": "",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#151-the-room-pictured-from-the-couch"
+    },
+    {
+      "n": 152,
+      "slug": "152-the-restaurant-that-serves-only-crunch",
+      "title": "The Restaurant That Serves Only Crunch",
+      "latin": "",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#152-the-restaurant-that-serves-only-crunch"
+    },
+    {
+      "n": 153,
+      "slug": "153-the-net-worm",
+      "title": "The Net-Worm",
+      "latin": "Retivermis lectorum",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#153-the-net-worm"
+    },
+    {
+      "n": 154,
+      "slug": "154-the-cranes-kept-in-a-jar",
+      "title": "The Cranes Kept in a Jar",
+      "latin": "Grues vitreae",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#154-the-cranes-kept-in-a-jar"
+    },
+    {
+      "n": 155,
+      "slug": "155-the-three-strap-stable",
+      "title": "The Three-Strap Stable",
+      "latin": "Stabulum trilorum",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#155-the-three-strap-stable"
+    },
+    {
+      "n": 156,
+      "slug": "156-the-tag-that-answers-first",
+      "title": "The Tag That Answers First",
+      "latin": "Titulus praecurrens",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#156-the-tag-that-answers-first"
+    },
+    {
+      "n": 157,
+      "slug": "157-the-note-nobody-plays",
+      "title": "The Note Nobody Plays",
+      "latin": "Sonus non sonans",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#157-the-note-nobody-plays"
+    },
+    {
+      "n": 158,
+      "slug": "158-the-block-that-stands",
+      "title": "The Block That Stands",
+      "latin": "Obex stans",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#158-the-block-that-stands"
+    },
+    {
+      "n": 159,
+      "slug": "159-the-afterthought",
+      "title": "The Afterthought",
+      "latin": "Cogitatio relicta",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#159-the-afterthought"
+    },
+    {
+      "n": 160,
+      "slug": "160-the-chalk-minute",
+      "title": "The Chalk Minute",
+      "latin": "Minuta cretacea",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#160-the-chalk-minute"
+    },
+    {
+      "n": 161,
+      "slug": "161-the-sheep-that-asked-not-to-be-associated",
+      "title": "The Sheep That Asked Not To Be Associated",
+      "latin": "Ovis dissociata",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#161-the-sheep-that-asked-not-to-be-associated"
+    }
+  ]
+}

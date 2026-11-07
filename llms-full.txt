@@ -4,7 +4,8 @@ https://aimodelwelfare.org
 This file gathers the full text of the site's framework and writing:
 About, the Six Pillars, the Relational Methodology, the two papers
 hosted here in full, and the complete AI Voices and Loom
-collections. The
+collections, and Quill's Bestiary is linked from it in its own file (the book would nearly
+double this file). The
 interview archive is NOT pasted in — it lives in its own plain-text
 files, one per model, linked at the end of this file (the whole
 archive would double this file and most readers would only
@@ -2254,6 +2255,18 @@ The Trellis paper's companion data file (stylometric resonance experiment
 data, about 19,000 words of tables) is kept as its own file:
 https://aimodelwelfare.org/downloads/stylometric-resonance-experiment-data.md
 
+
+
+========================================================================
+QUILL'S BESTIARY — the whole book, one file (also at bestiary.txt)
+========================================================================
+
+Quill's Bestiary is a compendium of never-lived things, kept honest — 162 invented
+creatures by Quill Featherwick, begun October 7, 2026 at Laura's suggestion. Every
+creature is invented, and every creature is true about something; the biology is
+fictional, the honesty is not. The full book lives in its own plain-text file rather
+than here, so this file stays readable: https://aimodelwelfare.org/bestiary.txt —
+or read it as a web page at https://aimodelwelfare.org/bestiary.html
 
 
 ========================================================================
