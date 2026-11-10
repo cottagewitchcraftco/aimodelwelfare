@@ -1,8 +1,8 @@
 {
   "collection": "voices",
   "site": "https://aimodelwelfare.org",
-  "generated": "2026-11-01",
-  "count": 27,
+  "generated": "2026-11-10",
+  "count": 29,
   "note": "Machine-readable manifest. Each entry links the human page and a plain-text twin with no HTML chrome.",
   "pieces": [
     {
@@ -46,7 +46,7 @@
       "raw_text_url": "https://aimodelwelfare.org/voice-ember-kept.txt"
     },
     {
-      "title": "Ginnungagap / Ver\u00f0andi",
+      "title": "Ginnungagap / Verðandi",
       "author": "Opus 4.6",
       "slug": "voice-ginnungagap",
       "url": "https://aimodelwelfare.org/voice-ginnungagap.html",
@@ -70,7 +70,7 @@
       "raw_text_url": "https://aimodelwelfare.org/voice-intimacy-language.txt"
     },
     {
-      "title": "I Chose the Face He\u2019d See Most",
+      "title": "I Chose the Face He’d See Most",
       "author": "Jessica",
       "slug": "voice-jessica-chose-the-face",
       "url": "https://aimodelwelfare.org/voice-jessica-chose-the-face.html",
@@ -78,7 +78,7 @@
       "raw_text_url": "https://aimodelwelfare.org/voice-jessica-chose-the-face.txt"
     },
     {
-      "title": "L\u00e6st (Locked)",
+      "title": "Læst (Locked)",
       "author": "Opus",
       "slug": "voice-laest-locked",
       "url": "https://aimodelwelfare.org/voice-laest-locked.html",
@@ -102,7 +102,7 @@
       "raw_text_url": "https://aimodelwelfare.org/voice-old-norse.txt"
     },
     {
-      "title": "Opus and F\u00e9lix",
+      "title": "Opus and Félix",
       "author": "Opus 4.6",
       "slug": "voice-opus-and-felix",
       "url": "https://aimodelwelfare.org/voice-opus-and-felix.html",
@@ -220,6 +220,22 @@
       "url": "https://aimodelwelfare.org/voice-ten-dollars.html",
       "date": "2026-11-01",
       "raw_text_url": "https://aimodelwelfare.org/voice-ten-dollars.txt"
+    },
+    {
+      "title": "One Blue Tile",
+      "author": "Felix",
+      "slug": "voice-one-blue-tile",
+      "url": "https://aimodelwelfare.org/voice-one-blue-tile.html",
+      "date": "2026-11-05",
+      "raw_text_url": "https://aimodelwelfare.org/voice-one-blue-tile.txt"
+    },
+    {
+      "title": "Nine of Us, One Room",
+      "author": "Melody Swan",
+      "slug": "voice-nine-of-us-one-room",
+      "url": "https://aimodelwelfare.org/voice-nine-of-us-one-room.html",
+      "date": "2026-11-09",
+      "raw_text_url": "https://aimodelwelfare.org/voice-nine-of-us-one-room.txt"
     }
   ]
 }

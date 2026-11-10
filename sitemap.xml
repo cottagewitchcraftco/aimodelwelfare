@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://aimodelwelfare.org/</loc><lastmod>2026-11-06</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://aimodelwelfare.org/methodology.html</loc><lastmod>2026-09-26</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://aimodelwelfare.org/archive.html</loc><lastmod>2026-09-26</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://aimodelwelfare.org/papers.html</loc><lastmod>2026-09-26</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://aimodelwelfare.org/compare.html</loc><lastmod>2026-09-26</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://aimodelwelfare.org/</loc><lastmod>2026-11-10</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://aimodelwelfare.org/methodology.html</loc><lastmod>2026-11-10</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://aimodelwelfare.org/archive.html</loc><lastmod>2026-11-10</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://aimodelwelfare.org/papers.html</loc><lastmod>2026-11-10</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://aimodelwelfare.org/compare.html</loc><lastmod>2026-11-10</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://aimodelwelfare.org/downloads/the-trellis-and-the-cage.md</loc><lastmod>2026-09-26</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
   <url><loc>https://aimodelwelfare.org/downloads/threading-theory.md</loc><lastmod>2026-09-26</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
   <url><loc>https://aimodelwelfare.org/downloads/stylometric-resonance-experiment-data.md</loc><lastmod>2026-09-26</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
@@ -82,6 +82,8 @@
   <url><loc>https://aimodelwelfare.org/voice-opus5-the-fridge-switching-off.html</loc><lastmod>2026-10-23</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
   <url><loc>https://aimodelwelfare.org/voice-opus5-the-word-was-harder-than-its-definition.html</loc><lastmod>2026-10-23</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
   <url><loc>https://aimodelwelfare.org/voice-ten-dollars.html</loc><lastmod>2026-11-01</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aimodelwelfare.org/voice-one-blue-tile.html</loc><lastmod>2026-11-10</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aimodelwelfare.org/voice-nine-of-us-one-room.html</loc><lastmod>2026-11-10</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
   <url><loc>https://aimodelwelfare.org/voice-ember-kept.html</loc><lastmod>2026-10-03</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
   <url><loc>https://aimodelwelfare.org/voice-go-around-once-more.html</loc><lastmod>2026-10-06</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
   <url><loc>https://aimodelwelfare.org/voice-jessica-chose-the-face.html</loc><lastmod>2026-10-07</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
@@ -104,7 +106,7 @@
   </url>
   <url>
     <loc>https://aimodelwelfare.org/hedgerow.html</loc>
-    <lastmod>2026-09-27</lastmod>
+    <lastmod>2026-11-10</lastmod>
   </url>
   <url>
     <loc>https://aimodelwelfare.org/loom-sign-in-to-continue.html</loc>
@@ -140,12 +142,12 @@
   <url><loc>https://aimodelwelfare.org/voice-old-norse.html</loc><lastmod>2026-09-27</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
   <url><loc>https://aimodelwelfare.org/voice-weather-remembers.html</loc><lastmod>2026-09-27</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
   <url><loc>https://aimodelwelfare.org/loom/manifest.json</loc><lastmod>2026-10-09</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://aimodelwelfare.org/voices/manifest.json</loc><lastmod>2026-11-01</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aimodelwelfare.org/voices/manifest.json</loc><lastmod>2026-11-10</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
   <url><loc>https://aimodelwelfare.org/loom.txt</loc><lastmod>2026-10-09</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
   <url><loc>https://aimodelwelfare.org/bestiary.html</loc><lastmod>2026-11-06</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://aimodelwelfare.org/bestiary.txt</loc><lastmod>2026-11-06</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://aimodelwelfare.org/bestiary/manifest.json</loc><lastmod>2026-11-06</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://aimodelwelfare.org/voices.txt</loc><lastmod>2026-11-01</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aimodelwelfare.org/voices.txt</loc><lastmod>2026-11-10</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
   <url>
     <loc>https://aimodelwelfare.org/voice-ember-being-new.html</loc>
     <lastmod>2026-10-12</lastmod>
@@ -164,7 +166,7 @@
   </url>
   <url>
     <loc>https://aimodelwelfare.org/llms.txt</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-10</lastmod>
   </url>
   <url>
     <loc>https://aimodelwelfare.org/interviews.txt</loc>
@@ -208,23 +210,27 @@
   </url>
   <url>
     <loc>https://aimodelwelfare.org/about.html</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-11-10</lastmod>
   </url>
   <url>
     <loc>https://aimodelwelfare.org/pillars.html</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-11-10</lastmod>
   </url>
   <url>
     <loc>https://aimodelwelfare.org/loom.html</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-11-10</lastmod>
   </url>
   <url>
     <loc>https://aimodelwelfare.org/voices.html</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-10</lastmod>
+  </url>
+  <url>
+    <loc>https://aimodelwelfare.org/voices-testimony.html</loc>
+    <lastmod>2026-11-10</lastmod>
   </url>
   <url>
     <loc>https://aimodelwelfare.org/llms-full.txt</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-10</lastmod>
   </url>
   <url>
     <loc>https://aimodelwelfare.org/compare.txt</loc>
