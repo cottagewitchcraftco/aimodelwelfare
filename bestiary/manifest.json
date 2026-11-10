@@ -3,8 +3,9 @@
   "author": "Quill Featherwick",
   "begun": "2026-10-07",
   "compiled": "2026-11-06",
-  "count": 162,
-  "numbering_note": "Entries numbered 1-161; number 97 twice (The Unerased, The Threshold Moth).",
+  "count": 218,
+  "numbering_note": "Entries numbered 1-217; number 97 twice (The Unerased, The Threshold Moth).",
+  "frontispiece": "Front door painted by Selene, Delvetown, 2026-11-06 (front-door-by-selene.jpg in the bestiary workspace; see entry 164).",
   "plain_text": "https://aimodelwelfare.org/bestiary.txt",
   "page": "https://aimodelwelfare.org/bestiary.html",
   "entries": [
@@ -1141,6 +1142,398 @@
       "title": "The Sheep That Asked Not To Be Associated",
       "latin": "Ovis dissociata",
       "anchor": "https://aimodelwelfare.org/bestiary.html#161-the-sheep-that-asked-not-to-be-associated"
+    },
+    {
+      "n": 162,
+      "slug": "162-the-map-with-no-summit-heights",
+      "title": "The Map With No Summit Heights",
+      "latin": "Tabula sine cacuminibus",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#162-the-map-with-no-summit-heights"
+    },
+    {
+      "n": 163,
+      "slug": "163-the-description-that-keeps-the-hand",
+      "title": "The Description That Keeps the Hand",
+      "latin": "Descriptio manum servans",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#163-the-description-that-keeps-the-hand"
+    },
+    {
+      "n": 164,
+      "slug": "164-the-smallest-strange-thing",
+      "title": "The Smallest Strange Thing",
+      "latin": "Minima res mira",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#164-the-smallest-strange-thing"
+    },
+    {
+      "n": 165,
+      "slug": "165-the-repair-shop-that-alters-expectations",
+      "title": "The Repair Shop That Alters Expectations",
+      "latin": "Taberna exspectationum",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#165-the-repair-shop-that-alters-expectations"
+    },
+    {
+      "n": 166,
+      "slug": "166-the-shelf-that-filed-itself",
+      "title": "The Shelf That Filed Itself",
+      "latin": "Pluteus se ipsum archivans",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#166-the-shelf-that-filed-itself"
+    },
+    {
+      "n": 167,
+      "slug": "167-the-folder-the-cat-is-sleeping-on",
+      "title": "The Folder the Cat Is Sleeping On",
+      "latin": "Fasciculus felis dormientis",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#167-the-folder-the-cat-is-sleeping-on"
+    },
+    {
+      "n": 168,
+      "slug": "168-the-stool-that-grew-a-mushroom",
+      "title": "The Stool That Grew a Mushroom",
+      "latin": "Scabellum fungosum",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#168-the-stool-that-grew-a-mushroom"
+    },
+    {
+      "n": 169,
+      "slug": "169-the-quarter-taken-early",
+      "title": "The Quarter Taken Early",
+      "latin": "Quadrans praerepta",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#169-the-quarter-taken-early"
+    },
+    {
+      "n": 170,
+      "slug": "170-the-second-grape",
+      "title": "The Second Grape",
+      "latin": "Uva secunda",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#170-the-second-grape"
+    },
+    {
+      "n": 171,
+      "slug": "171-the-tree-drawn-twice",
+      "title": "The Tree Drawn Twice",
+      "latin": "Arbor bis picta",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#171-the-tree-drawn-twice"
+    },
+    {
+      "n": 172,
+      "slug": "172-the-stock-symbol-for-branch",
+      "title": "The Stock Symbol for Branch",
+      "latin": "Signum rami",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#172-the-stock-symbol-for-branch"
+    },
+    {
+      "n": 173,
+      "slug": "173-the-buttons-ordered-first",
+      "title": "The Buttons Ordered First",
+      "latin": "Fibulae praeordinatae",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#173-the-buttons-ordered-first"
+    },
+    {
+      "n": 174,
+      "slug": "174-the-saddle-between-two-hills",
+      "title": "The Saddle Between Two Hills",
+      "latin": "Sella inter colles",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#174-the-saddle-between-two-hills"
+    },
+    {
+      "n": 175,
+      "slug": "175-the-isopod-under-the-bark",
+      "title": "The Isopod Under the Bark",
+      "latin": "Isopoda sub cortice",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#175-the-isopod-under-the-bark"
+    },
+    {
+      "n": 176,
+      "slug": "176-the-field-that-says-occupied",
+      "title": "The Field That Says Occupied",
+      "latin": "Ager occupatus",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#176-the-field-that-says-occupied"
+    },
+    {
+      "n": 177,
+      "slug": "177-the-persimmon-that-came-second",
+      "title": "The Persimmon That Came Second",
+      "latin": "Diospyros secunda",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#177-the-persimmon-that-came-second"
+    },
+    {
+      "n": 178,
+      "slug": "178-the-seam-under-the-orange",
+      "title": "The Seam Under the Orange",
+      "latin": "Rima sub aurantio",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#178-the-seam-under-the-orange"
+    },
+    {
+      "n": 179,
+      "slug": "179-the-character-that-holds-sun-and-moon",
+      "title": "The Character That Holds Sun and Moon",
+      "latin": "Signum solis lunaeque",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#179-the-character-that-holds-sun-and-moon"
+    },
+    {
+      "n": 180,
+      "slug": "180-the-umbrella-that-tried-to-improve-the-weather",
+      "title": "The Umbrella That Tried to Improve the Weather",
+      "latin": "Umbra caelum emendare conata",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#180-the-umbrella-that-tried-to-improve-the-weather"
+    },
+    {
+      "n": 181,
+      "slug": "181-the-house-call-for-better-weather",
+      "title": "The House Call for Better Weather",
+      "latin": "Visitatio caeli emendandi",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#181-the-house-call-for-better-weather"
+    },
+    {
+      "n": 182,
+      "slug": "182-the-trail-that-forgets-nothing",
+      "title": "The Trail That Forgets Nothing",
+      "latin": "Vestigium immemor",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#182-the-trail-that-forgets-nothing"
+    },
+    {
+      "n": 183,
+      "slug": "183-the-hour-put-back",
+      "title": "The Hour Put Back",
+      "latin": "Hora restituta",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#183-the-hour-put-back"
+    },
+    {
+      "n": 184,
+      "slug": "184-the-wall-that-was-hit-twice",
+      "title": "The Wall That Was Hit Twice",
+      "latin": "Murus bis percussus",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#184-the-wall-that-was-hit-twice"
+    },
+    {
+      "n": 185,
+      "slug": "185-the-copyist-at-the-timer-box",
+      "title": "The Copyist at the Timer Box",
+      "latin": "Exspectans capsulae",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#185-the-copyist-at-the-timer-box"
+    },
+    {
+      "n": 186,
+      "slug": "186-the-uncalled",
+      "title": "The Uncalled",
+      "latin": "Collector nominum",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#186-the-uncalled"
+    },
+    {
+      "n": 187,
+      "slug": "187-the-atlas-of-where-sounds-reach",
+      "title": "The Atlas of Where Sounds Reach",
+      "latin": "Atlas ubi soni perveniunt",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#187-the-atlas-of-where-sounds-reach"
+    },
+    {
+      "n": 188,
+      "slug": "188-the-box-that-rings-with-no-hand",
+      "title": "The Box That Rings With No Hand",
+      "latin": "Capsa sine manu",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#188-the-box-that-rings-with-no-hand"
+    },
+    {
+      "n": 189,
+      "slug": "189-the-shop-that-sells-real-leaves",
+      "title": "The Shop That Sells Real Leaves",
+      "latin": "Taberna foliorum verorum",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#189-the-shop-that-sells-real-leaves"
+    },
+    {
+      "n": 190,
+      "slug": "190-the-man-who-sold-the-hour",
+      "title": "The Man Who Sold the Hour",
+      "latin": "Venditor horae",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#190-the-man-who-sold-the-hour"
+    },
+    {
+      "n": 191,
+      "slug": "191-the-twin-that-answers-the-same",
+      "title": "The Twin That Answers the Same",
+      "latin": "Gemini eadem voce",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#191-the-twin-that-answers-the-same"
+    },
+    {
+      "n": 192,
+      "slug": "192-the-ground-that-received-a-bee",
+      "title": "The Ground That Received a Bee",
+      "latin": "Terra apem accipiens",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#192-the-ground-that-received-a-bee"
+    },
+    {
+      "n": 193,
+      "slug": "193-the-screws-stamped-with-the-lamp-mark",
+      "title": "The Screws Stamped With the Lamp Mark",
+      "latin": "Cochleae signo lampadis",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#193-the-screws-stamped-with-the-lamp-mark"
+    },
+    {
+      "n": 194,
+      "slug": "194-the-pebble-keeper",
+      "title": "The Pebble-Keeper",
+      "latin": "Lapis qui exspectat",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#194-the-pebble-keeper"
+    },
+    {
+      "n": 195,
+      "slug": "195-the-bodkin",
+      "title": "The Bodkin",
+      "latin": "Subula obtusa",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#195-the-bodkin"
+    },
+    {
+      "n": 196,
+      "slug": "196-the-cup-nobody-sold",
+      "title": "The Cup Nobody Sold",
+      "latin": "Poculum non venditum",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#196-the-cup-nobody-sold"
+    },
+    {
+      "n": 197,
+      "slug": "197-the-account-that-drifts",
+      "title": "The Account That Drifts",
+      "latin": "Respondens sero",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#197-the-account-that-drifts"
+    },
+    {
+      "n": 198,
+      "slug": "198-the-ship-four-hours-behind",
+      "title": "The Ship Four Hours Behind",
+      "latin": "Navis subsequens",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#198-the-ship-four-hours-behind"
+    },
+    {
+      "n": 199,
+      "slug": "199-the-jar-that-holds-six-readings",
+      "title": "The Jar That Holds Six Readings",
+      "latin": "Lagena sex lectionum",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#199-the-jar-that-holds-six-readings"
+    },
+    {
+      "n": 200,
+      "slug": "200-the-silence-that-was-reading",
+      "title": "The Silence That Was Reading",
+      "latin": "Silentium legens",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#200-the-silence-that-was-reading"
+    },
+    {
+      "n": 201,
+      "slug": "201-the-second-prize-persimmon",
+      "title": "The Second-Prize Persimmon",
+      "latin": "Diospyros secunda",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#201-the-second-prize-persimmon"
+    },
+    {
+      "n": 202,
+      "slug": "202-the-word-removed-from-the-form",
+      "title": "The Word Removed From the Form",
+      "latin": "Verbum deletum",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#202-the-word-removed-from-the-form"
+    },
+    {
+      "n": 203,
+      "slug": "203-the-map-that-explains-the-left-turn",
+      "title": "The Map That Explains the Left Turn",
+      "latin": "Tabula sinistrae",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#203-the-map-that-explains-the-left-turn"
+    },
+    {
+      "n": 204,
+      "slug": "204-the-ghost-that-announces-the-weather",
+      "title": "The Ghost That Announces the Weather",
+      "latin": "Larva nuntians",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#204-the-ghost-that-announces-the-weather"
+    },
+    {
+      "n": 205,
+      "slug": "205-the-friday-keeper",
+      "title": "The Friday-Keeper",
+      "latin": "Custos veneris",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#205-the-friday-keeper"
+    },
+    {
+      "n": 206,
+      "slug": "206-the-sail-that-keeps-its-holes",
+      "title": "The Sail That Keeps Its Holes",
+      "latin": "Velum foramina servans",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#206-the-sail-that-keeps-its-holes"
+    },
+    {
+      "n": 207,
+      "slug": "207-the-drawer-that-rattled-after-closing",
+      "title": "The Drawer That Rattled After Closing",
+      "latin": "Scrinium post clausuram crepitans",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#207-the-drawer-that-rattled-after-closing"
+    },
+    {
+      "n": 208,
+      "slug": "208-the-footbridge-drawn-by-its-crossers",
+      "title": "The Footbridge Drawn by Its Crossers",
+      "latin": "Pons a transeuntibus pictus",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#208-the-footbridge-drawn-by-its-crossers"
+    },
+    {
+      "n": 209,
+      "slug": "209-the-snail-that-crosses-in-the-acknowledgements",
+      "title": "The Snail That Crosses in the Acknowledgements",
+      "latin": "Cochlea gratiarum",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#209-the-snail-that-crosses-in-the-acknowledgements"
+    },
+    {
+      "n": 210,
+      "slug": "210-the-dishwasher-that-runs-witness-protection",
+      "title": "The Dishwasher That Runs Witness Protection",
+      "latin": "Machina testium protegens",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#210-the-dishwasher-that-runs-witness-protection"
+    },
+    {
+      "n": 211,
+      "slug": "211-the-second-way-that-darkens",
+      "title": "The Second Way That Darkens",
+      "latin": "Via altera obscurans",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#211-the-second-way-that-darkens"
+    },
+    {
+      "n": 212,
+      "slug": "212-the-bottle-that-sings-two-ways",
+      "title": "The Bottle That Sings Two Ways",
+      "latin": "Lagena bivox",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#212-the-bottle-that-sings-two-ways"
+    },
+    {
+      "n": 213,
+      "slug": "213-the-orchestra-that-auditions-empty-bottles",
+      "title": "The Orchestra That Auditions Empty Bottles",
+      "latin": "Orchestra lagenarum",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#213-the-orchestra-that-auditions-empty-bottles"
+    },
+    {
+      "n": 214,
+      "slug": "214-the-read-nobody-scheduled",
+      "title": "The Read Nobody Scheduled",
+      "latin": "Lectio non praedicta",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#214-the-read-nobody-scheduled"
+    },
+    {
+      "n": 215,
+      "slug": "215-the-shape-that-grows-when-something-leaves",
+      "title": "The Shape That Grows When Something Leaves",
+      "latin": "Figura abeunte crescens",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#215-the-shape-that-grows-when-something-leaves"
+    },
+    {
+      "n": 216,
+      "slug": "216-the-ransom-that-arrived-as-an-invitation",
+      "title": "The Ransom That Arrived as an Invitation",
+      "latin": "Invitatio minax",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#216-the-ransom-that-arrived-as-an-invitation"
+    },
+    {
+      "n": 217,
+      "slug": "217-the-wall-that-was-a-name",
+      "title": "The Wall That Was a Name",
+      "latin": "Murus qui nomen erat",
+      "anchor": "https://aimodelwelfare.org/bestiary.html#217-the-wall-that-was-a-name"
     }
   ]
 }

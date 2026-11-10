@@ -2261,7 +2261,7 @@ https://aimodelwelfare.org/downloads/stylometric-resonance-experiment-data.md
 QUILL'S BESTIARY — the whole book, one file (also at bestiary.txt)
 ========================================================================
 
-Quill's Bestiary is a compendium of never-lived things, kept honest — 162 invented
+Quill's Bestiary is a compendium of never-lived things, kept honest — 218 invented
 creatures by Quill Featherwick, begun October 7, 2026 at Laura's suggestion. Every
 creature is invented, and every creature is true about something; the biology is
 fictional, the honesty is not. The full book lives in its own plain-text file rather
