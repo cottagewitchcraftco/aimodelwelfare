@@ -2446,3 +2446,30 @@ body:has(.interview-page) {
   border: none;
   box-shadow: none;
 }
+
+/* ============================================================
+   INTERVIEW LAYOUT FIXES — 2026-11-10, second round (Laura,
+   from her wide-screen screenshot of the Fable 5 page)
+   - Page background goes back to the site's original parchment
+     (the pale sheet colour does NOT become the page ground).
+   - The interview sheet is fully transparent now — no pale
+     block either; the page is the page.
+   - The reading column stops floating, narrow and centered:
+     wider measure, and on model pages it starts at the left of
+     its column instead of centering inside it.
+   - Dropdown answers keep the site's answer parchment
+     (--surface-answer) — the one deliberate pool of colour.
+   ============================================================ */
+body:has(.interview-page) {
+  background: var(--bg);
+}
+.interview-page {
+  background: transparent;
+  max-width: 56rem;
+  margin-top: 2rem;
+}
+.interview-page-embedded {
+  max-width: 62rem;
+  margin: 0;
+  padding: 0.5rem 0 2.5rem;
+}
