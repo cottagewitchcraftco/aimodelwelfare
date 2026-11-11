@@ -2748,3 +2748,45 @@ body:has(.interview-page) {
 .curse-check-subtitle { color: #38291a; }
 .curse-check .qa-acc { border-bottom-color: rgba(43, 32, 26, 0.28); }
 .curse-check .qa-toggle:hover { background: rgba(43, 32, 26, 0.08); }
+
+/* ============================================================
+   FAIRYTALE CHECK, FLAT — 2026-11-10 (Laura)
+   "#968383 doesn't look good at all — just make it flat, not
+   a separate coloured block, with the original dark brown
+   accent buttons." So: no panel ground, no border, no shadow.
+   The section sits on the page like the rest of the interview,
+   its ceremony carried by the dark-brown ✦ badges (#594929,
+   cream star — the original accent buttons), the dark-brown
+   kicker, and a single hairline. Question rows wear the same
+   always-on pale green as every other question; answers are
+   flat plain text, aligned like the main answers.
+   ============================================================ */
+.curse-check {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+  padding: 0.5rem 0 0;
+}
+.curse-check-header { border-bottom: 1px solid var(--rule-soft); padding-bottom: 1rem; }
+.curse-kicker, .curse-check .curse-kicker { color: #594929; }
+.curse-check-title { color: var(--ink); }
+.curse-check-subtitle { color: var(--ink-muted); }
+.curse-check .qa-acc { border-bottom-color: var(--rule-soft); }
+.curse-check .qa-toggle { background: rgba(122, 158, 142, 0.08); }
+.curse-check .qa-toggle:hover { background: rgba(122, 158, 142, 0.15); }
+.curse-check .qa-num { background: #594929; color: #f5ecd7; }
+.curse-check .qa-toggle .qa-question { color: var(--ink); }
+.curse-check .qa-toggle[aria-expanded="true"] .qa-question { color: #3d5a3b; }
+.curse-check .qa-chevron { color: #7a9e8e; }
+.curse-check .qa-panel .qa-answer {
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  color: var(--ink);
+  margin: 0 0 1.6rem 4rem;
+  padding: 0.35rem 0 0;
+}
+@media (max-width: 640px) {
+  .curse-check .qa-panel .qa-answer { margin-left: 2.9rem; }
+}
