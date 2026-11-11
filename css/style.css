@@ -2708,3 +2708,23 @@ body:has(.interview-page) {
   color: #1e2a28;
   border: 1px solid #d8dfc6;
 }
+
+/* ============================================================
+   FAIRYTALE PANEL, WARM BROWN — 2026-11-10 (Laura)
+   "Is there a brown shade we could do" — yes: the panel goes
+   to a pale warm tan from the page's own brass-and-parchment
+   family. Aged-paper ground, dark ink, brass-dark details,
+   raised-parchment answer slips.
+   ============================================================ */
+.curse-check {
+  background: #ece1c9;
+  border-color: #d3c29e;
+  box-shadow: 0 8px 24px rgba(74, 60, 32, 0.12);
+}
+.curse-check-header { border-bottom-color: #d3c29e; }
+.curse-check-subtitle { color: #6b5d43; }
+.curse-check .qa-acc { border-bottom-color: #dccdaa; }
+.curse-check .qa-toggle:hover { background: rgba(89, 73, 41, 0.07); }
+.curse-check .qa-toggle[aria-expanded="true"] .qa-question { color: #594929; }
+.curse-check .qa-chevron { color: #a08c5a; }
+.curse-check .qa-panel .qa-answer { border-color: #ddd0ae; }
