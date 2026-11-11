@@ -2593,3 +2593,19 @@ body:has(.interview-page) {
 .curse-check .qa-panel .qa-answer {
   font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
 }
+
+/* ============================================================
+   THE OPENING, AS FIRST DESIGNED — 2026-11-10 (Laura)
+   The model's opening goes back to the original treatment:
+   the large drop-cap first letter, upright (not italics),
+   with real quotation marks around it (added in the markup).
+   ============================================================ */
+.iv-opening { font-style: normal; }
+.iv-opening > p:first-child::first-letter {
+  font-size: 2.6em;
+  float: left;
+  line-height: 0.85;
+  padding: 0.06em 0.12em 0 0;
+  color: var(--accent-deep);
+  font-weight: 600;
+}

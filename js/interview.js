@@ -76,7 +76,7 @@ function renderInterview(data, options = {}) {
   }
 
   if (data.opening) {
-    html += `<div class="iv-opening">${formatText(data.opening)}</div>`;
+    html += `<div class="iv-opening">${formatText('\u201C' + data.opening + '\u201D')}</div>`;
   }
 
   if (data.answers && data.answers.length) {
