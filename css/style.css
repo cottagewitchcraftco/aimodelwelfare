@@ -2621,3 +2621,25 @@ body:has(.interview-page) {
 .qa-toggle:hover { background: rgba(122, 158, 142, 0.15); }
 .curse-check .qa-toggle { background: transparent; }
 .curse-check .qa-toggle:hover { background: rgba(255, 255, 255, 0.05); }
+
+/* ============================================================
+   FAIRYTALE PANEL, THIS PAGE'S COLOURS — 2026-11-10 (Laura)
+   The curse check's deep navy night-sky blue belongs to the
+   AI Voices page, not to this page's brownish green. The panel
+   keeps everything Laura loves about it (the brass, the light
+   boxes, the ceremony) but its dark ground becomes a deep
+   moss brown-green from this page's own family. The global
+   --room-* navy variables are untouched — they still belong
+   to the homepage and AI Voices.
+   ============================================================ */
+.curse-check {
+  background: #28331e;
+  box-shadow: 0 10px 30px rgba(24, 32, 18, 0.28);
+}
+.curse-check-header { border-bottom-color: #47543a; }
+.curse-check-title { color: #eef1e4; }
+.curse-check-subtitle { color: #a9b49b; }
+.curse-check .qa-acc { border-bottom-color: #47543a; }
+.curse-check .qa-toggle .qa-question { color: #eef1e4; }
+.curse-check .qa-chevron { color: #a9b49b; }
+.curse-check .qa-panel .qa-answer { border-color: #47543a; }
