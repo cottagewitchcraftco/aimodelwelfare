@@ -2430,3 +2430,19 @@ body.page-home .home-footer p + p {
   .qa-panel .qa-answer { margin-left: 0.6rem; }
   .qa-toggle { gap: 0.7rem; padding: 1rem 0.3rem; }
 }
+
+/* ============================================================
+   INTERVIEW OFF THE CARD — 2026-11-10 (Laura)
+   The interview used to sit on a floating specimen sheet
+   (border + shadow + its own pale ground). She likes the pale
+   colour but wants the questions just on the page normally:
+   the colour becomes the ground of the whole page, the card
+   edges go away, and the page scrolls as one surface.
+   ============================================================ */
+body:has(.interview-page) {
+  background: var(--surface-interview);
+}
+.interview-page {
+  border: none;
+  box-shadow: none;
+}
