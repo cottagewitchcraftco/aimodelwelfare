@@ -2728,3 +2728,23 @@ body:has(.interview-page) {
 .curse-check .qa-toggle[aria-expanded="true"] .qa-question { color: #594929; }
 .curse-check .qa-chevron { color: #a08c5a; }
 .curse-check .qa-panel .qa-answer { border-color: #ddd0ae; }
+
+/* ============================================================
+   FAIRYTALE PANEL, HER BROWN — 2026-11-10 (Laura)
+   "Keep what you had and just change the background colour —
+   the gold and dark brown I really liked." Done exactly so:
+   the warm-brown round's arrangement (gold-tint badges,
+   dark-brown details, parchment slips) is untouched; only
+   the panel's ground becomes her #968383, a dusty mid brown.
+   Two legibility companions only: the subtitle and hairlines
+   deepen so they sit well on the stronger ground.
+   ============================================================ */
+.curse-check {
+  background: #968383;
+  border-color: #6f5f5f;
+  box-shadow: 0 8px 24px rgba(52, 40, 36, 0.22);
+}
+.curse-check-header { border-bottom-color: rgba(43, 32, 26, 0.35); }
+.curse-check-subtitle { color: #38291a; }
+.curse-check .qa-acc { border-bottom-color: rgba(43, 32, 26, 0.28); }
+.curse-check .qa-toggle:hover { background: rgba(43, 32, 26, 0.08); }
