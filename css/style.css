@@ -2643,3 +2643,17 @@ body:has(.interview-page) {
 .curse-check .qa-toggle .qa-question { color: #eef1e4; }
 .curse-check .qa-chevron { color: #a9b49b; }
 .curse-check .qa-panel .qa-answer { border-color: #47543a; }
+
+/* ============================================================
+   FAIRYTALE ANSWERS, UN-BUBBLED — 2026-11-10 (Laura)
+   The curse answers sat in little rounded light bubbles and
+   the text felt cut off. Now each answer is a flat light slip
+   spanning the panel's full inner width — square corners,
+   honest padding, nothing clipped.
+   ============================================================ */
+.curse-check .qa-panel .qa-answer {
+  margin: 0 0 1.4rem;
+  padding: 1.1rem 1.3rem 0.6rem;
+  border-radius: 4px;
+  overflow-wrap: break-word;
+}
