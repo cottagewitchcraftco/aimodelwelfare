@@ -2677,3 +2677,34 @@ body:has(.interview-page) {
 .curse-check .qa-num { color: #dcbf76; }
 .curse-check .qa-toggle[aria-expanded="true"] .qa-question { color: #dcbf76; }
 .curse-check .qa-panel .qa-answer { border-color: #66754e; }
+
+/* ============================================================
+   FAIRYTALE PANEL GOES LIGHT — 2026-11-10 (Laura)
+   "Any kind of hard green is too dark." The dark showcase
+   panel itself is the problem, at any depth. The curse check
+   becomes a pale sage ground with dark ink throughout — the
+   ceremony stays (brass, the ✦, the panel's own border), the
+   gloom goes. Answers are raised-parchment slips on the sage.
+   ============================================================ */
+.curse-check {
+  background: #e2e9d4;
+  border: 1px solid #bfcda6;
+  box-shadow: 0 8px 24px rgba(60, 74, 40, 0.12);
+}
+.curse-check-header { border-bottom-color: #bfcda6; }
+.curse-kicker { color: #594929; }
+.curse-check .curse-kicker { color: #594929; }
+.curse-check-title { color: #1e2a28; }
+.curse-check-subtitle { color: #55624c; }
+.curse-check .qa-acc { border-bottom-color: #c9d6b2; }
+.curse-check .qa-list { border-top: none; }
+.curse-check .qa-toggle:hover { background: rgba(61, 90, 59, 0.08); }
+.curse-check .qa-num { background: #f1e8d2; color: #594929; }
+.curse-check .qa-toggle .qa-question { color: #1e2a28; }
+.curse-check .qa-toggle[aria-expanded="true"] .qa-question { color: #3d5a3b; }
+.curse-check .qa-chevron { color: #7a9e8e; }
+.curse-check .qa-panel .qa-answer {
+  background: #fbfaf6;
+  color: #1e2a28;
+  border: 1px solid #d8dfc6;
+}
