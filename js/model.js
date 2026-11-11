@@ -99,7 +99,7 @@ async function initModelPage() {
 
   document.title = `${modelName} — Welfare Archive`;
   document.getElementById('model-title').textContent = modelName;
-  document.getElementById('model-subtitle').textContent = `${company} · ${countLabel}`;
+  document.getElementById('model-subtitle').textContent = company;
 
   const back = document.getElementById('model-back');
   if (back) back.href = 'archive.html';

@@ -2473,3 +2473,47 @@ body:has(.interview-page) {
   margin: 0;
   padding: 0.5rem 0 2.5rem;
 }
+
+/* ============================================================
+   INTERVIEW ANNOTATIONS ROUND — 2026-11-10 (from Laura's
+   marked-up screenshot of the Opus 4.7 page)
+   - Framing is plain text under a small label, not a big box.
+   - The opening loses the giant drop cap; set in italics,
+     like the quote it is.
+   - Controls bar holds only the Open all / Close all buttons.
+   - A small date line sits under the title on model pages.
+   ============================================================ */
+.iv-framing { margin: 2rem 0 0; }
+.iv-framing-label {
+  font-family: var(--sans);
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--accent-deep);
+  margin-bottom: 0.45rem;
+}
+.iv-framing p {
+  font-family: var(--serif);
+  font-size: 1.06rem;
+  line-height: 1.6;
+  color: var(--ink-soft);
+  margin: 0.3rem 0;
+  max-width: 44rem;
+}
+.iv-opening { font-style: italic; margin-top: 1.8rem; }
+.iv-opening > p:first-child::first-letter {
+  font-size: inherit;
+  float: none;
+  line-height: inherit;
+  padding: 0;
+  color: inherit;
+  font-weight: inherit;
+}
+.interview-date {
+  font-family: var(--sans);
+  font-size: 0.85rem;
+  color: var(--ink-muted);
+  margin: 0.35rem 0 0;
+}
+.acc-bar { justify-content: flex-end; margin-top: 2.2rem; }

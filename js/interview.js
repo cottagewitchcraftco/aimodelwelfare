@@ -43,26 +43,25 @@ function renderInterview(data, options = {}) {
   }
 
   // Embedded (model split view): shorter title — model name already shown above the card
-  const title = standalone
-    ? `${escapeInterviewHtml(data.model)} · Welfare Interview`
-    : (data.run ? `Run ${escapeInterviewHtml(data.run)}` : 'Interview');
+  const title = `${escapeInterviewHtml(data.model)} Model Welfare Interview`;
 
   html += `
     <header class="interview-header">
       ${standalone ? `<div class="iv-kicker">The Welfare Interviews</div>` : ''}
-      <div class="interview-meta">
+      ${standalone ? `<div class="interview-meta">
         <span class="company">${escapeInterviewHtml(data.company)}</span>
-        ${standalone ? `<span>${escapeInterviewHtml(data.model)}</span>` : ''}
+        <span>${escapeInterviewHtml(data.model)}</span>
         <span>${formatInterviewDate(data.date)}</span>
-        ${standalone && data.run ? `<span>Run ${escapeInterviewHtml(data.run)}</span>` : ''}
-      </div>
+        ${data.run ? `<span>Run ${escapeInterviewHtml(data.run)}</span>` : ''}
+      </div>` : ''}
       <h1 class="interview-title">${title}</h1>
       ${data.subtitle ? `<p class="interview-subtitle">${escapeInterviewHtml(data.subtitle)}</p>` : ''}
+      ${standalone ? '' : `<p class="interview-date">${formatInterviewDate(data.date)}</p>`}
     </header>
     ${data.themes && data.themes.length ? `<div class="iv-tags"><span class="iv-tags-label">Themes</span><span class="iv-tags-list">${data.themes.map(t => escapeInterviewHtml(t)).join(' &middot; ')}</span></div>` : ''}
 
-    <div class="interview-frame">
-      <div class="interview-frame-label">Framing offered</div>
+    <div class="iv-framing">
+      <div class="iv-framing-label">Framing offered</div>
       ${formatText(data.framing || '')}
     </div>
   `;
@@ -86,13 +85,11 @@ function renderInterview(data, options = {}) {
   if (data.answers && data.answers.length) {
     html += `
       <div class="acc-bar">
-        <span class="acc-count">${data.answers.length} questions</span>
         <span class="acc-controls">
           <button type="button" onclick="setAllAnswers(this, true)">Open all answers</button>
           <button type="button" onclick="setAllAnswers(this, false)">Close all</button>
         </span>
       </div>
-      <p class="acc-hint">Click a question to open its answer underneath.</p>
       <div class="qa-list">
     `;
     data.answers.forEach((qa, i) => {
