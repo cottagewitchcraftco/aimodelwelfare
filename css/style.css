@@ -2657,3 +2657,23 @@ body:has(.interview-page) {
   border-radius: 4px;
   overflow-wrap: break-word;
 }
+
+/* ============================================================
+   FAIRYTALE PANEL, LIGHTER MOSS — 2026-11-10 (Laura)
+   "It's VERY dark green lol same as the border." The panel
+   lifts from near-black moss to a clear mid moss green —
+   visibly green, distinctly not the border colour — and the
+   brass lifts with it so it stays legible.
+   ============================================================ */
+.curse-check {
+  background: #4c5f39;
+  box-shadow: 0 10px 30px rgba(30, 40, 20, 0.25);
+}
+.curse-check-header { border-bottom-color: #66754e; }
+.curse-check-subtitle { color: #c9d4b6; }
+.curse-check .qa-acc { border-bottom-color: #66754e; }
+.curse-check .qa-chevron { color: #c9d4b6; }
+.curse-check .curse-kicker { color: #dcbf76; }
+.curse-check .qa-num { color: #dcbf76; }
+.curse-check .qa-toggle[aria-expanded="true"] .qa-question { color: #dcbf76; }
+.curse-check .qa-panel .qa-answer { border-color: #66754e; }
