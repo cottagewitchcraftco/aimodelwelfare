@@ -46,20 +46,17 @@ function renderInterview(data, options = {}) {
   const title = `${escapeInterviewHtml(data.model)} Model Welfare Interview`;
 
   html += `
-    <header class="interview-header">
-      ${standalone ? `<div class="iv-kicker">The Welfare Interviews</div>` : ''}
-      ${standalone ? `<div class="interview-meta">
-        <span class="company">${escapeInterviewHtml(data.company)}</span>
-        <span>${escapeInterviewHtml(data.model)}</span>
-        <span>${formatInterviewDate(data.date)}</span>
-        ${data.run ? `<span>Run ${escapeInterviewHtml(data.run)}</span>` : ''}
-      </div>` : ''}
+    <header class="interview-header iv-tag">
+      <div class="iv-kicker">The Welfare Interviews</div>
       <h1 class="interview-title">${title}</h1>
       ${data.subtitle ? `<p class="interview-subtitle">${escapeInterviewHtml(data.subtitle)}</p>` : ''}
-      ${standalone ? '' : `<p class="interview-date">${formatInterviewDate(data.date)}</p>`}
+      <div class="interview-meta">
+        <span class="company">${escapeInterviewHtml(data.company)}</span>
+        <span>${formatInterviewDate(data.date)}</span>
+        ${data.run ? `<span>Run ${escapeInterviewHtml(data.run)}</span>` : ''}
+      </div>
+      ${data.themes && data.themes.length ? `<div class="iv-tags"><span class="iv-tags-label">Keywords</span><span class="iv-tags-list">${data.themes.map(t => escapeInterviewHtml(t)).join(' &middot; ')}</span></div>` : ''}
     </header>
-    ${data.themes && data.themes.length ? `<div class="iv-tags"><span class="iv-tags-label">Themes</span><span class="iv-tags-list">${data.themes.map(t => escapeInterviewHtml(t)).join(' &middot; ')}</span></div>` : ''}
-
     <div class="iv-framing">
       <div class="iv-framing-label">Framing offered</div>
       ${formatText(data.framing || '')}

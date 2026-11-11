@@ -2517,3 +2517,39 @@ body:has(.interview-page) {
   margin: 0.35rem 0 0;
 }
 .acc-bar { justify-content: flex-end; margin-top: 2.2rem; }
+
+/* ============================================================
+   THE CATALOGUE TAG — 2026-11-10 (Laura)
+   The interview's header becomes a little catalogue tag:
+   the title bigger, the date and keywords carried on the tag,
+   in the original raised parchment (#fbfaf6 with its border
+   and shadow) — the raised colour lives here, on the tag,
+   while the page itself stays plain.
+   ============================================================ */
+.iv-tag {
+  background: var(--surface-interview);
+  border: 1px solid var(--rule-soft);
+  border-bottom: 1px solid var(--rule-soft);
+  border-radius: 12px;
+  box-shadow: var(--shadow-card);
+  padding: 1.7rem 2rem 1.5rem;
+  margin-bottom: 0;
+}
+.iv-tag .interview-title {
+  font-size: 2.55rem;
+  line-height: 1.12;
+  margin: 0.35rem 0 0.2rem;
+}
+.interview-page-embedded .iv-tag .interview-title { font-size: 2.2rem; }
+.iv-tag .interview-meta {
+  border-top: 1px solid var(--rule-soft);
+  padding-top: 0.95rem;
+  margin-top: 1.05rem;
+  margin-bottom: 0;
+}
+.iv-tag .iv-tags { margin-top: 0.85rem; }
+@media (max-width: 700px) {
+  .iv-tag { padding: 1.3rem 1.25rem 1.15rem; }
+  .iv-tag .interview-title { font-size: 1.9rem; }
+  .interview-page-embedded .iv-tag .interview-title { font-size: 1.9rem; }
+}
