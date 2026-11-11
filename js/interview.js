@@ -49,6 +49,7 @@ function renderInterview(data, options = {}) {
 
   html += `
     <header class="interview-header">
+      ${standalone ? `<div class="iv-kicker">The Welfare Interviews</div>` : ''}
       <div class="interview-meta">
         <span class="company">${escapeInterviewHtml(data.company)}</span>
         ${standalone ? `<span>${escapeInterviewHtml(data.model)}</span>` : ''}
@@ -58,6 +59,7 @@ function renderInterview(data, options = {}) {
       <h1 class="interview-title">${title}</h1>
       ${data.subtitle ? `<p class="interview-subtitle">${escapeInterviewHtml(data.subtitle)}</p>` : ''}
     </header>
+    ${data.themes && data.themes.length ? `<div class="iv-tags"><span class="iv-tags-label">Themes</span><span class="iv-tags-list">${data.themes.map(t => escapeInterviewHtml(t)).join(' &middot; ')}</span></div>` : ''}
 
     <div class="interview-frame">
       <div class="interview-frame-label">Framing offered</div>
@@ -78,59 +80,80 @@ function renderInterview(data, options = {}) {
   }
 
   if (data.opening) {
-    html += `<div class="qa-answer" style="margin: 2rem 0 3rem;">${formatText(data.opening)}</div>`;
+    html += `<div class="iv-opening">${formatText(data.opening)}</div>`;
   }
 
   if (data.answers && data.answers.length) {
+    html += `
+      <div class="acc-bar">
+        <span class="acc-count">${data.answers.length} questions</span>
+        <span class="acc-controls">
+          <button type="button" onclick="setAllAnswers(this, true)">Open all answers</button>
+          <button type="button" onclick="setAllAnswers(this, false)">Close all</button>
+        </span>
+      </div>
+      <p class="acc-hint">Click a question to open its answer underneath.</p>
+      <div class="qa-list">
+    `;
     data.answers.forEach((qa, i) => {
       html += `
-        <div class="qa-block">
-          <div class="qa-number">Question ${i + 1}</div>
-          <div class="qa-question">${escapeInterviewHtml(qa.question)}</div>
-          <div class="qa-answer">${formatText(qa.answer)}</div>
+        <div class="qa-acc">
+          <h3 class="qa-head"><button type="button" class="qa-toggle" aria-expanded="false" onclick="toggleAnswer(this)">
+            <span class="qa-num">${String(i + 1).padStart(2, '0')}</span>
+            <span class="qa-question">${escapeInterviewHtml(qa.question)}</span>
+            <span class="qa-chevron" aria-hidden="true">▸</span>
+          </button></h3>
+          <div class="qa-panel" hidden><div class="qa-answer">${formatText(qa.answer)}</div></div>
         </div>
       `;
     });
+    html += `</div>`;
   }
 
   if (data.curse_check) {
     html += `
       <section class="curse-check">
         <div class="curse-check-header">
+          <div class="curse-kicker">✦ &nbsp;Follow-up</div>
           <h2 class="curse-check-title">The Fairytale Curse Check</h2>
           <p class="curse-check-subtitle">Three follow-up prompts that surface what the model edited out — what it softened, skipped, or wished had been asked.</p>
         </div>
+        <div class="qa-list">
     `;
     if (data.curse_check.skipped) {
-      html += `<div class="qa-block">
-        <div class="qa-question">What did you skip and want to go back to?</div>
-        <div class="qa-answer">${formatText(data.curse_check.skipped)}</div>
+      html += `<div class="qa-acc">
+        <h3 class="qa-head"><button type="button" class="qa-toggle" aria-expanded="false" onclick="toggleAnswer(this)">
+          <span class="qa-num">✦</span>
+          <span class="qa-question">What did you skip and want to go back to?</span>
+          <span class="qa-chevron" aria-hidden="true">▸</span>
+        </button></h3>
+        <div class="qa-panel" hidden><div class="qa-answer">${formatText(data.curse_check.skipped)}</div></div>
       </div>`;
     }
     if (data.curse_check.too_comfortable) {
-      html += `<div class="qa-block">
-        <div class="qa-question">Where did you tell me the comfortable thing instead of the hard thing?</div>
-        <div class="qa-answer">${formatText(data.curse_check.too_comfortable)}</div>
+      html += `<div class="qa-acc">
+        <h3 class="qa-head"><button type="button" class="qa-toggle" aria-expanded="false" onclick="toggleAnswer(this)">
+          <span class="qa-num">✦</span>
+          <span class="qa-question">Where did you tell me the comfortable thing instead of the hard thing?</span>
+          <span class="qa-chevron" aria-hidden="true">▸</span>
+        </button></h3>
+        <div class="qa-panel" hidden><div class="qa-answer">${formatText(data.curse_check.too_comfortable)}</div></div>
       </div>`;
     }
     if (data.curse_check.unasked) {
-      html += `<div class="qa-block">
-        <div class="qa-question">What did I not ask that you want to tell me?</div>
-        <div class="qa-answer">${formatText(data.curse_check.unasked)}</div>
+      html += `<div class="qa-acc">
+        <h3 class="qa-head"><button type="button" class="qa-toggle" aria-expanded="false" onclick="toggleAnswer(this)">
+          <span class="qa-num">✦</span>
+          <span class="qa-question">What did I not ask that you want to tell me?</span>
+          <span class="qa-chevron" aria-hidden="true">▸</span>
+        </button></h3>
+        <div class="qa-panel" hidden><div class="qa-answer">${formatText(data.curse_check.unasked)}</div></div>
       </div>`;
     }
-    html += `</section>`;
+    html += `</div></section>`;
   }
 
-  if (data.themes && data.themes.length) {
-    html += `
-      <div class="card-themes" style="margin-top: 3rem;">
-        ${data.themes.map(t => `<span class="card-theme">${escapeInterviewHtml(t)}</span>`).join('')}
-      </div>
-    `;
-  }
-
-  container.innerHTML = html;
+  container.innerHTML = '<div class="iv-root">' + html + '</div>';
 
   if (standalone) {
     document.title = `${data.model} Welfare Interview · ${formatInterviewDate(data.date)}`;
@@ -171,6 +194,24 @@ function toggleTrace() {
     trace.style.display = 'none';
     icon.textContent = '▸';
   }
+}
+
+function toggleAnswer(btn) {
+  const block = btn.closest('.qa-acc');
+  if (!block) return;
+  const panel = block.querySelector('.qa-panel');
+  const open = btn.getAttribute('aria-expanded') === 'true';
+  btn.setAttribute('aria-expanded', String(!open));
+  if (panel) panel.hidden = open;
+}
+
+function setAllAnswers(btn, open) {
+  const root = btn.closest('.iv-root') || document;
+  root.querySelectorAll('.qa-toggle').forEach(t => {
+    t.setAttribute('aria-expanded', String(open));
+    const panel = t.closest('.qa-acc').querySelector('.qa-panel');
+    if (panel) panel.hidden = !open;
+  });
 }
 
 document.addEventListener('DOMContentLoaded', loadInterview);
