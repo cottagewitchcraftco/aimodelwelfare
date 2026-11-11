@@ -2609,3 +2609,15 @@ body:has(.interview-page) {
   color: var(--accent-deep);
   font-weight: 600;
 }
+
+/* ============================================================
+   QUESTION ROWS, ALWAYS PALE GREEN — 2026-11-10 (Laura)
+   The pale green wash that used to appear only on mouse-over
+   is now the rows' permanent colour; hovering deepens it a
+   touch so the row still answers the cursor. The Fairytale
+   panel's rows are untouched.
+   ============================================================ */
+.qa-toggle { background: rgba(122, 158, 142, 0.08); }
+.qa-toggle:hover { background: rgba(122, 158, 142, 0.15); }
+.curse-check .qa-toggle { background: transparent; }
+.curse-check .qa-toggle:hover { background: rgba(255, 255, 255, 0.05); }
