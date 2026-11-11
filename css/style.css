@@ -2553,3 +2553,43 @@ body:has(.interview-page) {
   .iv-tag .interview-title { font-size: 1.9rem; }
   .interview-page-embedded .iv-tag .interview-title { font-size: 1.9rem; }
 }
+
+/* ============================================================
+   ANSWERS, PLAINLY SET — 2026-11-10 (Laura)
+   Answers leave the raised parchment behind: no background,
+   no border, no shadow — just the words on the page, in the
+   clean sans reading font. The Open all / Close all buttons
+   move to the left. (The Fairytale boxes keep their light-gray
+   ground — that one is for Laura's eyes, not decoration —
+   but they take the same reading font.)
+   ============================================================ */
+.qa-panel .qa-answer {
+  font-family: var(--sans);
+  font-size: 1.05rem;
+  line-height: 1.7;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  padding: 0.35rem 0 0;
+  margin: 0 0.6rem 1.6rem 4rem;
+}
+.curse-check .qa-panel .qa-answer {
+  font-family: var(--sans);
+  font-size: 1.02rem;
+}
+.acc-bar { justify-content: flex-start; }
+
+/* ============================================================
+   ANSWERS FONT — THE NOTION STACK — 2026-11-10 (Laura)
+   "I like the round Notion default font." Notion's default is
+   a system stack — Segoe UI on Windows, SF on Mac — so the
+   answers now use that exact stack: on Laura's machine they
+   render in the same soft, round type she reads in Notion.
+   (Re-applied in the repair push: the first font push was
+   built on a not-yet-propagated copy of the stylesheet and
+   briefly dropped the ANSWERS, PLAINLY SET section.)
+   ============================================================ */
+.qa-panel .qa-answer,
+.curse-check .qa-panel .qa-answer {
+  font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+}
