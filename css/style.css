@@ -2810,3 +2810,18 @@ body:has(.interview-page) {
   text-align: center;
   margin-top: 0.5rem;
 }
+
+/* ============================================================
+   Archive soft-white ground (2026-11-13, restructure)
+   ------------------------------------------------------------
+   Laura is feeling out a lighter ground for the interview
+   archive: soft white #fbfaf6 (the site's --surface-interview
+   tone) instead of the site-wide cream #f4f1ea. Scoped to the
+   archive page only via body.page-archive — the --bg override
+   carries to everything on this page that paints with var(--bg).
+   The rest of the site keeps the cream for now.
+   ============================================================ */
+body.page-archive {
+  --bg: #fbfaf6;
+  background: var(--bg);
+}
