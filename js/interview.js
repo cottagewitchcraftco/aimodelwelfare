@@ -101,7 +101,7 @@ function renderInterview(data, options = {}) {
       html += `
         <div class="qa-acc">
           <h3 class="qa-head"><button type="button" class="qa-toggle" aria-expanded="false" onclick="toggleAnswer(this)">
-            <span class="qa-num">${String(i + 1).padStart(2, '0')}</span>
+            <span class="qa-num">${i + 1}.</span>
             <span class="qa-question">${escapeInterviewHtml(qa.question)}</span>
             <span class="qa-chevron" aria-hidden="true">▸</span>
           </button></h3>

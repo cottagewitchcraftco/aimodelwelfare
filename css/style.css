@@ -3005,3 +3005,50 @@ body.page-archive .iv-tag {
 .model-sidebar {
   padding-top: 2rem;
 }
+
+/* ============================================================
+   Plain numbers, no green (2026-11-13, restructure round 7)
+   ------------------------------------------------------------
+   Laura, on the accordion: she doesn't like the colour
+   thing — the numbered questions lose the pale-yellow badge
+   (#f1e8d2) and become a regular number ("1.") in the
+   question's own type, and the permanent pale-green wash
+   on the question rows comes off, regular and curse-check
+   rows alike. The curse check keeps its dark-brown ✦ badge
+   (re-pinned below — its colours already win on
+   specificity; only the box metrics needed restoring).
+   All reversible: the wash and badge rules above still
+   stand underneath this section.
+   ============================================================ */
+.qa-toggle,
+.curse-check .qa-toggle {
+  background: transparent;
+}
+
+.qa-toggle:hover,
+.curse-check .qa-toggle:hover {
+  background: transparent;
+}
+
+.qa-num {
+  font-family: inherit;
+  font-size: 1.22rem;
+  font-weight: inherit;
+  letter-spacing: normal;
+  color: inherit;
+  background: transparent;
+  border-radius: 0;
+  padding: 0;
+  min-width: 0;
+  text-align: left;
+  transform: none;
+}
+
+.curse-check .qa-num {
+  font-size: 0.78rem;
+  padding: 0.18rem 0.5rem;
+  min-width: 2.3rem;
+  text-align: center;
+  border-radius: 6px;
+  transform: translateY(-0.1em);
+}
