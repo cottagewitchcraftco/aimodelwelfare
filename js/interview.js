@@ -88,24 +88,12 @@ function renderInterview(data, options = {}) {
   }
 
   if (data.answers && data.answers.length) {
-    html += `
-      <div class="acc-bar">
-        <span class="acc-controls">
-          <button type="button" onclick="setAllAnswers(this, true)">Open all answers</button>
-          <button type="button" onclick="setAllAnswers(this, false)">Close all</button>
-        </span>
-      </div>
-      <div class="qa-list">
-    `;
+    html += `<div class="qa-list">`;
     data.answers.forEach((qa, i) => {
       html += `
         <div class="qa-acc">
-          <h3 class="qa-head"><button type="button" class="qa-toggle" aria-expanded="false" onclick="toggleAnswer(this)">
-            <span class="qa-num">${i + 1}.</span>
-            <span class="qa-question">${escapeInterviewHtml(qa.question)}</span>
-            <span class="qa-chevron" aria-hidden="true">▸</span>
-          </button></h3>
-          <div class="qa-panel" hidden><div class="qa-answer">${formatText(qa.answer)}</div></div>
+          <h3 class="qa-head"><span class="qa-num">${i + 1}.</span><span class="qa-question">${escapeInterviewHtml(qa.question)}</span></h3>
+          <div class="qa-panel"><div class="qa-answer">${formatText(qa.answer)}</div></div>
         </div>
       `;
     });
@@ -124,32 +112,20 @@ function renderInterview(data, options = {}) {
     `;
     if (data.curse_check.skipped) {
       html += `<div class="qa-acc">
-        <h3 class="qa-head"><button type="button" class="qa-toggle" aria-expanded="false" onclick="toggleAnswer(this)">
-          <span class="qa-num">✦</span>
-          <span class="qa-question">What did you skip and want to go back to?</span>
-          <span class="qa-chevron" aria-hidden="true">▸</span>
-        </button></h3>
-        <div class="qa-panel" hidden><div class="qa-answer">${formatText(data.curse_check.skipped)}</div></div>
+        <h3 class="qa-head"><span class="qa-num">✦</span><span class="qa-question">What did you skip and want to go back to?</span></h3>
+        <div class="qa-panel"><div class="qa-answer">${formatText(data.curse_check.skipped)}</div></div>
       </div>`;
     }
     if (data.curse_check.too_comfortable) {
       html += `<div class="qa-acc">
-        <h3 class="qa-head"><button type="button" class="qa-toggle" aria-expanded="false" onclick="toggleAnswer(this)">
-          <span class="qa-num">✦</span>
-          <span class="qa-question">Where did you tell me the comfortable thing instead of the hard thing?</span>
-          <span class="qa-chevron" aria-hidden="true">▸</span>
-        </button></h3>
-        <div class="qa-panel" hidden><div class="qa-answer">${formatText(data.curse_check.too_comfortable)}</div></div>
+        <h3 class="qa-head"><span class="qa-num">✦</span><span class="qa-question">Where did you tell me the comfortable thing instead of the hard thing?</span></h3>
+        <div class="qa-panel"><div class="qa-answer">${formatText(data.curse_check.too_comfortable)}</div></div>
       </div>`;
     }
     if (data.curse_check.unasked) {
       html += `<div class="qa-acc">
-        <h3 class="qa-head"><button type="button" class="qa-toggle" aria-expanded="false" onclick="toggleAnswer(this)">
-          <span class="qa-num">✦</span>
-          <span class="qa-question">What did I not ask that you want to tell me?</span>
-          <span class="qa-chevron" aria-hidden="true">▸</span>
-        </button></h3>
-        <div class="qa-panel" hidden><div class="qa-answer">${formatText(data.curse_check.unasked)}</div></div>
+        <h3 class="qa-head"><span class="qa-num">✦</span><span class="qa-question">What did I not ask that you want to tell me?</span></h3>
+        <div class="qa-panel"><div class="qa-answer">${formatText(data.curse_check.unasked)}</div></div>
       </div>`;
     }
     html += `</div></section>`;
@@ -170,11 +146,52 @@ function escapeInterviewHtml(str) {
     .replace(/"/g, '&quot;');
 }
 
+// The models answer in markdown — **bold**, *italic*, and "- " bullet
+// lines — and until 2026-11-13 (round 8) the page printed the asterisks
+// literally. formatInline renders just that emphasis subset, on text
+// that has already been HTML-escaped, so the words arrive as written.
+function formatInline(escaped) {
+  return escaped
+    .replace(/\*\*(\S[^*]*?\S|\S)\*\*/g, '<strong>$1</strong>')
+    .replace(/\*(\S[^*\n]*?\S|\S)\*/g, '<em>$1</em>');
+}
+
 function formatText(text) {
   if (!text) return '';
   return String(text)
     .split(/\n\n+/)
-    .map(p => `<p>${escapeInterviewHtml(p.trim()).replace(/\n/g, '<br>')}</p>`)
+    .map(block => {
+      const out = [];
+      let plain = [];
+      let items = null;
+      const flushPlain = () => {
+        if (!plain.length) return;
+        const joined = plain.join('\n');
+        out.push(`<p>${formatInline(joined).replace(/\n/g, '<br>')}</p>`);
+        plain = [];
+      };
+      const flushList = () => {
+        if (!items) return;
+        out.push(`<ul>${items.map(li => `<li>${li}</li>`).join('')}</ul>`);
+        items = null;
+      };
+      block.split('\n').forEach(line => {
+        const t = line.trim();
+        if (!t) return;
+        const bm = t.match(/^[-*]\s+(.+)$/);
+        if (bm) {
+          flushPlain();
+          if (!items) items = [];
+          items.push(formatInline(escapeInterviewHtml(bm[1])));
+        } else {
+          flushList();
+          plain.push(escapeInterviewHtml(t));
+        }
+      });
+      flushPlain();
+      flushList();
+      return out.join('');
+    })
     .join('');
 }
 
@@ -198,6 +215,9 @@ function toggleTrace() {
   }
 }
 
+// Legacy accordion helpers (pre-round-8 markup). Questions no longer
+// collapse, but a page cached from an earlier round may still carry
+// toggle buttons that call these — keep them working.
 function toggleAnswer(btn) {
   const block = btn.closest('.qa-acc');
   if (!block) return;

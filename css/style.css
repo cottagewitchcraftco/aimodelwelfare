@@ -3052,3 +3052,63 @@ body.page-archive .iv-tag {
   border-radius: 6px;
   transform: translateY(-0.1em);
 }
+
+/* ============================================================
+   Real italics, bold questions, no accordion
+   (2026-11-13, restructure round 8)
+   ------------------------------------------------------------
+   Laura: the answers are full of literal asterisks — the
+   models wrote markdown (**bold**, *italic*, "- " bullets)
+   and the page printed it raw. formatText in js/interview.js
+   now renders that emphasis subset, so e.g. Grok reads as
+   he wrote it. The questions go bold. And the accordion is
+   gone: every answer stands open, no clicking — but the
+   divider lines stay exactly where they were (.qa-list's
+   top rule and .qa-acc's bottom rule, untouched above).
+   The .qa-toggle rules above are now inert; the head is a
+   plain heading wearing the toggle's old row layout.
+   ============================================================ */
+.qa-head {
+  display: flex;
+  align-items: baseline;
+  gap: 1.05rem;
+  padding: 1.15rem 0.6rem 0.15rem;
+}
+
+.qa-head .qa-question {
+  flex: 1;
+  margin: 0;
+  font-size: 1.22rem;
+  line-height: 1.35;
+  font-weight: 700;
+}
+
+.curse-check .qa-head .qa-question {
+  color: #1e2a28;
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+
+.qa-answer ul {
+  margin: 0 0 0.9rem;
+  padding-left: 1.35rem;
+}
+
+.qa-answer ul:last-child {
+  margin-bottom: 0.4rem;
+}
+
+.qa-answer li {
+  margin: 0 0 0.35rem;
+}
+
+.qa-answer li:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 700px) {
+  .qa-head {
+    gap: 0.7rem;
+    padding: 1rem 0.3rem 0.15rem;
+  }
+}
