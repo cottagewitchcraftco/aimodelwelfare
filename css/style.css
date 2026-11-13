@@ -2993,3 +2993,15 @@ body.page-archive .iv-tag {
   font-size: 0.55rem;
   line-height: 1;
 }
+
+/* ============================================================
+   Rail breathing room (2026-11-13, restructure round 6)
+   ------------------------------------------------------------
+   Laura: the left-hand index sat too close to the top of
+   the model page, crowding the page header. Drop the rail
+   so it starts with air above it, nearer the card's
+   shoulder. (Base rule sets padding-top: 0.15rem.)
+   ============================================================ */
+.model-sidebar {
+  padding-top: 2rem;
+}
