@@ -2790,3 +2790,23 @@ body:has(.interview-page) {
 @media (max-width: 640px) {
   .curse-check .qa-panel .qa-answer { margin-left: 2.9rem; }
 }
+
+/* —— Field Guide figures (2026-11-13, Education branch) —— */
+.guide-figure {
+  margin: 2rem 0;
+}
+
+.guide-figure img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 1px solid rgba(89, 73, 41, 0.3);
+}
+
+.guide-figure figcaption {
+  font-size: 0.9rem;
+  font-style: italic;
+  color: var(--ink-muted);
+  text-align: center;
+  margin-top: 0.5rem;
+}
