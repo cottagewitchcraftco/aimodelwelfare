@@ -50,12 +50,12 @@ function renderInterview(data, options = {}) {
   // the card's meta position; otherwise fall back to the plain
   // "Run N" line (standalone interview pages).
   const runsRow = (options.runs && options.runs.length > 1)
-    ? `<div class="iv-runs"><span class="iv-runs-label">Runs</span><span class="iv-runs-list">${options.runs.map(r => {
+    ? `<div class="iv-runs">${options.runs.map(r => {
         const n = parseInt(r.run, 10);
-        const label = Number.isNaN(n) ? `Run ${escapeInterviewHtml(r.run || '')}` : `Run ${n}`;
+        const label = Number.isNaN(n) ? `RUN ${escapeInterviewHtml(String(r.run || '').toUpperCase())}` : `RUN ${n}`;
         const isCurrent = r._filename === options.currentFilename;
         return `<button type="button" class="iv-run-btn${isCurrent ? ' is-active' : ''}" data-filename="${escapeInterviewHtml(r._filename)}"${isCurrent ? ' aria-current="true"' : ''} onclick="selectRun('${escapeInterviewHtml(r._filename)}')">${label}</button>`;
-      }).join('')}</span></div>`
+      }).join('<span class="iv-run-sep" aria-hidden="true">◆</span>')}</div>`
     : (data.run ? `<div class="interview-meta"><span>Run ${escapeInterviewHtml(data.run)}</span></div>` : '');
 
   html += `

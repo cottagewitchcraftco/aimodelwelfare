@@ -2943,3 +2943,53 @@ body.page-archive .iv-tag {
   border-color: var(--brass-dark);
   font-weight: 500;
 }
+
+/* ============================================================
+   Runs as a caps line + lighter tag (2026-11-13,
+   restructure round 5)
+   ------------------------------------------------------------
+   Laura, on round 4: no pills — she wants the runs the way
+   the old meta line looked, plain caps text (RUN 1 ◆ RUN 2 ◆
+   RUN 3) under the card's hairline, a little diamond between
+   them, the current run underlined (the way she underlines
+   headings in her own markup). And the answer-parchment tag
+   was too dark: the card lightens one step, back to the
+   site's original cream #f4f1ea.
+   ============================================================ */
+body.page-archive .iv-tag {
+  background: #f4f1ea;
+}
+
+.iv-runs {
+  align-items: center;
+  gap: 0.45rem 0.6rem;
+  margin-top: 1rem;
+  font-family: var(--sans);
+  font-size: 0.8rem;
+  letter-spacing: 0.05em;
+}
+
+.iv-run-btn {
+  text-transform: uppercase;
+  background: none;
+  border: none;
+  border-radius: 0;
+  padding: 0.1rem 0.05rem;
+}
+
+.iv-run-btn:hover {
+  color: var(--ink);
+}
+
+.iv-run-btn.is-active {
+  color: var(--ink);
+  font-weight: 500;
+  text-decoration: underline;
+  text-underline-offset: 0.3em;
+}
+
+.iv-run-sep {
+  color: var(--brass-dark);
+  font-size: 0.55rem;
+  line-height: 1;
+}
