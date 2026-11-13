@@ -9,7 +9,7 @@
 <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Inter:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="page-archive">
 
 <header class="site-header" id="site-nav-root" data-active="archive"></header>
 
@@ -22,8 +22,9 @@
     </header>
 
     <div class="model-split">
-      <aside class="model-sidebar" aria-label="Interview runs">
-        <div class="model-sidebar-label">Runs</div>
+      <aside class="model-sidebar" aria-label="Models and interview runs">
+        <nav class="model-index" id="model-index" aria-label="All models"></nav>
+        <div class="model-sidebar-label model-runs-label">Runs</div>
         <div class="runs-list" id="runs-list">
           <p style="color: var(--ink-muted); font-style: italic;">Loading runs…</p>
         </div>

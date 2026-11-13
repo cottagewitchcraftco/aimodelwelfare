@@ -50,12 +50,7 @@ function renderInterview(data, options = {}) {
       <div class="iv-kicker">The Welfare Interviews</div>
       <h1 class="interview-title">${title}</h1>
       ${data.subtitle ? `<p class="interview-subtitle">${escapeInterviewHtml(data.subtitle)}</p>` : ''}
-      <div class="interview-meta">
-        <span class="company">${escapeInterviewHtml(data.company)}</span>
-        <span>${formatInterviewDate(data.date)}</span>
-        ${data.run ? `<span>Run ${escapeInterviewHtml(data.run)}</span>` : ''}
-      </div>
-      ${data.themes && data.themes.length ? `<div class="iv-tags"><span class="iv-tags-label">Keywords</span><span class="iv-tags-list">${data.themes.map(t => escapeInterviewHtml(t)).join(' &middot; ')}</span></div>` : ''}
+      ${data.run ? `<div class="interview-meta"><span>Run ${escapeInterviewHtml(data.run)}</span></div>` : ''}
     </header>
     <div class="iv-framing">
       <div class="iv-framing-label">Framing offered</div>

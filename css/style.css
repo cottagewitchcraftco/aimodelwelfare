@@ -2816,12 +2816,70 @@ body:has(.interview-page) {
    ------------------------------------------------------------
    Laura is feeling out a lighter ground for the interview
    archive: soft white #fbfaf6 (the site's --surface-interview
-   tone) instead of the site-wide cream #f4f1ea. Scoped to the
-   archive page only via body.page-archive — the --bg override
-   carries to everything on this page that paints with var(--bg).
-   The rest of the site keeps the cream for now.
+   tone) instead of the site-wide cream #f4f1ea. Scoped via
+   body.page-archive, which the archive, model and interview
+   pages all carry (round 3 extended it past the listing page —
+   Laura was looking at a model page when she couldn't see the
+   round-2 change) — the --bg override carries to everything
+   on those pages that paints with var(--bg). The rest of the
+   site keeps the cream for now.
    ============================================================ */
 body.page-archive {
   --bg: #fbfaf6;
   background: var(--bg);
+}
+
+/* ============================================================
+   Archive reorganization (2026-11-13, restructure round 3)
+   ------------------------------------------------------------
+   From Laura's marked-up screenshot of the Grok 4.20 model
+   page: the model page's left rail becomes an index of the
+   whole archive — company headings (underlined, the way she
+   wrote them) with the models beneath — and the current
+   model's runs stay below it, divided by a hairline. Same
+   quiet text language as the runs list: no cards, a left
+   tick for where you are.
+   ============================================================ */
+.model-index {
+  margin-bottom: 1.75rem;
+}
+
+.model-index-company {
+  font-family: var(--sans);
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink);
+  text-decoration: underline;
+  text-underline-offset: 0.3em;
+  margin: 1.1rem 0 0.45rem;
+}
+
+.model-index-company:first-child {
+  margin-top: 0;
+}
+
+.model-index-link {
+  display: block;
+  padding: 0.32rem 0 0.32rem 0.75rem;
+  border-left: 2px solid transparent;
+  color: var(--ink-muted);
+  text-decoration: none;
+  font-size: 0.98rem;
+}
+
+.model-index-link:hover {
+  color: var(--ink);
+}
+
+.model-index-link.is-active {
+  color: var(--ink);
+  border-left-color: var(--accent);
+  font-weight: 500;
+}
+
+.model-runs-label {
+  border-top: 1px solid var(--rule-soft);
+  padding-top: 1.1rem;
 }
