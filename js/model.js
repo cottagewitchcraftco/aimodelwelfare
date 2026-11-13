@@ -1,6 +1,6 @@
 // ============================================
 // Model detail page — split view
-// Left: quiet text run list · Right: parchment
+// Left: model index · Right: the interview, runs on its card
 // Depends on archive.js + interview.js
 // ============================================
 
@@ -70,29 +70,12 @@ function runSortKey(interview) {
   return Number.isNaN(n) ? 0 : n;
 }
 
-function createRunRow(interview) {
-  const row = document.createElement('button');
-  row.type = 'button';
-  row.className = 'run-row';
-  row.dataset.filename = interview._filename;
-  row.setAttribute('aria-label', `Run ${interview.run || ''}, ${formatDate(interview.date)}`);
-
-  row.innerHTML = `
-    <div class="run-row-main">
-      <span class="run-row-number">Run ${escapeHtml(interview.run || '—')}</span>
-      <span class="run-row-date">${formatDate(interview.date)}</span>
-    </div>
-  `;
-
-  row.addEventListener('click', () => selectRun(interview._filename));
-  return row;
-}
-
 function setActiveRun(filename) {
-  document.querySelectorAll('.run-row').forEach(el => {
+  document.querySelectorAll('.iv-run-btn').forEach(el => {
     const on = el.dataset.filename === filename;
     el.classList.toggle('is-active', on);
-    el.setAttribute('aria-current', on ? 'true' : 'false');
+    if (on) el.setAttribute('aria-current', 'true');
+    else el.removeAttribute('aria-current');
   });
 }
 
@@ -100,8 +83,13 @@ function selectRun(filename) {
   const interview = modelRuns.find(r => r._filename === filename);
   if (!interview) return;
 
+  renderInterview(interview, {
+    embedded: true,
+    standalone: false,
+    runs: modelRuns,
+    currentFilename: filename,
+  });
   setActiveRun(filename);
-  renderInterview(interview, { embedded: true, standalone: false });
 
   const slug = getQueryParam('model');
   const url = new URL(window.location.href);
@@ -127,12 +115,12 @@ function selectRun(filename) {
 }
 
 async function initModelPage() {
-  const list = document.getElementById('runs-list');
-  if (!list) return;
+  const reader = document.getElementById('interview-content');
+  if (!reader) return;
 
   const slug = getQueryParam('model');
   if (!slug) {
-    list.innerHTML = '<p style="color: var(--ink-muted); font-style: italic;">No model specified.</p>';
+    reader.innerHTML = '<p style="color: var(--ink-muted); font-style: italic;">No model specified.</p>';
     return;
   }
 
@@ -144,7 +132,7 @@ async function initModelPage() {
 
   if (modelRuns.length === 0) {
     document.getElementById('model-title').textContent = 'Model not found';
-    list.innerHTML = `<p style="color: var(--ink-muted); font-style: italic;">No interviews match <code>${escapeHtml(slug)}</code>.</p>`;
+    reader.innerHTML = `<p style="color: var(--ink-muted); font-style: italic;">No interviews match <code>${escapeHtml(slug)}</code>.</p>`;
     return;
   }
 
@@ -159,9 +147,6 @@ async function initModelPage() {
 
   const back = document.getElementById('model-back');
   if (back) back.href = 'archive.html';
-
-  list.innerHTML = '';
-  modelRuns.forEach(iv => list.appendChild(createRunRow(iv)));
 
   const requested = getQueryParam('file');
   const initial =

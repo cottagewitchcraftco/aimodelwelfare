@@ -4,7 +4,7 @@
 
 async function loadInterview() {
   // Model page owns the reader pane — don't auto-hijack
-  if (document.getElementById('runs-list')) return;
+  if (document.getElementById('model-index')) return;
 
   const params = new URLSearchParams(window.location.search);
   const file = params.get('file');
@@ -45,12 +45,25 @@ function renderInterview(data, options = {}) {
   // Embedded (model split view): shorter title — model name already shown above the card
   const title = `${escapeInterviewHtml(data.model)} Model Welfare Interview`;
 
+  // Runs live on the card (Laura, 2026-11-13): when the model page
+  // hands over the model's runs, render them as a row of buttons in
+  // the card's meta position; otherwise fall back to the plain
+  // "Run N" line (standalone interview pages).
+  const runsRow = (options.runs && options.runs.length > 1)
+    ? `<div class="iv-runs"><span class="iv-runs-label">Runs</span><span class="iv-runs-list">${options.runs.map(r => {
+        const n = parseInt(r.run, 10);
+        const label = Number.isNaN(n) ? `Run ${escapeInterviewHtml(r.run || '')}` : `Run ${n}`;
+        const isCurrent = r._filename === options.currentFilename;
+        return `<button type="button" class="iv-run-btn${isCurrent ? ' is-active' : ''}" data-filename="${escapeInterviewHtml(r._filename)}"${isCurrent ? ' aria-current="true"' : ''} onclick="selectRun('${escapeInterviewHtml(r._filename)}')">${label}</button>`;
+      }).join('')}</span></div>`
+    : (data.run ? `<div class="interview-meta"><span>Run ${escapeInterviewHtml(data.run)}</span></div>` : '');
+
   html += `
     <header class="interview-header iv-tag">
       <div class="iv-kicker">The Welfare Interviews</div>
       <h1 class="interview-title">${title}</h1>
       ${data.subtitle ? `<p class="interview-subtitle">${escapeInterviewHtml(data.subtitle)}</p>` : ''}
-      ${data.run ? `<div class="interview-meta"><span>Run ${escapeInterviewHtml(data.run)}</span></div>` : ''}
+      ${runsRow}
     </header>
     <div class="iv-framing">
       <div class="iv-framing-label">Framing offered</div>
