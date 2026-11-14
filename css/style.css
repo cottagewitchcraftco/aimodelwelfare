@@ -3308,3 +3308,37 @@ body.page-archive .iv-tag {
 .archive-prose li {
   margin-bottom: 0.4rem;
 }
+
+/* ============================================================
+   Archive type size + rail placement (2026-11-13, round 12)
+   Laura: "the font on the page is kind of small tho can we bump
+   it up? the model list on the left hand doesnt have to start
+   way at the top of the page bc it gets cut off and looks a
+   little weird."
+   - Archive body text up a step: intro ledes 1.15 -> 1.28rem,
+     prose paragraphs and lists 1.05 -> 1.15rem, looser leading.
+   - The rail no longer starts at the page top: padding pushes
+     ANTHROPIC down beside the lower intro, and the sticky offset
+     rises from 1.25rem to 5.5rem so the list never slides up
+     under the site header and gets clipped while scrolling.
+   ============================================================ */
+.archive-intro .lede {
+  font-size: 1.28rem;
+  line-height: 1.6;
+}
+.archive-prose p {
+  font-size: 1.15rem;
+  line-height: 1.7;
+}
+#archive-main ol,
+#archive-main ul {
+  font-size: 1.15rem;
+  line-height: 1.7;
+}
+.archive-prose h2 {
+  font-size: 1.6rem;
+}
+.archive-split .model-sidebar {
+  padding-top: 5.5rem;
+  top: 5.5rem;
+}
