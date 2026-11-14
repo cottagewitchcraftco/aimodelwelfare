@@ -3375,3 +3375,50 @@ body.page-archive .model-index-link {
   padding-top: 0.42rem;
   padding-bottom: 0.42rem;
 }
+
+/* ============================================================
+   Ornaments + caps labels (2026-11-13, round 15)
+   Laura, on the sample page: "i love all of those" — so the
+   sprig goes under the archive title, the fleuron divider sits
+   between the Question Set and How the Questions Work, and the
+   quill feather stands as a finial at the end. She also loved
+   the sample's little label type ("— ornament A: sprig under
+   the title —") and wants it usable "in places": it is kept
+   here as .label-caps, a small letterspaced uppercase sans for
+   kickers, captions, and plate labels across the site.
+   ============================================================ */
+.title-orn {
+  text-align: center;
+  color: #7a6a45;
+  margin: 0.2rem 0 1.4rem;
+}
+.orn-divider {
+  display: flex;
+  align-items: center;
+  gap: 1.1rem;
+  justify-content: center;
+  color: #7a6a45;
+  margin: 2.6rem auto 0;
+  max-width: 34rem;
+}
+.orn-divider .rule {
+  flex: 1;
+  height: 1px;
+  background: #c9bfa5;
+}
+.orn-divider .fl {
+  font-size: 1.5rem;
+  line-height: 1;
+}
+.finial {
+  text-align: center;
+  color: #7a6a45;
+  margin: 2.8rem 0 0.5rem;
+}
+.label-caps {
+  font-family: var(--sans);
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-muted);
+}
