@@ -3255,3 +3255,56 @@ body.page-archive .iv-tag {
     max-width: none;
   }
 }
+
+/* ============================================================
+   Archive page, Laura's corrections (2026-11-13,
+   restructure round 11)
+   ------------------------------------------------------------
+   From her annotated screenshot of round 9: the model rail
+   starts at the TOP of the page, beside the intro — her green
+   arrow runs from ANTHROPIC up to the page's first line.
+   Struck out of the intro: the "Relational methodology
+   differs…" paragraph, the tools link row, and the content
+   note (the methodology text itself lives on in the section
+   below, which is where she wanted it). The questions go
+   plain — regular font, regular spacing, ordinary numbered
+   list like the methodology page — and the heading is hers:
+   "The Interview Question Set". Round 9's bold/hairline
+   question styling and the ✦ curse list are retired.
+   ============================================================ */
+
+.archive-split {
+  border-top: none;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.archive-column {
+  min-width: 0;
+}
+
+.archive-column .archive-intro {
+  padding: 1.5rem 0 1.75rem;
+}
+
+.archive-split .model-sidebar {
+  padding-top: 1.55rem;
+}
+
+#archive-main {
+  border-top: 1px solid var(--rule);
+  padding-top: 2.25rem;
+}
+
+.archive-prose ol,
+.archive-prose ul {
+  font-size: 1.05rem;
+  line-height: 1.65;
+  color: var(--ink-soft);
+  margin: 0 0 1.25rem 1.4rem;
+  padding: 0;
+}
+
+.archive-prose li {
+  margin-bottom: 0.4rem;
+}
