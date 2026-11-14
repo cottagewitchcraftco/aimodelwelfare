@@ -3422,3 +3422,20 @@ body.page-archive .model-index-link {
   text-transform: uppercase;
   color: var(--ink-muted);
 }
+
+/* ============================================================
+   Tapered dividers (2026-11-13, round 16)
+   Laura picked the quatrefoil from the classic-divider trials:
+   it replaces the fleuron between the archive's sections. The
+   lines are filled tapered slivers (needle points outward,
+   swelling toward the motif), not strokes.
+   ============================================================ */
+.taper-divider {
+  text-align: center;
+  color: #7a6a45;
+  margin: 2.6rem auto 0;
+}
+.taper-divider svg {
+  max-width: 100%;
+  height: auto;
+}
