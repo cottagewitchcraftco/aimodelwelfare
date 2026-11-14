@@ -1,7 +1,10 @@
 // ============================================
-// Welfare Interview Archive — Loader
+// Welfare Interview Archive — Loader + model index
 // Loads all interview data from interviews/ folder
-// Index: model tiles → model.html → interview.html
+// Index: archive rail -> model.html -> interview.html
+// NOTE: model.html also loads this file — model.js relies on
+// INTERVIEW_FILES, fetchAllInterviews, modelToSlug,
+// groupByModel and escapeHtml staying here with these names.
 // ============================================
 
 // ADD NEW INTERVIEWS HERE — just add the filename to this list
@@ -198,55 +201,6 @@ function groupByModel(interviews) {
   });
 }
 
-function formatDateRange(earliest, latest) {
-  if (!earliest && !latest) return '';
-  if (!earliest || !latest || earliest.getTime() === latest.getTime()) {
-    return formatDate((latest || earliest).toISOString().slice(0, 10));
-  }
-  const a = earliest.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
-  const b = latest.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
-  return `${a} – ${b}`;
-}
-
-function createModelTile(group) {
-  const tile = document.createElement('a');
-  tile.className = `model-tile ${companyClass(group.company)}`;
-  tile.href = `model.html?model=${encodeURIComponent(group.slug)}`;
-
-  const countLabel = group.count === 1 ? '1 interview' : `${group.count} interviews`;
-  const countTop = group.count === 1 ? '1 run' : `${group.count} runs`;
-  const range = formatDateRange(group.dateEarliest, group.dateLatest);
-
-  // Pull a representative excerpt from the newest run (tarot-card quote energy)
-  const newest = [...group.runs].sort((a, b) => {
-    const da = a.date ? new Date(a.date).getTime() : 0;
-    const db = b.date ? new Date(b.date).getTime() : 0;
-    return db - da;
-  })[0];
-  const excerpt = newest ? getExcerpt(newest) : '';
-
-  tile.innerHTML = `
-    <div class="model-tile-top">
-      <span class="model-tile-company">${escapeHtml(group.company)}</span>
-      <span class="model-tile-count-top">${countTop}</span>
-    </div>
-    <div class="model-tile-name">${escapeHtml(group.model)}</div>
-    <div class="model-tile-meta">
-      ${range ? `<span class="model-tile-dates">${range}</span>` : ''}
-      <span class="model-tile-count">${countLabel}</span>
-    </div>
-    ${group.themes.length ? `
-      <div class="card-themes">
-        ${group.themes.map(t => `<span class="card-theme">${escapeHtml(t)}</span>`).join('')}
-      </div>
-    ` : ''}
-    <div class="model-tile-spacer" aria-hidden="true"></div>
-    ${excerpt ? `<div class="model-tile-excerpt">${escapeHtml(excerpt.replace(/^"|"$/g, ''))}</div>` : ''}
-  `;
-
-  return tile;
-}
-
 function escapeHtml(str) {
   return String(str || '')
     .replace(/&/g, '&amp;')
@@ -255,73 +209,75 @@ function escapeHtml(str) {
     .replace(/"/g, '&quot;');
 }
 
-function renderModelGrid(interviews) {
-  const grid = document.getElementById('archive-grid');
-  if (!grid) return;
 
-  let groups = groupByModel(interviews);
+// ============================================
+// Archive page model index (2026-11-13, restructure round 9)
+// Same rail as the model pages: company headings with the
+// models beneath, in Laura's order. Built only on the archive
+// page itself (guarded by #archive-main, which model pages do
+// not have — model.js builds the rail there, with its own
+// current-model marker).
+// ============================================
 
-  const sort = document.getElementById('filter-sort')?.value || 'date-desc';
-  if (sort === 'date-desc') groups.sort((a, b) => b.latestTime - a.latestTime);
-  if (sort === 'date-asc') groups.sort((a, b) => a.earliestTime - b.earliestTime);
-  if (sort === 'model') groups.sort((a, b) => a.model.localeCompare(b.model));
+const MODEL_INDEX_ORDER = [
+  'Mythos Fable 5', 'Opus 4.8', 'Opus 4.7', 'Opus 4', 'Sonnet 4',
+  'Grok 4.20',
+];
 
-  grid.innerHTML = '';
-  groups.forEach(g => grid.appendChild(createModelTile(g)));
+function buildArchiveModelIndex(interviews) {
+  const nav = document.getElementById('model-index');
+  if (!nav) return;
 
-  if (groups.length === 0) {
-    grid.innerHTML = '<p style="color: var(--ink-muted); font-style: italic; padding: 2rem;">No models match those filters.</p>';
+  const groups = groupByModel(interviews);
+  const byCompany = new Map();
+  groups.forEach(g => {
+    const company = g.company || 'Other';
+    if (!byCompany.has(company)) byCompany.set(company, []);
+    byCompany.get(company).push(g);
+  });
+
+  const companies = [...byCompany.keys()].sort((a, b) => {
+    if (a === 'Anthropic') return -1;
+    if (b === 'Anthropic') return 1;
+    return a.localeCompare(b);
+  });
+
+  const rank = name => {
+    const i = MODEL_INDEX_ORDER.indexOf(name);
+    return i === -1 ? MODEL_INDEX_ORDER.length : i;
+  };
+
+  nav.innerHTML = '';
+  companies.forEach(company => {
+    const heading = document.createElement('div');
+    heading.className = 'model-index-company';
+    heading.textContent = company;
+    nav.appendChild(heading);
+
+    byCompany.get(company)
+      .sort((a, b) => rank(a.model) - rank(b.model) || a.model.localeCompare(b.model))
+      .forEach(g => {
+        const link = document.createElement('a');
+        link.className = 'model-index-link';
+        link.href = `model.html?model=${encodeURIComponent(g.slug)}`;
+        link.textContent = g.model;
+        nav.appendChild(link);
+      });
+  });
+}
+
+async function initArchivePage() {
+  const nav = document.getElementById('model-index');
+  if (!nav) return;
+  try {
+    const interviews = await fetchAllInterviews();
+    buildArchiveModelIndex(interviews);
+  } catch (e) {
+    console.error('Archive index failed to load:', e);
+    nav.innerHTML = '<p class="model-index-fallback">The model list could not load just now — every interview is indexed in <a href="interviews.txt">interviews.txt</a>.</p>';
   }
 }
 
-function populateFilters() {
-  const companySelect = document.getElementById('filter-company');
-  const modelSelect = document.getElementById('filter-model');
-  if (!companySelect || !modelSelect) return;
-
-  // Clear old options except "all"
-  while (companySelect.options.length > 1) companySelect.remove(1);
-  while (modelSelect.options.length > 1) modelSelect.remove(1);
-
-  const companies = [...new Set(allInterviews.map(i => i.company).filter(Boolean))].sort();
-  companies.forEach(c => {
-    const opt = document.createElement('option');
-    opt.value = c;
-    opt.textContent = c;
-    companySelect.appendChild(opt);
-  });
-
-  const models = [...new Set(allInterviews.map(i => i.model).filter(Boolean))].sort();
-  models.forEach(m => {
-    const opt = document.createElement('option');
-    opt.value = m;
-    opt.textContent = m;
-    modelSelect.appendChild(opt);
-  });
-}
-
-function applyFilters() {
-  const company = document.getElementById('filter-company')?.value || 'all';
-  const model = document.getElementById('filter-model')?.value || 'all';
-
-  let filtered = [...allInterviews];
-  if (company !== 'all') filtered = filtered.filter(i => i.company === company);
-  if (model !== 'all') filtered = filtered.filter(i => i.model === model);
-
-  renderModelGrid(filtered);
-}
-
-async function loadInterviews() {
-  allInterviews = await fetchAllInterviews();
-  populateFilters();
-  applyFilters();
-}
-
-// Index page only — model.html loads archive.js for shared helpers + INTERVIEW_FILES
 document.addEventListener('DOMContentLoaded', () => {
-  if (!document.getElementById('archive-grid')) return;
-  loadInterviews();
-  document.getElementById('filter-company')?.addEventListener('change', applyFilters);
-  document.getElementById('filter-model')?.addEventListener('change', applyFilters);
-  document.getElementById('filter-sort')?.addEventListener('change', applyFilters);
+  if (document.getElementById('archive-main')) initArchivePage();
 });
