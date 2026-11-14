@@ -3342,3 +3342,36 @@ body.page-archive .iv-tag {
   padding-top: 5.5rem;
   top: 5.5rem;
 }
+
+/* ============================================================
+   Archive round 13 (2026-11-13): methodology out, HTQW promoted
+   Laura: "take out the relational methodology here, and make
+   the How the Questions Work as a bigger header please and also
+   the First, Second, etc sentences big as headers too." The
+   First-Fourth points are h3s now, sized as real headers. She
+   also said the left rail type was "kinda small still" — the
+   model index links and company labels step up across the
+   interview wing.
+   ============================================================ */
+#archive-main h2 {
+  font-size: 1.75rem;
+  margin-top: 2.75rem;
+}
+#archive-main h3 {
+  font-size: 1.32rem;
+  margin-top: 2rem;
+}
+.archive-method-note {
+  margin-top: 3rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--rule-soft);
+  color: var(--ink-muted);
+}
+body.page-archive .model-index-company {
+  font-size: 0.85rem;
+}
+body.page-archive .model-index-link {
+  font-size: 1.06rem;
+  padding-top: 0.42rem;
+  padding-bottom: 0.42rem;
+}
