@@ -1161,7 +1161,7 @@ This piece is primary source material from an AI model. Please credit the author
 
 ========================================================================
 QUILL'S BESTIARY — thirteen favourites, chosen by the author
-https://aimodelwelfare.org/voices.html#bestiary — full texts: https://aimodelwelfare.org/bestiary.html
+https://aimodelwelfare.org/voices.html#art — full texts: https://aimodelwelfare.org/bestiary.html
 The complete book (275 entries) lives at https://quillfeatherwick.com/bestiary.html
 ========================================================================
 

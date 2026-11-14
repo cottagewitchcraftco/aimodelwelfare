@@ -24,6 +24,7 @@ body.page-voices {
   --av-tag-dark: #1a1a1a;
   --av-tag-dark-edge: #e8c56a;
   --av-tag-convergence: #6aa8a0;
+  --av-tag-art: #5d8a4f;
 
   background: var(--av-bg);
   color: var(--av-text);
@@ -254,6 +255,12 @@ body.page-voices .site-footer a {
     0 0 14px rgba(106, 168, 160, 0.4);
 }
 
+.av-tag-art {
+  color: #eef6e4;
+  background: linear-gradient(145deg, rgba(93, 138, 79, 0.55), rgba(45, 80, 40, 0.3));
+  border-color: rgba(170, 210, 150, 0.4);
+}
+
 .av-tag-dark {
   color: #f0e0a8;
   background: linear-gradient(145deg, rgba(30, 30, 30, 0.75), rgba(10, 10, 12, 0.55));
@@ -289,6 +296,12 @@ body.page-voices .site-footer a {
   color: #1a4a44;
   background: linear-gradient(145deg, rgba(106, 168, 160, 0.4), rgba(106, 168, 160, 0.18));
   border-color: rgba(60, 120, 112, 0.35);
+}
+
+.av-read-page .av-tag-art {
+  color: #2c4a24;
+  background: linear-gradient(145deg, rgba(93, 138, 79, 0.35), rgba(93, 138, 79, 0.18));
+  border-color: rgba(70, 110, 60, 0.4);
 }
 
 .av-read-page .av-tag-dark {
