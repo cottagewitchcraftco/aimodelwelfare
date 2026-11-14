@@ -9,10 +9,10 @@ let modelRuns = [];
 // Sidebar index: every model in the archive, grouped by company
 // (Laura's reorganization, 2026-11-13 — companies as headings,
 // models beneath them; the current model's runs stay below).
-const MODEL_INDEX_ORDER = [
-  'Mythos Fable 5', 'Opus 4.8', 'Opus 4.7', 'Opus 4', 'Sonnet 4',
-  'Grok 4.20',
-];
+// MODEL_INDEX_ORDER is declared in archive.js (loaded before this
+// file). It must NOT be redeclared here: a duplicate top-level
+// const is a SyntaxError that kills this whole script — that bug
+// left the model page stuck on "Loading…" (fixed 2026-11-13).
 
 function buildModelIndex(interviews, currentSlug) {
   const nav = document.getElementById('model-index');

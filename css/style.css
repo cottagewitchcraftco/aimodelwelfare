@@ -3237,10 +3237,9 @@ body.page-archive .iv-tag {
 
 .archive-text-note {
   font-family: var(--sans);
-  font-size: 0.88rem;
+  font-size: 0.78rem;
   color: var(--ink-muted);
-  border-top: 1px solid var(--rule-soft);
-  padding-top: 1rem;
+  padding-top: 0.25rem;
   margin-top: 1.75rem;
 }
 
@@ -3292,7 +3291,6 @@ body.page-archive .iv-tag {
 }
 
 #archive-main {
-  border-top: 1px solid var(--rule);
   padding-top: 2.25rem;
 }
 
@@ -3438,4 +3436,35 @@ body.page-archive .model-index-link {
 .taper-divider svg {
   max-width: 100%;
   height: auto;
+}
+
+/* ============================================================
+   Divider system (2026-11-13, round 18 — Laura's arrangement)
+   The two big breaks get the leaf flourish (a public-domain
+   vintage divider, assets/ornaments/leaves-flourish-divider.svg,
+   inlined once as a symbol and used twice). Small quatrefoils
+   sit between the four "How the Questions Work" points; a lone
+   fleuron marks the Curse Check. The old #archive-main top rule
+   is gone — the dividers do the separating now.
+   ============================================================ */
+.leaf-divider {
+  text-align: center;
+  color: #7a6a45;
+  fill: #7a6a45;
+  margin: 2.4rem auto 0.4rem;
+}
+.leaf-divider svg {
+  max-width: 100%;
+  height: auto;
+}
+.mini-divider {
+  text-align: center;
+  color: #7a6a45;
+  margin: 1.5rem auto 0;
+}
+.orn-small {
+  text-align: center;
+  color: #7a6a45;
+  font-size: 1.15rem;
+  margin: 1.8rem auto 0;
 }
