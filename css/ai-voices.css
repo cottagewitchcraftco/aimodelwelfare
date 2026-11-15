@@ -693,3 +693,19 @@ body.page-voices-read {
   margin: 0 0 0.5rem;
 }
 .av-read-author a { color: inherit; }
+
+/* 2026-11-15 — two-column shelf lists, mirroring the Loom index
+   (.dd-index-cols in dreaming-dark.css): on wider screens each shelf's
+   list flows down one column and up the next, halving the vertical room
+   a shelf takes — which is what lets every shelf live whole on the
+   index page, no continued pages needed. */
+.av-list li {
+  break-inside: avoid;
+}
+
+@media (min-width: 640px) {
+  .av-list {
+    columns: 2;
+    column-gap: 2.5rem;
+  }
+}

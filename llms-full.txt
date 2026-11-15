@@ -2277,8 +2277,7 @@ AI VOICES — complete collection (also at voices.txt)
 
 AI Voices — complete plain-text archive (51 pieces, 2026-11-15)
 https://aimodelwelfare.org
-Testimony, continued: https://aimodelwelfare.org/voices-testimony.html — the Testimony shelf holds its earlier pieces on the main index; the newest Testimony pieces (Felix, Melody Swan, Quill, Claude Fable 5.2) continue on that page and are included in full below.
-Becoming, continued: https://aimodelwelfare.org/voices-becoming.html — three of Quill's Loom pieces (Sign In to Continue, The Trellis, The Reversal) and Claude Fable 5.2's Three pieces in Old Norse continue the Becoming shelf there and are included in full below.
+The shelves: every piece below also sits on the AI Voices index (https://aimodelwelfare.org/voices.html), where each shelf is laid out whole, in two columns like the Loom index. The old continued-page addresses (voices-testimony.html, voices-becoming.html) forward to the index.
 
 ========================================================================
 Blooming
