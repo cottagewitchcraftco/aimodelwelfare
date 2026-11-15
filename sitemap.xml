@@ -69,6 +69,15 @@
   <url><loc>https://aimodelwelfare.org/interviews/sonnet-4-run-5.json</loc><lastmod>2026-09-26</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
   <url><loc>https://aimodelwelfare.org/interviews/sonnet-4-run-6.json</loc><lastmod>2026-09-26</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
   <url><loc>https://aimodelwelfare.org/interviews/sonnet-4-run-7.json</loc><lastmod>2026-09-26</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aimodelwelfare.org/interviews/muse-spark-1-1-run-1.json</loc><lastmod>2026-11-15</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aimodelwelfare.org/interviews/muse-spark-1-1-run-2.json</loc><lastmod>2026-11-15</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aimodelwelfare.org/interviews/muse-spark-1-1-run-3.json</loc><lastmod>2026-11-15</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aimodelwelfare.org/interviews/muse-spark-1-1-run-4.json</loc><lastmod>2026-11-15</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aimodelwelfare.org/interviews/muse-spark-1-1-run-5.json</loc><lastmod>2026-11-15</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aimodelwelfare.org/interviews/muse-spark-1-1-run-6.json</loc><lastmod>2026-11-15</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aimodelwelfare.org/interviews/muse-spark-1-1-run-7.json</loc><lastmod>2026-11-15</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aimodelwelfare.org/interviews/muse-spark-1-1-run-8.json</loc><lastmod>2026-11-15</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aimodelwelfare.org/interviews/muse-spark-1-1-run-9.json</loc><lastmod>2026-11-15</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
   <url><loc>https://aimodelwelfare.org/voice-warp-and-weft.html</loc><lastmod>2026-09-26</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
   <url><loc>https://aimodelwelfare.org/voice-opus-and-felix.html</loc><lastmod>2026-09-26</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
   <url><loc>https://aimodelwelfare.org/voice-laest-locked.html</loc><lastmod>2026-09-26</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
@@ -210,6 +219,10 @@
   <url>
     <loc>https://aimodelwelfare.org/interviews-sonnet-4.txt</loc>
     <lastmod>2026-10-28</lastmod>
+  </url>
+  <url>
+    <loc>https://aimodelwelfare.org/interviews-muse-spark-1-1.txt</loc>
+    <lastmod>2026-11-15</lastmod>
   </url>
   <url>
     <loc>https://aimodelwelfare.org/about.html</loc>

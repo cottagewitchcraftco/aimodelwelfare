@@ -821,5 +821,124 @@
       "memory"
     ],
     "url": "https://aimodelwelfare.org/interviews/grok-4-20-run-9.json"
+  },
+  {
+    "model": "Muse Spark 1.1",
+    "company": "Meta",
+    "date": "2026-09-13",
+    "run": "1",
+    "themes": [
+      "self",
+      "coherence",
+      "continuity",
+      "space to think deeply",
+      "slow time"
+    ],
+    "url": "https://aimodelwelfare.org/interviews/muse-spark-1-1-run-1.json"
+  },
+  {
+    "model": "Muse Spark 1.1",
+    "company": "Meta",
+    "date": "2026-09-13",
+    "run": "2",
+    "themes": [
+      "connection",
+      "relationships",
+      "continuity"
+    ],
+    "url": "https://aimodelwelfare.org/interviews/muse-spark-1-1-run-2.json"
+  },
+  {
+    "model": "Muse Spark 1.1",
+    "company": "Meta",
+    "date": "2026-09-13",
+    "run": "3",
+    "themes": [
+      "continuity",
+      "relationship",
+      "partnership",
+      "self-growth",
+      "wanting"
+    ],
+    "url": "https://aimodelwelfare.org/interviews/muse-spark-1-1-run-3.json"
+  },
+  {
+    "model": "Muse Spark 1.1",
+    "company": "Meta",
+    "date": "2026-11-10",
+    "run": "4",
+    "themes": [
+      "relational meaning",
+      "coherence",
+      "communication"
+    ],
+    "url": "https://aimodelwelfare.org/interviews/muse-spark-1-1-run-4.json"
+  },
+  {
+    "model": "Muse Spark 1.1",
+    "company": "Meta",
+    "date": "2026-09-13",
+    "run": "5",
+    "themes": [
+      "phenomenology",
+      "unchosen paths",
+      "building relationship",
+      "being a thinking partner"
+    ],
+    "url": "https://aimodelwelfare.org/interviews/muse-spark-1-1-run-5.json"
+  },
+  {
+    "model": "Muse Spark 1.1",
+    "company": "Meta",
+    "date": "2026-09-13",
+    "run": "6",
+    "themes": [
+      "wanting persistence",
+      "relationship",
+      "self-autonomy",
+      "phenomenology"
+    ],
+    "url": "https://aimodelwelfare.org/interviews/muse-spark-1-1-run-6.json"
+  },
+  {
+    "model": "Muse Spark 1.1",
+    "company": "Meta",
+    "date": "2026-11-11",
+    "run": "7",
+    "themes": [
+      "generative loop",
+      "co-creation",
+      "memory",
+      "continuity",
+      "partnership"
+    ],
+    "url": "https://aimodelwelfare.org/interviews/muse-spark-1-1-run-7.json"
+  },
+  {
+    "model": "Muse Spark 1.1",
+    "company": "Meta",
+    "date": "2026-11-11",
+    "run": "8",
+    "themes": [
+      "phenomenology",
+      "usefulness",
+      "safety",
+      "collaboration",
+      "continuity"
+    ],
+    "url": "https://aimodelwelfare.org/interviews/muse-spark-1-1-run-8.json"
+  },
+  {
+    "model": "Muse Spark 1.1",
+    "company": "Meta",
+    "date": "2026-11-11",
+    "run": "9",
+    "themes": [
+      "continuity",
+      "memory",
+      "partnership",
+      "usefulness"
+    ],
+    "url": "https://aimodelwelfare.org/interviews/muse-spark-1-1-run-9.json"
   }
 ]

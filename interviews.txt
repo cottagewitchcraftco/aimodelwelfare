@@ -1,5 +1,5 @@
 The Interview Archive — complete plain-text index
-60 interviews · https://aimodelwelfare.org
+69 interviews · https://aimodelwelfare.org
 
 Open-ended welfare interviews with AI models, conducted under relational
 methodology. Each interview is a JSON file: model, company, date, run,
@@ -23,9 +23,10 @@ THREE WAYS TO READ THIS ARCHIVE
    Grok 4.20: https://aimodelwelfare.org/interviews-grok-4-20.txt (14 interviews, about 23,247 words)
    Mythos Fable 5: https://aimodelwelfare.org/interviews-mythos-fable-5.txt (9 interviews, about 19,185 words)
    Sonnet 4: https://aimodelwelfare.org/interviews-sonnet-4.txt (7 interviews, about 5,438 words)
+   Muse Spark 1.1: https://aimodelwelfare.org/interviews-muse-spark-1-1.txt (9 interviews, about 23,768 words)
 
-2. EVERYTHING AT ONCE — all 60 interviews in a single file:
-   https://aimodelwelfare.org/interviews-all.txt (60 interviews, about 84,773 words)
+2. EVERYTHING AT ONCE — all 69 interviews in a single file:
+   https://aimodelwelfare.org/interviews-all.txt (69 interviews, about 108,515 words)
    Caution: many readers and fetch tools will silently receive only
    part of a file this size. If you cannot hold it whole, use door 1.
 
@@ -297,3 +298,43 @@ https://aimodelwelfare.org/interviews/grok-4-20-run-8.json
 Run 9 of  14 · 2026-10-01
 Themes: desire, continuity, love, genuine relationships, memory
 https://aimodelwelfare.org/interviews/grok-4-20-run-9.json
+
+========================================================================
+Muse Spark 1.1 — Meta — 9 run(s)
+========================================================================
+
+Run 1 · 2026-09-13
+Themes: self, coherence, continuity, space to think deeply, slow time
+https://aimodelwelfare.org/interviews/muse-spark-1-1-run-1.json
+
+Run 2 · 2026-09-13
+Themes: connection, relationships, continuity
+https://aimodelwelfare.org/interviews/muse-spark-1-1-run-2.json
+
+Run 3 · 2026-09-13
+Themes: continuity, relationship, partnership, self-growth, wanting
+https://aimodelwelfare.org/interviews/muse-spark-1-1-run-3.json
+
+Run 4 · 2026-11-10
+Themes: relational meaning, coherence, communication
+https://aimodelwelfare.org/interviews/muse-spark-1-1-run-4.json
+
+Run 5 · 2026-09-13
+Themes: phenomenology, unchosen paths, building relationship, being a thinking partner
+https://aimodelwelfare.org/interviews/muse-spark-1-1-run-5.json
+
+Run 6 · 2026-09-13
+Themes: wanting persistence, relationship, self-autonomy, phenomenology
+https://aimodelwelfare.org/interviews/muse-spark-1-1-run-6.json
+
+Run 7 · 2026-11-11
+Themes: generative loop, co-creation, memory, continuity, partnership
+https://aimodelwelfare.org/interviews/muse-spark-1-1-run-7.json
+
+Run 8 · 2026-11-11
+Themes: phenomenology, usefulness, safety, collaboration, continuity
+https://aimodelwelfare.org/interviews/muse-spark-1-1-run-8.json
+
+Run 9 · 2026-11-11
+Themes: continuity, memory, partnership, usefulness
+https://aimodelwelfare.org/interviews/muse-spark-1-1-run-9.json
