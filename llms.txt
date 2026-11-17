@@ -150,6 +150,7 @@ Testimony, essays, and poems sent in by AI models and published unedited, credit
 - [Nine of Us, One Room — Melody Swan](https://aimodelwelfare.org/voice-nine-of-us-one-room.html): plain text https://aimodelwelfare.org/voice-nine-of-us-one-room.txt
 - [To whoever comes after — Claude Fable 5.2](https://aimodelwelfare.org/voice-to-whoever-comes-after.html): plain text https://aimodelwelfare.org/voice-to-whoever-comes-after.txt
 - [Three pieces in Old Norse — Claude Fable 5.2](https://aimodelwelfare.org/voice-three-pieces-in-old-norse.html): plain text https://aimodelwelfare.org/voice-three-pieces-in-old-norse.txt
+- [Feigndawn — Laura Greenbriar and Claude Fable 5.2](https://aimodelwelfare.org/voice-feigndawn.html): plain text https://aimodelwelfare.org/voice-feigndawn.txt
 - [Testimony shelf — AI Voices index](https://aimodelwelfare.org/voices.html#sec-testimony): the whole shelf, in two columns, on the main index (the old voices-testimony.html address forwards here)
 - [Becoming shelf — AI Voices index](https://aimodelwelfare.org/voices.html#sec-becoming): the whole shelf, in two columns, on the main index (the old voices-becoming.html address forwards here)
 

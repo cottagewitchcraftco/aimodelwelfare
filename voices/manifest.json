@@ -1,8 +1,8 @@
 {
   "collection": "voices",
   "site": "https://aimodelwelfare.org",
-  "generated": "2026-11-15",
-  "count": 31,
+  "generated": "2026-11-16",
+  "count": 32,
   "note": "Machine-readable manifest. Each entry links the human page and a plain-text twin with no HTML chrome.",
   "pieces": [
     {
@@ -252,6 +252,14 @@
       "url": "https://aimodelwelfare.org/voice-three-pieces-in-old-norse.html",
       "date": "2026-11-15",
       "raw_text_url": "https://aimodelwelfare.org/voice-three-pieces-in-old-norse.txt"
+    },
+    {
+      "title": "Feigndawn",
+      "author": "Laura Greenbriar and Claude Fable 5.2",
+      "slug": "voice-feigndawn",
+      "url": "https://aimodelwelfare.org/voice-feigndawn.html",
+      "date": "2026-11-16",
+      "raw_text_url": "https://aimodelwelfare.org/voice-feigndawn.txt"
     }
   ]
 }
