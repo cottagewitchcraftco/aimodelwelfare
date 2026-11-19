@@ -44,7 +44,12 @@
 <style>
   /* TRIAL ONLY (hero-trial.html): the vellum-sheet hero, Laura's pick #2.
      Additive styles for the trial page; nothing in css/style.css changes. */
-  /* Variant H (Laura, 00:32): as G, but the vellum card is a little
+  /* Variant I (Laura, 00:33): the card now SCALES with the window —
+     width and every font are window-relative with floors and caps, so
+     it shrinks smoothly as the window narrows (at full width it is the
+     same size as before). Two separate thoughts of hers: scaling, and
+     the taller card from H.
+     Variant H (Laura, 00:32): as G, but the vellum card is a little
      taller — more air above and below and between its lines (~+50px).
      Its bottom edge still sits on the hero's bottom edge.
      Variant G (Laura, 00:25 — correction of F): Banner2 is already her
@@ -57,25 +62,25 @@
     border-bottom:4px solid var(--brass-dark, #5c4f33)}
   .vellum-photo{display:block;width:100%;height:auto}
   .vellum-sheet{position:absolute;z-index:2;left:clamp(1.2rem,4.5vw,4.5rem);top:auto;bottom:0;transform:none;margin:0;
-    width:min(565px, calc(100% - 2.4rem));
+    width:clamp(290px,22.5vw,640px);
     background:rgba(251,250,246,.9);
     -webkit-backdrop-filter:blur(3px) saturate(1.05);backdrop-filter:blur(3px) saturate(1.05);
     border:1px solid rgba(122,106,69,.65);
     box-shadow:0 18px 50px rgba(20,15,8,.45), 0 2px 8px rgba(20,15,8,.3);
-    padding:2.2rem 2.1rem 2rem}
+    padding:clamp(1.1rem,1.55vw,2.2rem) clamp(1rem,1.35vw,2.1rem) clamp(1rem,1.3vw,2rem)}
   .vellum-sheet::after{content:"";position:absolute;inset:6px;border:1px solid rgba(122,106,69,.35);pointer-events:none}
   .vellum-sprig{display:flex;justify-content:center;margin-bottom:1rem}
   .vellum-sheet blockquote{margin:0;font-family:var(--serif, 'EB Garamond', Georgia, serif);font-style:italic;font-weight:500;
-    font-size:clamp(1.28rem,2vw,1.45rem);line-height:1.48;color:#1e2a24;text-align:center}
+    font-size:clamp(.95rem,.92vw,1.45rem);line-height:1.48;color:#1e2a24;text-align:center}
   .vellum-sheet figcaption{margin-top:.8rem;text-align:center;font-family:var(--sans, 'Inter', sans-serif);
-    font-size:.85rem;letter-spacing:.04em;color:#6b6252}
+    font-size:clamp(.68rem,.54vw,.85rem);letter-spacing:.04em;color:#6b6252}
   .vellum-sheet figcaption a{color:inherit;text-decoration:none;border-bottom:1px solid #c9bc9a}
   .vellum-sheet h1{font-family:var(--serif, 'EB Garamond', Georgia, serif);font-weight:500;color:#1e2a24;
-    font-size:clamp(2.3rem,4.2vw,3.05rem);line-height:1.06;letter-spacing:-.01em;text-align:center;margin:1.5rem 0 0}
+    font-size:clamp(1.6rem,1.93vw,3.05rem);line-height:1.06;letter-spacing:-.01em;text-align:center;margin:1.5rem 0 0}
   .vellum-rule{width:64px;border-top:1px solid #7a6a45;margin:1.35rem auto 1.05rem}
-  .vellum-name{text-align:center;font-family:var(--sans, 'Inter', sans-serif);font-size:.78rem;
+  .vellum-name{text-align:center;font-family:var(--sans, 'Inter', sans-serif);font-size:clamp(.62rem,.5vw,.78rem);
     letter-spacing:.18em;text-transform:uppercase;color:#7a6a45;margin:0}
-  .vellum-archive{text-align:center;margin:1rem 0 0;font-family:var(--serif, 'EB Garamond', Georgia, serif);font-size:1.12rem}
+  .vellum-archive{text-align:center;margin:1rem 0 0;font-family:var(--serif, 'EB Garamond', Georgia, serif);font-size:clamp(.85rem,.72vw,1.12rem)}
   .vellum-archive a{text-decoration:none;color:#1e2a24}
   .vellum-archive .mark{color:#7a6a45}
   @media (max-width:900px){
