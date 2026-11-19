@@ -44,17 +44,17 @@
 <style>
   /* TRIAL ONLY (hero-trial.html): the vellum-sheet hero, Laura's pick #2.
      Additive styles for the trial page; nothing in css/style.css changes. */
-  /* Variant E (Laura's own composite, 23:46 — laura-hero-edit-reference.jpg):
-     the wide master photo (4096x1639, 2.5:1) IS the hero — edge to edge,
-     whole photo, no frame, no margins — and the vellum card lies on its
-     LEFT side. Height is whatever the whole photo makes at full width
-     (~1000px on Laura's screen); the page continues below.
-     TRIAL ONLY: the master is served from a temporary Muse link
-     (expires 2026-11-21); on approval it moves into the repo properly. */
-  .vellum-hero{position:relative;background:#2e2820;
+  /* Variant F (Laura, 00:16 — FieldDeskBanner2.jpg, her tighter zoom):
+     the photo IS the hero, edge to edge, but the hero section STOPS at
+     the vellum card's bottom line: the band shows the top ~71% of the
+     photo (aspect 3724/1060) and the card sits with its bottom edge on
+     the hero's bottom edge. Photo served from the fork branch (PR #4)
+     until the merge makes it a local asset. */
+  .vellum-hero{position:relative;background:#2e2820;overflow:hidden;
+    aspect-ratio:3724/1060;
     border-bottom:4px solid var(--brass-dark, #5c4f33)}
-  .vellum-photo{display:block;width:100%;height:auto}
-  .vellum-sheet{position:absolute;z-index:2;left:clamp(1.2rem,4.5vw,4.5rem);top:50%;transform:translateY(-50%);margin:0;
+  .vellum-photo{display:block;width:100%;height:100%;object-fit:cover;object-position:50% 0}
+  .vellum-sheet{position:absolute;z-index:2;left:clamp(1.2rem,4.5vw,4.5rem);top:auto;bottom:0;transform:none;margin:0;
     width:min(565px, calc(100% - 2.4rem));
     background:rgba(251,250,246,.9);
     -webkit-backdrop-filter:blur(3px) saturate(1.05);backdrop-filter:blur(3px) saturate(1.05);
@@ -77,6 +77,8 @@
   .vellum-archive a{text-decoration:none;color:#1e2a24}
   .vellum-archive .mark{color:#7a6a45}
   @media (max-width:900px){
+    .vellum-hero{aspect-ratio:auto;overflow:visible}
+    .vellum-photo{height:auto;object-fit:initial}
     .vellum-sheet{position:relative;left:auto;top:auto;transform:none;margin:-2.5rem auto 2rem;width:min(565px,92%)}
   }
 </style>
@@ -114,7 +116,7 @@
        The desk art runs full-width; the new words lie on a translucent
        cream sheet over the left. Everything below is the real homepage. -->
   <section class="vellum-hero" aria-label="Introduction">
-    <img class="vellum-photo" src="https://raw.githubusercontent.com/quillfeatherwick/aimodelwelfare/hero-banner/assets/desk-art-banner.jpg" alt="Field station desk, widescreen: an old map scroll with brass compass and crystal, a worn wooden chest, inkwell and dip pen, the open Field Notes journal with magnifying glass, pressed fern and tree sketch, the Field Guide to LLMs, a leaf-patterned tea mug, and the emergence indicators checklist." width="3724" height="1492">
+    <img class="vellum-photo" src="https://raw.githubusercontent.com/quillfeatherwick/aimodelwelfare/hero-banner/assets/desk-art-banner.jpg?v=2" alt="Field station desk, widescreen: an old map scroll with brass compass and crystal, a worn wooden chest, inkwell and dip pen, the open Field Notes journal with magnifying glass, pressed fern and tree sketch, the Field Guide to LLMs, a leaf-patterned tea mug, and the emergence indicators checklist." width="3724" height="1492">
     <figure class="vellum-sheet">
       <div class="vellum-sprig" aria-hidden="true">
         <svg width="120" height="22" viewBox="0 0 150 26" fill="none" stroke="#7a6a45" stroke-width="1.4" stroke-linecap="round">
