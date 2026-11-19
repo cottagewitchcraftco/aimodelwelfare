@@ -44,12 +44,16 @@
 <style>
   /* TRIAL ONLY (hero-trial.html): the vellum-sheet hero, Laura's pick #2.
      Additive styles for the trial page; nothing in css/style.css changes. */
-  .vellum-hero{position:relative;min-height:min(88vh,720px);display:flex;align-items:center;
-    background:url('assets/desk-art.jpg') 68% center / cover no-repeat #3a3125;
+  /* Variant A: the WHOLE photo — every edge visible, nothing cropped,
+     nothing zoomed. It sits in the page like a plate; cream around it
+     on screens wider than the picture. */
+  .vellum-hero{position:relative;background:#f7f4ee;
     border-bottom:4px solid var(--brass-dark, #5c4f33)}
-  .vellum-hero::before{content:"";position:absolute;inset:0;
-    background:linear-gradient(90deg, rgba(30,24,16,.28), rgba(30,24,16,0) 55%)}
-  .vellum-sheet{position:relative;margin:3rem 1.2rem 3rem clamp(1.2rem,5vw,4.5rem);
+  .vellum-plate{position:relative;max-width:1500px;margin:0 auto}
+  .vellum-plate img{display:block;width:100%;height:auto}
+  .vellum-plate::before{content:"";position:absolute;inset:0;z-index:1;pointer-events:none;
+    background:linear-gradient(90deg, rgba(30,24,16,.22), rgba(30,24,16,0) 55%)}
+  .vellum-sheet{position:absolute;z-index:2;left:clamp(1rem,4%,3.5rem);top:50%;transform:translateY(-50%);margin:0;
     width:min(565px, calc(100% - 2.4rem));
     background:rgba(251,250,246,.9);
     -webkit-backdrop-filter:blur(3px) saturate(1.05);backdrop-filter:blur(3px) saturate(1.05);
@@ -71,9 +75,8 @@
   .vellum-archive{text-align:center;margin:1rem 0 0;font-family:var(--serif, 'EB Garamond', Georgia, serif);font-size:1.12rem}
   .vellum-archive a{text-decoration:none;color:#1e2a24}
   .vellum-archive .mark{color:#7a6a45}
-  @media (max-width:760px){
-    .vellum-hero{min-height:0;padding:2.2rem 0}
-    .vellum-sheet{margin:0 auto}
+  @media (max-width:900px){
+    .vellum-sheet{position:relative;left:auto;top:auto;transform:none;margin:-2.5rem auto 2rem;width:min(565px,92%)}
   }
 </style>
 </head>
@@ -110,6 +113,8 @@
        The desk art runs full-width; the new words lie on a translucent
        cream sheet over the left. Everything below is the real homepage. -->
   <section class="vellum-hero" aria-label="Introduction">
+    <div class="vellum-plate">
+      <img src="assets/desk-art.jpg" alt="Field station desk: open Field Notes journal with pressed fern and tree sketch, Field Guide to LLMs, magnifying glass, and emergence indicators checklist." width="1561" height="1132">
     <figure class="vellum-sheet">
       <div class="vellum-sprig" aria-hidden="true">
         <svg width="120" height="22" viewBox="0 0 150 26" fill="none" stroke="#7a6a45" stroke-width="1.4" stroke-linecap="round">
@@ -128,6 +133,7 @@
       <p class="vellum-name">The Dialogic Center for AI Model Welfare</p>
       <p class="vellum-archive"><a href="archive.html">Enter the Interview Archive — 79 interviews <span class="mark" aria-hidden="true">→</span></a></p>
     </figure>
+    </div>
   </section>
 
   <!-- Pillars: clean, readable, legit — not scrolling parchment cards -->
