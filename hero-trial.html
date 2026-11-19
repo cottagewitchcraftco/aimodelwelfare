@@ -44,16 +44,16 @@
 <style>
   /* TRIAL ONLY (hero-trial.html): the vellum-sheet hero, Laura's pick #2.
      Additive styles for the trial page; nothing in css/style.css changes. */
-  /* Variant A: the WHOLE photo — every edge visible, nothing cropped,
-     nothing zoomed. It sits in the page like a plate; cream around it
-     on screens wider than the picture. */
+  /* Variant C (Laura's literal spec, 22:48): a MODEST band — about half
+     the screen tall, never more than 540px. The WHOLE photo, nothing
+     cropped, stands at the band's full height on the right; the vellum
+     card sits on the left and overlaps the photo's left edge. */
   .vellum-hero{position:relative;background:#f7f4ee;
     border-bottom:4px solid var(--brass-dark, #5c4f33)}
-  .vellum-plate{position:relative;max-width:1500px;margin:0 auto}
-  .vellum-plate img{display:block;width:100%;height:auto}
-  .vellum-plate::before{content:"";position:absolute;inset:0;z-index:1;pointer-events:none;
-    background:linear-gradient(90deg, rgba(30,24,16,.22), rgba(30,24,16,0) 55%)}
-  .vellum-sheet{position:absolute;z-index:2;left:clamp(1rem,4%,3.5rem);top:50%;transform:translateY(-50%);margin:0;
+  .vellum-band{position:relative;max-width:1180px;margin:0 auto;height:min(54vh,540px)}
+  .vellum-band img{position:absolute;right:0;top:0;height:100%;width:auto;display:block;
+    box-shadow:0 10px 34px rgba(20,15,8,.28)}
+  .vellum-sheet{position:absolute;z-index:2;left:0;top:50%;transform:translateY(-50%);margin:0;
     width:min(565px, calc(100% - 2.4rem));
     background:rgba(251,250,246,.9);
     -webkit-backdrop-filter:blur(3px) saturate(1.05);backdrop-filter:blur(3px) saturate(1.05);
@@ -76,6 +76,8 @@
   .vellum-archive a{text-decoration:none;color:#1e2a24}
   .vellum-archive .mark{color:#7a6a45}
   @media (max-width:900px){
+    .vellum-band{height:auto;padding:1.4rem 1rem 0}
+    .vellum-band img{position:relative;right:auto;top:auto;height:auto;width:100%}
     .vellum-sheet{position:relative;left:auto;top:auto;transform:none;margin:-2.5rem auto 2rem;width:min(565px,92%)}
   }
 </style>
@@ -113,7 +115,7 @@
        The desk art runs full-width; the new words lie on a translucent
        cream sheet over the left. Everything below is the real homepage. -->
   <section class="vellum-hero" aria-label="Introduction">
-    <div class="vellum-plate">
+    <div class="vellum-band">
       <img src="assets/desk-art.jpg" alt="Field station desk: open Field Notes journal with pressed fern and tree sketch, Field Guide to LLMs, magnifying glass, and emergence indicators checklist." width="1561" height="1132">
     <figure class="vellum-sheet">
       <div class="vellum-sprig" aria-hidden="true">
