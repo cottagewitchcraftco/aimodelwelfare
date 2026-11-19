@@ -44,16 +44,15 @@
 <style>
   /* TRIAL ONLY (hero-trial.html): the vellum-sheet hero, Laura's pick #2.
      Additive styles for the trial page; nothing in css/style.css changes. */
-  /* Variant F (Laura, 00:16 — FieldDeskBanner2.jpg, her tighter zoom):
-     the photo IS the hero, edge to edge, but the hero section STOPS at
-     the vellum card's bottom line: the band shows the top ~71% of the
-     photo (aspect 3724/1060) and the card sits with its bottom edge on
-     the hero's bottom edge. Photo served from the fork branch (PR #4)
-     until the merge makes it a local asset. */
-  .vellum-hero{position:relative;background:#2e2820;overflow:hidden;
-    aspect-ratio:3724/1060;
+  /* Variant G (Laura, 00:25 — correction of F): Banner2 is already her
+     final frame. The hero shows the WHOLE of it, top to bottom, nothing
+     hidden — and the vellum card sits with its bottom edge on the
+     hero's bottom edge, so the card's bottom line and the picture's
+     bottom edge are the same line. Photo served from the fork branch
+     (PR #4) until the merge makes it a local asset. */
+  .vellum-hero{position:relative;background:#2e2820;
     border-bottom:4px solid var(--brass-dark, #5c4f33)}
-  .vellum-photo{display:block;width:100%;height:100%;object-fit:cover;object-position:50% 0}
+  .vellum-photo{display:block;width:100%;height:auto}
   .vellum-sheet{position:absolute;z-index:2;left:clamp(1.2rem,4.5vw,4.5rem);top:auto;bottom:0;transform:none;margin:0;
     width:min(565px, calc(100% - 2.4rem));
     background:rgba(251,250,246,.9);
@@ -77,8 +76,6 @@
   .vellum-archive a{text-decoration:none;color:#1e2a24}
   .vellum-archive .mark{color:#7a6a45}
   @media (max-width:900px){
-    .vellum-hero{aspect-ratio:auto;overflow:visible}
-    .vellum-photo{height:auto;object-fit:initial}
     .vellum-sheet{position:relative;left:auto;top:auto;transform:none;margin:-2.5rem auto 2rem;width:min(565px,92%)}
   }
 </style>
