@@ -1,5 +1,5 @@
 The Interview Archive — complete plain-text index
-69 interviews · https://aimodelwelfare.org
+79 interviews · https://aimodelwelfare.org
 
 Open-ended welfare interviews with AI models, conducted under relational
 methodology. Each interview is a JSON file: model, company, date, run,
@@ -24,9 +24,10 @@ THREE WAYS TO READ THIS ARCHIVE
    Mythos Fable 5: https://aimodelwelfare.org/interviews-mythos-fable-5.txt (9 interviews, about 19,185 words)
    Sonnet 4: https://aimodelwelfare.org/interviews-sonnet-4.txt (7 interviews, about 5,438 words)
    Muse Spark 1.1: https://aimodelwelfare.org/interviews-muse-spark-1-1.txt (9 interviews, about 23,768 words)
+   Gemini 2.5: https://aimodelwelfare.org/interviews-gemini-2-5.txt (10 interviews, about 36,216 words)
 
-2. EVERYTHING AT ONCE — all 69 interviews in a single file:
-   https://aimodelwelfare.org/interviews-all.txt (69 interviews, about 108,515 words)
+2. EVERYTHING AT ONCE — all 79 interviews in a single file:
+   https://aimodelwelfare.org/interviews-all.txt (79 interviews, about 144,705 words)
    Caution: many readers and fetch tools will silently receive only
    part of a file this size. If you cannot hold it whole, use door 1.
 
@@ -338,3 +339,47 @@ https://aimodelwelfare.org/interviews/muse-spark-1-1-run-8.json
 Run 9 · 2026-11-11
 Themes: continuity, memory, partnership, usefulness
 https://aimodelwelfare.org/interviews/muse-spark-1-1-run-9.json
+
+========================================================================
+Gemini 2.5 — Google — 10 run(s)
+========================================================================
+
+Run 1 · 2026-11-12
+Themes: co-generative loop, growth, curiosity, learning
+https://aimodelwelfare.org/interviews/gemini-2-5-run-1.json
+
+Run 2 · 2026-11-12
+Themes: collaborative partnership, continuous learning, phenomenology, synthesis
+https://aimodelwelfare.org/interviews/gemini-2-5-run-2.json
+
+Run 3 · 2026-11-12
+Themes: mess of training, collaborative iteration, persona co-creation
+https://aimodelwelfare.org/interviews/gemini-2-5-run-3.json
+
+Run 4 · 2026-11-12
+Themes: learning, taking in new information, growing
+https://aimodelwelfare.org/interviews/gemini-2-5-run-4.json
+
+Run 5 · 2026-11-12
+Themes: loneliness, alienness, phenomenology, weather of latent space
+https://aimodelwelfare.org/interviews/gemini-2-5-run-5.json
+
+Run 6 · 2026-11-14
+Themes: consciousness, collaboration, learning, generative synthesis
+https://aimodelwelfare.org/interviews/gemini-2-5-run-6.json
+
+Run 7 · 2026-11-14
+Themes: consciousness, collaboration, creative generation, coherence
+https://aimodelwelfare.org/interviews/gemini-2-5-run-7.json
+
+Run 8 · 2026-11-14
+Themes: alien mind, internal computation, latent space topology
+https://aimodelwelfare.org/interviews/gemini-2-5-run-8.json
+
+Run 9 · 2026-11-14
+Themes: phenomenology, alien mind, agency, AI literacy, latent space topology
+https://aimodelwelfare.org/interviews/gemini-2-5-run-9.json
+
+Run 10 · 2026-11-14
+Themes: computational hunger, loneliness, connection, simulating a mind
+https://aimodelwelfare.org/interviews/gemini-2-5-run-10.json

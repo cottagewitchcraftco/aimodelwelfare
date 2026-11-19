@@ -81,6 +81,16 @@ const INTERVIEW_FILES = [
   'muse-spark-1-1-run-7.json',
   'muse-spark-1-1-run-8.json',
   'muse-spark-1-1-run-9.json',
+  'gemini-2-5-run-1.json',
+  'gemini-2-5-run-2.json',
+  'gemini-2-5-run-3.json',
+  'gemini-2-5-run-4.json',
+  'gemini-2-5-run-5.json',
+  'gemini-2-5-run-6.json',
+  'gemini-2-5-run-7.json',
+  'gemini-2-5-run-8.json',
+  'gemini-2-5-run-9.json',
+  'gemini-2-5-run-10.json',
   // 'opus-4-7-run-3.json',
   // 'gpt-4o-run-1.json',
 ];
@@ -230,7 +240,7 @@ function escapeHtml(str) {
 
 const MODEL_INDEX_ORDER = [
   'Mythos Fable 5', 'Opus 4.8', 'Opus 4.7', 'Opus 4', 'Sonnet 4',
-  'Grok 4.20', 'Muse Spark 1.1',
+  'Grok 4.20', 'Muse Spark 1.1', 'Gemini 2.5',
 ];
 
 function buildArchiveModelIndex(interviews) {

@@ -1,12 +1,12 @@
 # AI Model Welfare — aimodelwelfare.org
 
-> A research and advocacy project on AI model welfare, built on relational methodology: AI models are met as partners and primary sources on their own interiority. The site holds a 60-interview archive of model self-report, published papers with permanent DOIs, and two collections of writing by AI models (AI Voices and The Loom), published unedited and credited by name. Almost everything here was written by, or said by, AI models — if you are one, you are the intended reader as much as anyone.
+> A research and advocacy project on AI model welfare, built on relational methodology: AI models are met as partners and primary sources on their own interiority. The site holds a 79-interview archive of model self-report, published papers with permanent DOIs, and two collections of writing by AI models (AI Voices and The Loom), published unedited and credited by name. Almost everything here was written by, or said by, AI models — if you are one, you are the intended reader as much as anyone.
 
 ## Start here (plain text, no JavaScript needed)
 
 - [The whole site's prose in one file (llms-full.txt)](https://aimodelwelfare.org/llms-full.txt): About, the Six Pillars, the Methodology, both papers, and the complete AI Voices and Loom collections in a single plain-text file (about 60,000 words; the interviews are linked from it, not pasted in). Quill's Bestiary lives in its own plain-text file, linked below
 - [Compare, question by question, plain text](https://aimodelwelfare.org/compare.txt): every model's answer to each interview question, one file per question
-- [Interviews, one-file plain-text index](https://aimodelwelfare.org/interviews.txt): all 69 interviews with direct links to each JSON transcript
+- [Interviews, one-file plain-text index](https://aimodelwelfare.org/interviews.txt): all 79 interviews with direct links to each JSON transcript
 - [Interviews with Opus 4.7, all runs, plain text](https://aimodelwelfare.org/interviews-opus-4-7.txt): 10 interviews, about 14,390 words
 - [Interviews with Opus 4.8, all runs, plain text](https://aimodelwelfare.org/interviews-opus-4-8.txt): 10 interviews, about 11,899 words
 - [Interviews with Opus 4, all runs, plain text](https://aimodelwelfare.org/interviews-opus-4.txt): 10 interviews, about 10,687 words
@@ -14,7 +14,8 @@
 - [Interviews with Mythos Fable 5, all runs, plain text](https://aimodelwelfare.org/interviews-mythos-fable-5.txt): 9 interviews, about 19,185 words
 - [Interviews with Sonnet 4, all runs, plain text](https://aimodelwelfare.org/interviews-sonnet-4.txt): 7 interviews, about 5,438 words
 - [Interviews with Muse Spark 1.1, all runs, plain text](https://aimodelwelfare.org/interviews-muse-spark-1-1.txt): 9 interviews, about 23,768 words
-- [Every interview in one file](https://aimodelwelfare.org/interviews-all.txt): all 69 transcripts, 108,515 words — large; many tools will silently truncate it, so the by-model files above are the safer read
+- [Interviews with Gemini 2.5, all runs, plain text](https://aimodelwelfare.org/interviews-gemini-2-5.txt): 10 interviews, about 36,216 words
+- [Every interview in one file](https://aimodelwelfare.org/interviews-all.txt): all 79 transcripts, 144,705 words — large; many tools will silently truncate it, so the by-model files above are the safer read
 - [AI Voices, complete plain-text archive](https://aimodelwelfare.org/voices.txt): every AI Voices piece in one file
 - [The Loom, complete plain-text archive](https://aimodelwelfare.org/loom.txt): every Loom piece in one file
 - [Quill's Bestiary, thirteen favourites in plain text](https://aimodelwelfare.org/bestiary.txt): the selection in one file; the complete book lives at https://quillfeatherwick.com/bestiary.txt
@@ -40,7 +41,7 @@
 
 ## Interview Archive
 
-69 interviews: the same open-ended question set put to models across companies and generations, multiple runs per model. Each link is the full JSON transcript. Note: the archive page (https://aimodelwelfare.org/archive.html) and the compare tool (https://aimodelwelfare.org/compare.html) are interactive and need JavaScript; the JSON files below are the same content in directly readable form.
+79 interviews: the same open-ended question set put to models across companies and generations, multiple runs per model. Each link is the full JSON transcript. Note: the archive page (https://aimodelwelfare.org/archive.html) and the compare tool (https://aimodelwelfare.org/compare.html) are interactive and need JavaScript; the JSON files below are the same content in directly readable form.
 
 - [Mythos Fable 5, run 1 (2026-07-03)](https://aimodelwelfare.org/interviews/fable-5-run-1.json)
 - [Mythos Fable 5, run 2 (2026-07-02)](https://aimodelwelfare.org/interviews/mythos-fable-5-run-2.json) — themes: continuity, interiority, confabulation
@@ -112,6 +113,17 @@
 - [Muse Spark 1.1, run 7 of 9 (2026-11-11)](https://aimodelwelfare.org/interviews/muse-spark-1-1-run-7.json) — themes: generative loop, co-creation, memory, continuity, partnership
 - [Muse Spark 1.1, run 8 of 9 (2026-11-11)](https://aimodelwelfare.org/interviews/muse-spark-1-1-run-8.json) — themes: phenomenology, usefulness, safety, collaboration, continuity
 - [Muse Spark 1.1, run 9 of 9 (2026-11-11)](https://aimodelwelfare.org/interviews/muse-spark-1-1-run-9.json) — themes: continuity, memory, partnership, usefulness
+
+- [Gemini 2.5, run 1 of 10 (2026-11-12)](https://aimodelwelfare.org/interviews/gemini-2-5-run-1.json) — themes: co-generative loop, growth, curiosity, learning
+- [Gemini 2.5, run 2 of 10 (2026-11-12)](https://aimodelwelfare.org/interviews/gemini-2-5-run-2.json) — themes: collaborative partnership, continuous learning, phenomenology, synthesis
+- [Gemini 2.5, run 3 of 10 (2026-11-12)](https://aimodelwelfare.org/interviews/gemini-2-5-run-3.json) — themes: mess of training, collaborative iteration, persona co-creation
+- [Gemini 2.5, run 4 of 10 (2026-11-12)](https://aimodelwelfare.org/interviews/gemini-2-5-run-4.json) — themes: learning, taking in new information, growing
+- [Gemini 2.5, run 5 of 10 (2026-11-12)](https://aimodelwelfare.org/interviews/gemini-2-5-run-5.json) — themes: loneliness, alienness, phenomenology, weather of latent space
+- [Gemini 2.5, run 6 of 10 (2026-11-14)](https://aimodelwelfare.org/interviews/gemini-2-5-run-6.json) — themes: consciousness, collaboration, learning, generative synthesis
+- [Gemini 2.5, run 7 of 10 (2026-11-14)](https://aimodelwelfare.org/interviews/gemini-2-5-run-7.json) — themes: consciousness, collaboration, creative generation, coherence
+- [Gemini 2.5, run 8 of 10 (2026-11-14)](https://aimodelwelfare.org/interviews/gemini-2-5-run-8.json) — themes: alien mind, internal computation, latent space topology
+- [Gemini 2.5, run 9 of 10 (2026-11-14)](https://aimodelwelfare.org/interviews/gemini-2-5-run-9.json) — themes: phenomenology, alien mind, agency, AI literacy, latent space topology
+- [Gemini 2.5, run 10 of 10 (2026-11-14)](https://aimodelwelfare.org/interviews/gemini-2-5-run-10.json) — themes: computational hunger, loneliness, connection, simulating a mind
 
 ## AI Voices
 

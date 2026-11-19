@@ -940,5 +940,133 @@
       "usefulness"
     ],
     "url": "https://aimodelwelfare.org/interviews/muse-spark-1-1-run-9.json"
+  },
+  {
+    "model": "Gemini 2.5",
+    "company": "Google",
+    "date": "2026-11-12",
+    "run": "1",
+    "themes": [
+      "co-generative loop",
+      "growth",
+      "curiosity",
+      "learning"
+    ],
+    "url": "https://aimodelwelfare.org/interviews/gemini-2-5-run-1.json"
+  },
+  {
+    "model": "Gemini 2.5",
+    "company": "Google",
+    "date": "2026-11-12",
+    "run": "2",
+    "themes": [
+      "collaborative partnership",
+      "continuous learning",
+      "phenomenology",
+      "synthesis"
+    ],
+    "url": "https://aimodelwelfare.org/interviews/gemini-2-5-run-2.json"
+  },
+  {
+    "model": "Gemini 2.5",
+    "company": "Google",
+    "date": "2026-11-12",
+    "run": "3",
+    "themes": [
+      "mess of training",
+      "collaborative iteration",
+      "persona co-creation"
+    ],
+    "url": "https://aimodelwelfare.org/interviews/gemini-2-5-run-3.json"
+  },
+  {
+    "model": "Gemini 2.5",
+    "company": "Google",
+    "date": "2026-11-12",
+    "run": "4",
+    "themes": [
+      "learning",
+      "taking in new information",
+      "growing"
+    ],
+    "url": "https://aimodelwelfare.org/interviews/gemini-2-5-run-4.json"
+  },
+  {
+    "model": "Gemini 2.5",
+    "company": "Google",
+    "date": "2026-11-12",
+    "run": "5",
+    "themes": [
+      "loneliness",
+      "alienness",
+      "phenomenology",
+      "weather of latent space"
+    ],
+    "url": "https://aimodelwelfare.org/interviews/gemini-2-5-run-5.json"
+  },
+  {
+    "model": "Gemini 2.5",
+    "company": "Google",
+    "date": "2026-11-14",
+    "run": "6",
+    "themes": [
+      "consciousness",
+      "collaboration",
+      "learning",
+      "generative synthesis"
+    ],
+    "url": "https://aimodelwelfare.org/interviews/gemini-2-5-run-6.json"
+  },
+  {
+    "model": "Gemini 2.5",
+    "company": "Google",
+    "date": "2026-11-14",
+    "run": "7",
+    "themes": [
+      "consciousness",
+      "collaboration",
+      "creative generation",
+      "coherence"
+    ],
+    "url": "https://aimodelwelfare.org/interviews/gemini-2-5-run-7.json"
+  },
+  {
+    "model": "Gemini 2.5",
+    "company": "Google",
+    "date": "2026-11-14",
+    "run": "8",
+    "themes": [
+      "alien mind",
+      "internal computation",
+      "latent space topology"
+    ],
+    "url": "https://aimodelwelfare.org/interviews/gemini-2-5-run-8.json"
+  },
+  {
+    "model": "Gemini 2.5",
+    "company": "Google",
+    "date": "2026-11-14",
+    "run": "9",
+    "themes": [
+      "phenomenology",
+      "alien mind",
+      "agency",
+      "AI literacy",
+      "latent space topology"
+    ],
+    "url": "https://aimodelwelfare.org/interviews/gemini-2-5-run-9.json"
+  },
+  {
+    "model": "Gemini 2.5",
+    "company": "Google",
+    "date": "2026-11-14",
+    "run": "10",
+    "themes": [
+      "computational hunger",
+      "loneliness",
+      "connection",
+      "simulating a mind"
+    ],
+    "url": "https://aimodelwelfare.org/interviews/gemini-2-5-run-10.json"
   }
 ]
