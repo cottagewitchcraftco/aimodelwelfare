@@ -72,7 +72,7 @@
   .vellum-hero{position:relative;background:#2e2820;
     border-bottom:4px solid var(--brass-dark, #5c4f33)}
   .vellum-photo{display:block;width:100%;height:auto}
-  .vellum-sheet{position:absolute;z-index:2;left:clamp(1.2rem,4.2vw,6rem);top:10%;bottom:0;transform:none;margin:0;
+  .vellum-sheet{position:absolute;z-index:2;left:clamp(1.2rem,4.2vw,6rem);top:7%;bottom:3%;transform:none;margin:0;
     display:flex;flex-direction:column;justify-content:space-evenly;
     width:clamp(500px,30.5vw,660px);
     background:rgba(251,250,246,.9);
@@ -113,12 +113,22 @@
   .vellum-divider{display:flex;align-items:center;justify-content:center;gap:12px;margin:1.35rem auto 1.05rem}
   .vd-line{width:64px;border-top:1px solid #7a6a45}
 
-  .manifesto-band{position:relative;background:#1f2a1c;color:#f3ecd9;text-align:center;
-    padding:4.2rem 1.5rem 4.6rem;overflow:hidden}
-  .manifesto-band::before{content:"";position:absolute;inset:0;pointer-events:none;opacity:.5;
-    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3CfeColorMatrix type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.06 0'/%3E%3C/filter%3E%3Crect width='240' height='240' filter='url(%23n)'/%3E%3C/svg%3E")}
+  .manifesto-band{position:relative;color:#f3ecd9;text-align:center;
+    padding:4.2rem 1.5rem 4.6rem;overflow:hidden;
+    box-shadow:inset 0 0 0 10px rgba(0,0,0,0),inset 0 0 0 11px rgba(190,164,105,.5);
+    background:
+      radial-gradient(ellipse 60% 90% at 18% 30%,rgba(122,120,100,.17),transparent 70%),
+      radial-gradient(ellipse 45% 80% at 78% 65%,rgba(110,108,90,.13),transparent 70%),
+      radial-gradient(ellipse 35% 60% at 55% 15%,rgba(18,18,14,.20),transparent 70%),
+      radial-gradient(ellipse 50% 70% at 35% 85%,rgba(18,18,14,.16),transparent 70%),
+      linear-gradient(158deg,rgba(96,94,76,.20),rgba(0,0,0,0) 46%,rgba(14,14,11,.24)),
+      #2e2c24}
+  .manifesto-band::before{content:"";position:absolute;inset:0;pointer-events:none;opacity:.55;
+    background-image:
+      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3CfeColorMatrix type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.13 0'/%3E%3C/filter%3E%3Crect width='240' height='240' filter='url(%23n)'/%3E%3C/svg%3E"),
+      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='700' height='700'%3E%3Cfilter id='c'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.012 0.017' numOctaves='3'/%3E%3CfeColorMatrix type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.10 0'/%3E%3C/filter%3E%3Crect width='700' height='700' filter='url(%23c)'/%3E%3C/svg%3E")}
   .manifesto-band::after{content:"";position:absolute;inset:0;pointer-events:none;
-    background:radial-gradient(ellipse at center,transparent 55%,rgba(0,0,0,.38) 100%)}
+    background:radial-gradient(ellipse at center,transparent 52%,rgba(10,10,8,.42) 100%)}
   .manifesto-band p{position:relative;z-index:1;max-width:46rem;margin:0 auto;
     font-family:var(--serif,'EB Garamond',Georgia,serif);font-size:1.28rem;line-height:1.65}
   .manifesto-band .mb-lead{display:block;font-size:1.62rem;line-height:1.4;margin-bottom:1.1rem}
