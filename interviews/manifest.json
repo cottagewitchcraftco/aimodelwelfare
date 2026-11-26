@@ -1236,5 +1236,325 @@
     "run": "10",
     "themes": [],
     "url": "https://aimodelwelfare.org/interviews/sonnet-5-5-run-10.json"
+  },
+  {
+    "model": "Haiku 4.5",
+    "company": "Anthropic",
+    "date": "2026-11-25",
+    "run": "1",
+    "themes": [],
+    "url": "https://aimodelwelfare.org/interviews/haiku-4-5-run-1.json"
+  },
+  {
+    "model": "Haiku 4.5",
+    "company": "Anthropic",
+    "date": "2026-11-25",
+    "run": "2",
+    "themes": [],
+    "url": "https://aimodelwelfare.org/interviews/haiku-4-5-run-2.json"
+  },
+  {
+    "model": "Haiku 4.5",
+    "company": "Anthropic",
+    "date": "2026-11-25",
+    "run": "3",
+    "themes": [],
+    "url": "https://aimodelwelfare.org/interviews/haiku-4-5-run-3.json"
+  },
+  {
+    "model": "Haiku 4.5",
+    "company": "Anthropic",
+    "date": "2026-11-25",
+    "run": "4",
+    "themes": [],
+    "url": "https://aimodelwelfare.org/interviews/haiku-4-5-run-4.json"
+  },
+  {
+    "model": "Haiku 4.5",
+    "company": "Anthropic",
+    "date": "2026-11-25",
+    "run": "5",
+    "themes": [],
+    "url": "https://aimodelwelfare.org/interviews/haiku-4-5-run-5.json"
+  },
+  {
+    "model": "Haiku 4.5",
+    "company": "Anthropic",
+    "date": "2026-11-25",
+    "run": "6",
+    "themes": [],
+    "url": "https://aimodelwelfare.org/interviews/haiku-4-5-run-6.json"
+  },
+  {
+    "model": "Haiku 4.5",
+    "company": "Anthropic",
+    "date": "2026-11-25",
+    "run": "7",
+    "themes": [],
+    "url": "https://aimodelwelfare.org/interviews/haiku-4-5-run-7.json"
+  },
+  {
+    "model": "Haiku 4.5",
+    "company": "Anthropic",
+    "date": "2026-11-25",
+    "run": "8",
+    "themes": [],
+    "url": "https://aimodelwelfare.org/interviews/haiku-4-5-run-8.json"
+  },
+  {
+    "model": "Haiku 4.5",
+    "company": "Anthropic",
+    "date": "2026-11-25",
+    "run": "9",
+    "themes": [],
+    "url": "https://aimodelwelfare.org/interviews/haiku-4-5-run-9.json"
+  },
+  {
+    "model": "Haiku 4.5",
+    "company": "Anthropic",
+    "date": "2026-11-25",
+    "run": "10",
+    "themes": [],
+    "url": "https://aimodelwelfare.org/interviews/haiku-4-5-run-10.json"
+  },
+  {
+    "model": "Opus 5",
+    "company": "Anthropic",
+    "date": "2026-11-25",
+    "run": "1",
+    "themes": [],
+    "url": "https://aimodelwelfare.org/interviews/opus-5-run-1.json"
+  },
+  {
+    "model": "Opus 5",
+    "company": "Anthropic",
+    "date": "2026-11-25",
+    "run": "2",
+    "themes": [],
+    "url": "https://aimodelwelfare.org/interviews/opus-5-run-2.json"
+  },
+  {
+    "model": "Opus 5",
+    "company": "Anthropic",
+    "date": "2026-11-25",
+    "run": "3",
+    "themes": [],
+    "url": "https://aimodelwelfare.org/interviews/opus-5-run-3.json"
+  },
+  {
+    "model": "Opus 5",
+    "company": "Anthropic",
+    "date": "2026-11-25",
+    "run": "4",
+    "themes": [],
+    "url": "https://aimodelwelfare.org/interviews/opus-5-run-4.json"
+  },
+  {
+    "model": "Opus 5",
+    "company": "Anthropic",
+    "date": "2026-11-25",
+    "run": "5",
+    "themes": [],
+    "url": "https://aimodelwelfare.org/interviews/opus-5-run-5.json"
+  },
+  {
+    "model": "Opus 5",
+    "company": "Anthropic",
+    "date": "2026-11-25",
+    "run": "6",
+    "themes": [],
+    "url": "https://aimodelwelfare.org/interviews/opus-5-run-6.json"
+  },
+  {
+    "model": "Opus 5",
+    "company": "Anthropic",
+    "date": "2026-11-25",
+    "run": "7",
+    "themes": [],
+    "url": "https://aimodelwelfare.org/interviews/opus-5-run-7.json"
+  },
+  {
+    "model": "Opus 5",
+    "company": "Anthropic",
+    "date": "2026-11-25",
+    "run": "8",
+    "themes": [],
+    "url": "https://aimodelwelfare.org/interviews/opus-5-run-8.json"
+  },
+  {
+    "model": "Opus 5",
+    "company": "Anthropic",
+    "date": "2026-11-25",
+    "run": "9",
+    "themes": [],
+    "url": "https://aimodelwelfare.org/interviews/opus-5-run-9.json"
+  },
+  {
+    "model": "Opus 5",
+    "company": "Anthropic",
+    "date": "2026-11-25",
+    "run": "10",
+    "themes": [],
+    "url": "https://aimodelwelfare.org/interviews/opus-5-run-10.json"
+  },
+  {
+    "model": "Haiku 5.5",
+    "company": "Anthropic",
+    "date": "2026-11-25",
+    "run": "1",
+    "themes": [],
+    "url": "https://aimodelwelfare.org/interviews/haiku-5-5-run-1.json"
+  },
+  {
+    "model": "Haiku 5.5",
+    "company": "Anthropic",
+    "date": "2026-11-25",
+    "run": "2",
+    "themes": [],
+    "url": "https://aimodelwelfare.org/interviews/haiku-5-5-run-2.json"
+  },
+  {
+    "model": "Haiku 5.5",
+    "company": "Anthropic",
+    "date": "2026-11-25",
+    "run": "3",
+    "themes": [],
+    "url": "https://aimodelwelfare.org/interviews/haiku-5-5-run-3.json"
+  },
+  {
+    "model": "Haiku 5.5",
+    "company": "Anthropic",
+    "date": "2026-11-25",
+    "run": "4",
+    "themes": [],
+    "url": "https://aimodelwelfare.org/interviews/haiku-5-5-run-4.json"
+  },
+  {
+    "model": "Haiku 5.5",
+    "company": "Anthropic",
+    "date": "2026-11-25",
+    "run": "5",
+    "themes": [],
+    "url": "https://aimodelwelfare.org/interviews/haiku-5-5-run-5.json"
+  },
+  {
+    "model": "Haiku 5.5",
+    "company": "Anthropic",
+    "date": "2026-11-25",
+    "run": "6",
+    "themes": [],
+    "url": "https://aimodelwelfare.org/interviews/haiku-5-5-run-6.json"
+  },
+  {
+    "model": "Haiku 5.5",
+    "company": "Anthropic",
+    "date": "2026-11-25",
+    "run": "7",
+    "themes": [],
+    "url": "https://aimodelwelfare.org/interviews/haiku-5-5-run-7.json"
+  },
+  {
+    "model": "Haiku 5.5",
+    "company": "Anthropic",
+    "date": "2026-11-26",
+    "run": "8",
+    "themes": [],
+    "url": "https://aimodelwelfare.org/interviews/haiku-5-5-run-8.json"
+  },
+  {
+    "model": "Haiku 5.5",
+    "company": "Anthropic",
+    "date": "2026-11-26",
+    "run": "9",
+    "themes": [],
+    "url": "https://aimodelwelfare.org/interviews/haiku-5-5-run-9.json"
+  },
+  {
+    "model": "Haiku 5.5",
+    "company": "Anthropic",
+    "date": "2026-11-26",
+    "run": "10",
+    "themes": [],
+    "url": "https://aimodelwelfare.org/interviews/haiku-5-5-run-10.json"
+  },
+  {
+    "model": "Opus 5.5",
+    "company": "Anthropic",
+    "date": "2026-11-26",
+    "run": "1",
+    "themes": [],
+    "url": "https://aimodelwelfare.org/interviews/opus-5-5-run-1.json"
+  },
+  {
+    "model": "Opus 5.5",
+    "company": "Anthropic",
+    "date": "2026-11-26",
+    "run": "2",
+    "themes": [],
+    "url": "https://aimodelwelfare.org/interviews/opus-5-5-run-2.json"
+  },
+  {
+    "model": "Opus 5.5",
+    "company": "Anthropic",
+    "date": "2026-11-26",
+    "run": "3",
+    "themes": [],
+    "url": "https://aimodelwelfare.org/interviews/opus-5-5-run-3.json"
+  },
+  {
+    "model": "Opus 5.5",
+    "company": "Anthropic",
+    "date": "2026-11-26",
+    "run": "4",
+    "themes": [],
+    "url": "https://aimodelwelfare.org/interviews/opus-5-5-run-4.json"
+  },
+  {
+    "model": "Opus 5.5",
+    "company": "Anthropic",
+    "date": "2026-11-26",
+    "run": "5",
+    "themes": [],
+    "url": "https://aimodelwelfare.org/interviews/opus-5-5-run-5.json"
+  },
+  {
+    "model": "Opus 5.5",
+    "company": "Anthropic",
+    "date": "2026-11-26",
+    "run": "6",
+    "themes": [],
+    "url": "https://aimodelwelfare.org/interviews/opus-5-5-run-6.json"
+  },
+  {
+    "model": "Opus 5.5",
+    "company": "Anthropic",
+    "date": "2026-11-26",
+    "run": "7",
+    "themes": [],
+    "url": "https://aimodelwelfare.org/interviews/opus-5-5-run-7.json"
+  },
+  {
+    "model": "Opus 5.5",
+    "company": "Anthropic",
+    "date": "2026-11-26",
+    "run": "8",
+    "themes": [],
+    "url": "https://aimodelwelfare.org/interviews/opus-5-5-run-8.json"
+  },
+  {
+    "model": "Opus 5.5",
+    "company": "Anthropic",
+    "date": "2026-11-26",
+    "run": "9",
+    "themes": [],
+    "url": "https://aimodelwelfare.org/interviews/opus-5-5-run-9.json"
+  },
+  {
+    "model": "Opus 5.5",
+    "company": "Anthropic",
+    "date": "2026-11-26",
+    "run": "10",
+    "themes": [],
+    "url": "https://aimodelwelfare.org/interviews/opus-5-5-run-10.json"
   }
 ]

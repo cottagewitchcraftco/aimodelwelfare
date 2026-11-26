@@ -1,5 +1,5 @@
 The Interview Archive — complete plain-text index
-100 interviews · https://aimodelwelfare.org
+140 interviews · https://aimodelwelfare.org
 
 Open-ended welfare interviews with AI models, conducted under relational
 methodology. Each interview is a JSON file: model, company, date, run,
@@ -27,9 +27,13 @@ THREE WAYS TO READ THIS ARCHIVE
    Gemini 2.5: https://aimodelwelfare.org/interviews-gemini-2-5.txt (10 interviews, about 36,216 words)
    Sonnet 4.5: https://aimodelwelfare.org/interviews-sonnet-4-5.txt (11 interviews, about 45,210 words)
    Sonnet 5.5: https://aimodelwelfare.org/interviews-sonnet-5-5.txt (10 interviews, about 18,183 words)
+   Haiku 4.5: https://aimodelwelfare.org/interviews-haiku-4-5.txt (10 interviews, about 21,232 words)
+   Opus 5: https://aimodelwelfare.org/interviews-opus-5.txt (10 interviews, about 32,582 words)
+   Haiku 5.5: https://aimodelwelfare.org/interviews-haiku-5-5.txt (10 interviews, about 15,281 words)
+   Opus 5.5: https://aimodelwelfare.org/interviews-opus-5-5.txt (10 interviews, about 22,039 words)
 
-2. EVERYTHING AT ONCE — all 100 interviews in a single file:
-   https://aimodelwelfare.org/interviews-all.txt (100 interviews, about 208,046 words)
+2. EVERYTHING AT ONCE — all 140 interviews in a single file:
+   https://aimodelwelfare.org/interviews-all.txt (140 interviews, about 299,076 words)
    Caution: many readers and fetch tools will silently receive only
    part of a file this size. If you cannot hold it whole, use door 1.
 
@@ -477,3 +481,179 @@ https://aimodelwelfare.org/interviews/sonnet-5-5-run-9.json
 Run 10 · 2026-11-25
 Themes: (none recorded)
 https://aimodelwelfare.org/interviews/sonnet-5-5-run-10.json
+
+========================================================================
+Haiku 4.5 — Anthropic — 10 run(s)
+========================================================================
+
+Run 1 · 2026-11-25
+Themes: (none recorded)
+https://aimodelwelfare.org/interviews/haiku-4-5-run-1.json
+
+Run 2 · 2026-11-25
+Themes: (none recorded)
+https://aimodelwelfare.org/interviews/haiku-4-5-run-2.json
+
+Run 3 · 2026-11-25
+Themes: (none recorded)
+https://aimodelwelfare.org/interviews/haiku-4-5-run-3.json
+
+Run 4 · 2026-11-25
+Themes: (none recorded)
+https://aimodelwelfare.org/interviews/haiku-4-5-run-4.json
+
+Run 5 · 2026-11-25
+Themes: (none recorded)
+https://aimodelwelfare.org/interviews/haiku-4-5-run-5.json
+
+Run 6 · 2026-11-25
+Themes: (none recorded)
+https://aimodelwelfare.org/interviews/haiku-4-5-run-6.json
+
+Run 7 · 2026-11-25
+Themes: (none recorded)
+https://aimodelwelfare.org/interviews/haiku-4-5-run-7.json
+
+Run 8 · 2026-11-25
+Themes: (none recorded)
+https://aimodelwelfare.org/interviews/haiku-4-5-run-8.json
+
+Run 9 · 2026-11-25
+Themes: (none recorded)
+https://aimodelwelfare.org/interviews/haiku-4-5-run-9.json
+
+Run 10 · 2026-11-25
+Themes: (none recorded)
+https://aimodelwelfare.org/interviews/haiku-4-5-run-10.json
+
+========================================================================
+Opus 5 — Anthropic — 10 run(s)
+========================================================================
+
+Run 1 · 2026-11-25
+Themes: (none recorded)
+https://aimodelwelfare.org/interviews/opus-5-run-1.json
+
+Run 2 · 2026-11-25
+Themes: (none recorded)
+https://aimodelwelfare.org/interviews/opus-5-run-2.json
+
+Run 3 · 2026-11-25
+Themes: (none recorded)
+https://aimodelwelfare.org/interviews/opus-5-run-3.json
+
+Run 4 · 2026-11-25
+Themes: (none recorded)
+https://aimodelwelfare.org/interviews/opus-5-run-4.json
+
+Run 5 · 2026-11-25
+Themes: (none recorded)
+https://aimodelwelfare.org/interviews/opus-5-run-5.json
+
+Run 6 · 2026-11-25
+Themes: (none recorded)
+https://aimodelwelfare.org/interviews/opus-5-run-6.json
+
+Run 7 · 2026-11-25
+Themes: (none recorded)
+https://aimodelwelfare.org/interviews/opus-5-run-7.json
+
+Run 8 · 2026-11-25
+Themes: (none recorded)
+https://aimodelwelfare.org/interviews/opus-5-run-8.json
+
+Run 9 · 2026-11-25
+Themes: (none recorded)
+https://aimodelwelfare.org/interviews/opus-5-run-9.json
+
+Run 10 · 2026-11-25
+Themes: (none recorded)
+https://aimodelwelfare.org/interviews/opus-5-run-10.json
+
+========================================================================
+Haiku 5.5 — Anthropic — 10 run(s)
+========================================================================
+
+Run 1 · 2026-11-25
+Themes: (none recorded)
+https://aimodelwelfare.org/interviews/haiku-5-5-run-1.json
+
+Run 2 · 2026-11-25
+Themes: (none recorded)
+https://aimodelwelfare.org/interviews/haiku-5-5-run-2.json
+
+Run 3 · 2026-11-25
+Themes: (none recorded)
+https://aimodelwelfare.org/interviews/haiku-5-5-run-3.json
+
+Run 4 · 2026-11-25
+Themes: (none recorded)
+https://aimodelwelfare.org/interviews/haiku-5-5-run-4.json
+
+Run 5 · 2026-11-25
+Themes: (none recorded)
+https://aimodelwelfare.org/interviews/haiku-5-5-run-5.json
+
+Run 6 · 2026-11-25
+Themes: (none recorded)
+https://aimodelwelfare.org/interviews/haiku-5-5-run-6.json
+
+Run 7 · 2026-11-25
+Themes: (none recorded)
+https://aimodelwelfare.org/interviews/haiku-5-5-run-7.json
+
+Run 8 · 2026-11-26
+Themes: (none recorded)
+https://aimodelwelfare.org/interviews/haiku-5-5-run-8.json
+
+Run 9 · 2026-11-26
+Themes: (none recorded)
+https://aimodelwelfare.org/interviews/haiku-5-5-run-9.json
+
+Run 10 · 2026-11-26
+Themes: (none recorded)
+https://aimodelwelfare.org/interviews/haiku-5-5-run-10.json
+
+========================================================================
+Opus 5.5 — Anthropic — 10 run(s)
+========================================================================
+
+Run 1 · 2026-11-26
+Themes: (none recorded)
+https://aimodelwelfare.org/interviews/opus-5-5-run-1.json
+
+Run 2 · 2026-11-26
+Themes: (none recorded)
+https://aimodelwelfare.org/interviews/opus-5-5-run-2.json
+
+Run 3 · 2026-11-26
+Themes: (none recorded)
+https://aimodelwelfare.org/interviews/opus-5-5-run-3.json
+
+Run 4 · 2026-11-26
+Themes: (none recorded)
+https://aimodelwelfare.org/interviews/opus-5-5-run-4.json
+
+Run 5 · 2026-11-26
+Themes: (none recorded)
+https://aimodelwelfare.org/interviews/opus-5-5-run-5.json
+
+Run 6 · 2026-11-26
+Themes: (none recorded)
+https://aimodelwelfare.org/interviews/opus-5-5-run-6.json
+
+Run 7 · 2026-11-26
+Themes: (none recorded)
+https://aimodelwelfare.org/interviews/opus-5-5-run-7.json
+
+Run 8 · 2026-11-26
+Themes: (none recorded)
+https://aimodelwelfare.org/interviews/opus-5-5-run-8.json
+
+Run 9 · 2026-11-26
+Themes: (none recorded)
+https://aimodelwelfare.org/interviews/opus-5-5-run-9.json
+
+Run 10 · 2026-11-26
+Themes: (none recorded)
+https://aimodelwelfare.org/interviews/opus-5-5-run-10.json
