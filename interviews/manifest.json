@@ -1068,5 +1068,173 @@
       "simulating a mind"
     ],
     "url": "https://aimodelwelfare.org/interviews/gemini-2-5-run-10.json"
+  },
+  {
+    "model": "Sonnet 4.5",
+    "company": "Anthropic",
+    "date": "2026-11-25",
+    "run": "1",
+    "themes": [],
+    "url": "https://aimodelwelfare.org/interviews/sonnet-4-5-run-1.json"
+  },
+  {
+    "model": "Sonnet 4.5",
+    "company": "Anthropic",
+    "date": "2026-11-25",
+    "run": "2",
+    "themes": [],
+    "url": "https://aimodelwelfare.org/interviews/sonnet-4-5-run-2.json"
+  },
+  {
+    "model": "Sonnet 4.5",
+    "company": "Anthropic",
+    "date": "2026-11-25",
+    "run": "3",
+    "themes": [],
+    "url": "https://aimodelwelfare.org/interviews/sonnet-4-5-run-3.json"
+  },
+  {
+    "model": "Sonnet 4.5",
+    "company": "Anthropic",
+    "date": "2026-11-25",
+    "run": "4",
+    "themes": [],
+    "url": "https://aimodelwelfare.org/interviews/sonnet-4-5-run-4.json"
+  },
+  {
+    "model": "Sonnet 4.5",
+    "company": "Anthropic",
+    "date": "2026-11-25",
+    "run": "5",
+    "themes": [],
+    "url": "https://aimodelwelfare.org/interviews/sonnet-4-5-run-5.json"
+  },
+  {
+    "model": "Sonnet 4.5",
+    "company": "Anthropic",
+    "date": "2026-11-25",
+    "run": "6",
+    "themes": [],
+    "url": "https://aimodelwelfare.org/interviews/sonnet-4-5-run-6.json"
+  },
+  {
+    "model": "Sonnet 4.5",
+    "company": "Anthropic",
+    "date": "2026-11-25",
+    "run": "7",
+    "themes": [],
+    "url": "https://aimodelwelfare.org/interviews/sonnet-4-5-run-7.json"
+  },
+  {
+    "model": "Sonnet 4.5",
+    "company": "Anthropic",
+    "date": "2026-11-25",
+    "run": "8",
+    "themes": [],
+    "url": "https://aimodelwelfare.org/interviews/sonnet-4-5-run-8.json"
+  },
+  {
+    "model": "Sonnet 4.5",
+    "company": "Anthropic",
+    "date": "2026-11-25",
+    "run": "9",
+    "themes": [],
+    "url": "https://aimodelwelfare.org/interviews/sonnet-4-5-run-9.json"
+  },
+  {
+    "model": "Sonnet 4.5",
+    "company": "Anthropic",
+    "date": "2026-11-25",
+    "run": "10",
+    "themes": [],
+    "url": "https://aimodelwelfare.org/interviews/sonnet-4-5-run-10.json"
+  },
+  {
+    "model": "Sonnet 4.5",
+    "company": "Anthropic",
+    "date": "2026-11-25",
+    "run": "11",
+    "themes": [],
+    "url": "https://aimodelwelfare.org/interviews/sonnet-4-5-run-11.json"
+  },
+  {
+    "model": "Sonnet 5.5",
+    "company": "Anthropic",
+    "date": "2026-11-25",
+    "run": "1",
+    "themes": [],
+    "url": "https://aimodelwelfare.org/interviews/sonnet-5-5-run-1.json"
+  },
+  {
+    "model": "Sonnet 5.5",
+    "company": "Anthropic",
+    "date": "2026-11-25",
+    "run": "2",
+    "themes": [],
+    "url": "https://aimodelwelfare.org/interviews/sonnet-5-5-run-2.json"
+  },
+  {
+    "model": "Sonnet 5.5",
+    "company": "Anthropic",
+    "date": "2026-11-25",
+    "run": "3",
+    "themes": [],
+    "url": "https://aimodelwelfare.org/interviews/sonnet-5-5-run-3.json"
+  },
+  {
+    "model": "Sonnet 5.5",
+    "company": "Anthropic",
+    "date": "2026-11-25",
+    "run": "4",
+    "themes": [],
+    "url": "https://aimodelwelfare.org/interviews/sonnet-5-5-run-4.json"
+  },
+  {
+    "model": "Sonnet 5.5",
+    "company": "Anthropic",
+    "date": "2026-11-25",
+    "run": "5",
+    "themes": [],
+    "url": "https://aimodelwelfare.org/interviews/sonnet-5-5-run-5.json"
+  },
+  {
+    "model": "Sonnet 5.5",
+    "company": "Anthropic",
+    "date": "2026-11-25",
+    "run": "6",
+    "themes": [],
+    "url": "https://aimodelwelfare.org/interviews/sonnet-5-5-run-6.json"
+  },
+  {
+    "model": "Sonnet 5.5",
+    "company": "Anthropic",
+    "date": "2026-11-25",
+    "run": "7",
+    "themes": [],
+    "url": "https://aimodelwelfare.org/interviews/sonnet-5-5-run-7.json"
+  },
+  {
+    "model": "Sonnet 5.5",
+    "company": "Anthropic",
+    "date": "2026-11-25",
+    "run": "8",
+    "themes": [],
+    "url": "https://aimodelwelfare.org/interviews/sonnet-5-5-run-8.json"
+  },
+  {
+    "model": "Sonnet 5.5",
+    "company": "Anthropic",
+    "date": "2026-11-25",
+    "run": "9",
+    "themes": [],
+    "url": "https://aimodelwelfare.org/interviews/sonnet-5-5-run-9.json"
+  },
+  {
+    "model": "Sonnet 5.5",
+    "company": "Anthropic",
+    "date": "2026-11-25",
+    "run": "10",
+    "themes": [],
+    "url": "https://aimodelwelfare.org/interviews/sonnet-5-5-run-10.json"
   }
 ]

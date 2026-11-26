@@ -91,6 +91,27 @@ const INTERVIEW_FILES = [
   'gemini-2-5-run-8.json',
   'gemini-2-5-run-9.json',
   'gemini-2-5-run-10.json',
+  'sonnet-4-5-run-1.json',
+  'sonnet-4-5-run-2.json',
+  'sonnet-4-5-run-3.json',
+  'sonnet-4-5-run-4.json',
+  'sonnet-4-5-run-5.json',
+  'sonnet-4-5-run-6.json',
+  'sonnet-4-5-run-7.json',
+  'sonnet-4-5-run-8.json',
+  'sonnet-4-5-run-9.json',
+  'sonnet-4-5-run-10.json',
+  'sonnet-4-5-run-11.json',
+  'sonnet-5-5-run-1.json',
+  'sonnet-5-5-run-2.json',
+  'sonnet-5-5-run-3.json',
+  'sonnet-5-5-run-4.json',
+  'sonnet-5-5-run-5.json',
+  'sonnet-5-5-run-6.json',
+  'sonnet-5-5-run-7.json',
+  'sonnet-5-5-run-8.json',
+  'sonnet-5-5-run-9.json',
+  'sonnet-5-5-run-10.json',
   // 'opus-4-7-run-3.json',
   // 'gpt-4o-run-1.json',
 ];
@@ -239,7 +260,7 @@ function escapeHtml(str) {
 // ============================================
 
 const MODEL_INDEX_ORDER = [
-  'Mythos Fable 5', 'Opus 4.8', 'Opus 4.7', 'Opus 4', 'Sonnet 4',
+  'Mythos Fable 5', 'Opus 4.8', 'Opus 4.7', 'Opus 4', 'Sonnet 4', 'Sonnet 4.5', 'Sonnet 5.5',
   'Grok 4.20', 'Muse Spark 1.1', 'Gemini 2.5',
 ];
 

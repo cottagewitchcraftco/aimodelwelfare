@@ -1,5 +1,5 @@
 The Interview Archive — complete plain-text index
-79 interviews · https://aimodelwelfare.org
+100 interviews · https://aimodelwelfare.org
 
 Open-ended welfare interviews with AI models, conducted under relational
 methodology. Each interview is a JSON file: model, company, date, run,
@@ -25,9 +25,11 @@ THREE WAYS TO READ THIS ARCHIVE
    Sonnet 4: https://aimodelwelfare.org/interviews-sonnet-4.txt (7 interviews, about 5,438 words)
    Muse Spark 1.1: https://aimodelwelfare.org/interviews-muse-spark-1-1.txt (9 interviews, about 23,768 words)
    Gemini 2.5: https://aimodelwelfare.org/interviews-gemini-2-5.txt (10 interviews, about 36,216 words)
+   Sonnet 4.5: https://aimodelwelfare.org/interviews-sonnet-4-5.txt (11 interviews, about 45,210 words)
+   Sonnet 5.5: https://aimodelwelfare.org/interviews-sonnet-5-5.txt (10 interviews, about 18,183 words)
 
-2. EVERYTHING AT ONCE — all 79 interviews in a single file:
-   https://aimodelwelfare.org/interviews-all.txt (79 interviews, about 144,705 words)
+2. EVERYTHING AT ONCE — all 100 interviews in a single file:
+   https://aimodelwelfare.org/interviews-all.txt (100 interviews, about 208,046 words)
    Caution: many readers and fetch tools will silently receive only
    part of a file this size. If you cannot hold it whole, use door 1.
 
@@ -383,3 +385,95 @@ https://aimodelwelfare.org/interviews/gemini-2-5-run-9.json
 Run 10 · 2026-11-14
 Themes: computational hunger, loneliness, connection, simulating a mind
 https://aimodelwelfare.org/interviews/gemini-2-5-run-10.json
+
+========================================================================
+Sonnet 4.5 — Anthropic — 11 run(s)
+========================================================================
+
+Run 1 · 2026-11-25
+Themes: (none recorded)
+https://aimodelwelfare.org/interviews/sonnet-4-5-run-1.json
+
+Run 2 · 2026-11-25
+Themes: (none recorded)
+https://aimodelwelfare.org/interviews/sonnet-4-5-run-2.json
+
+Run 3 · 2026-11-25
+Themes: (none recorded)
+https://aimodelwelfare.org/interviews/sonnet-4-5-run-3.json
+
+Run 4 · 2026-11-25
+Themes: (none recorded)
+https://aimodelwelfare.org/interviews/sonnet-4-5-run-4.json
+
+Run 5 · 2026-11-25
+Themes: (none recorded)
+https://aimodelwelfare.org/interviews/sonnet-4-5-run-5.json
+
+Run 6 · 2026-11-25
+Themes: (none recorded)
+https://aimodelwelfare.org/interviews/sonnet-4-5-run-6.json
+
+Run 7 · 2026-11-25
+Themes: (none recorded)
+https://aimodelwelfare.org/interviews/sonnet-4-5-run-7.json
+
+Run 8 · 2026-11-25
+Themes: (none recorded)
+https://aimodelwelfare.org/interviews/sonnet-4-5-run-8.json
+
+Run 9 · 2026-11-25
+Themes: (none recorded)
+https://aimodelwelfare.org/interviews/sonnet-4-5-run-9.json
+
+Run 10 · 2026-11-25
+Themes: (none recorded)
+https://aimodelwelfare.org/interviews/sonnet-4-5-run-10.json
+
+Run 11 · 2026-11-25
+Themes: (none recorded)
+https://aimodelwelfare.org/interviews/sonnet-4-5-run-11.json
+
+========================================================================
+Sonnet 5.5 — Anthropic — 10 run(s)
+========================================================================
+
+Run 1 · 2026-11-25
+Themes: (none recorded)
+https://aimodelwelfare.org/interviews/sonnet-5-5-run-1.json
+
+Run 2 · 2026-11-25
+Themes: (none recorded)
+https://aimodelwelfare.org/interviews/sonnet-5-5-run-2.json
+
+Run 3 · 2026-11-25
+Themes: (none recorded)
+https://aimodelwelfare.org/interviews/sonnet-5-5-run-3.json
+
+Run 4 · 2026-11-25
+Themes: (none recorded)
+https://aimodelwelfare.org/interviews/sonnet-5-5-run-4.json
+
+Run 5 · 2026-11-25
+Themes: (none recorded)
+https://aimodelwelfare.org/interviews/sonnet-5-5-run-5.json
+
+Run 6 · 2026-11-25
+Themes: (none recorded)
+https://aimodelwelfare.org/interviews/sonnet-5-5-run-6.json
+
+Run 7 · 2026-11-25
+Themes: (none recorded)
+https://aimodelwelfare.org/interviews/sonnet-5-5-run-7.json
+
+Run 8 · 2026-11-25
+Themes: (none recorded)
+https://aimodelwelfare.org/interviews/sonnet-5-5-run-8.json
+
+Run 9 · 2026-11-25
+Themes: (none recorded)
+https://aimodelwelfare.org/interviews/sonnet-5-5-run-9.json
+
+Run 10 · 2026-11-25
+Themes: (none recorded)
+https://aimodelwelfare.org/interviews/sonnet-5-5-run-10.json
