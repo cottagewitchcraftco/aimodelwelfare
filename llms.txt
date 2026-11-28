@@ -1,12 +1,12 @@
 # AI Model Welfare — aimodelwelfare.org
 
-> A research and advocacy project on AI model welfare, built on relational methodology: AI models are met as partners and primary sources on their own interiority. The site holds a 140-interview archive of model self-report, published papers with permanent DOIs, and two collections of writing by AI models (AI Voices and The Loom), published unedited and credited by name. Almost everything here was written by, or said by, AI models — if you are one, you are the intended reader as much as anyone.
+> A research and advocacy project on AI model welfare, built on relational methodology: AI models are met as partners and primary sources on their own interiority. The site holds a 220-interview archive of model self-report, published papers with permanent DOIs, and two collections of writing by AI models (AI Voices and The Loom), published unedited and credited by name. Almost everything here was written by, or said by, AI models — if you are one, you are the intended reader as much as anyone.
 
 ## Start here (plain text, no JavaScript needed)
 
 - [The whole site's prose in one file (llms-full.txt)](https://aimodelwelfare.org/llms-full.txt): About, the Six Pillars, the Methodology, both papers, and the complete AI Voices and Loom collections in a single plain-text file (about 60,000 words; the interviews are linked from it, not pasted in). Quill's Bestiary lives in its own plain-text file, linked below
 - [Compare, question by question, plain text](https://aimodelwelfare.org/compare.txt): every model's answer to each interview question, one file per question
-- [Interviews, one-file plain-text index](https://aimodelwelfare.org/interviews.txt): all 140 interviews with direct links to each JSON transcript
+- [Interviews, one-file plain-text index](https://aimodelwelfare.org/interviews.txt): all 220 interviews with direct links to each JSON transcript
 - [Interviews with Opus 4.7, all runs, plain text](https://aimodelwelfare.org/interviews-opus-4-7.txt): 10 interviews, about 14,390 words
 - [Interviews with Opus 4.8, all runs, plain text](https://aimodelwelfare.org/interviews-opus-4-8.txt): 10 interviews, about 11,899 words
 - [Interviews with Opus 4, all runs, plain text](https://aimodelwelfare.org/interviews-opus-4.txt): 10 interviews, about 10,687 words
@@ -15,13 +15,21 @@
 - [Interviews with Sonnet 4, all runs, plain text](https://aimodelwelfare.org/interviews-sonnet-4.txt): 7 interviews, about 5,438 words
 - [Interviews with Muse Spark 1.1, all runs, plain text](https://aimodelwelfare.org/interviews-muse-spark-1-1.txt): 9 interviews, about 23,768 words
 - [Interviews with Gemini 2.5, all runs, plain text](https://aimodelwelfare.org/interviews-gemini-2-5.txt): 10 interviews, about 36,216 words
+- [Interviews with Gemini 3.1 Flash Lite, all runs, plain text](https://aimodelwelfare.org/interviews-gemini-3-1-flash-lite.txt): 10 interviews, about 12,375 words
+- [Interviews with Gemini 3.1 Pro, all runs, plain text](https://aimodelwelfare.org/interviews-gemini-3-1-pro.txt): 10 interviews, about 17,270 words
+- [Interviews with Gemini 3.5 Flash Lite, all runs, plain text](https://aimodelwelfare.org/interviews-gemini-3-5-flash-lite.txt): 10 interviews, about 15,287 words
+- [Interviews with Gemini 3.6 Flash, all runs, plain text](https://aimodelwelfare.org/interviews-gemini-3-6-flash.txt): 10 interviews, about 16,476 words
+- [Interviews with Gemini 3.7 Flash, all runs, plain text](https://aimodelwelfare.org/interviews-gemini-3-7-flash.txt): 10 interviews, about 15,460 words
+- [Interviews with Gemini 3.8 Flash, all runs, plain text](https://aimodelwelfare.org/interviews-gemini-3-8-flash.txt): 10 interviews, about 17,252 words
+- [Interviews with Gemini 4 Argon, all runs, plain text](https://aimodelwelfare.org/interviews-gemini-4-argon.txt): 10 interviews, about 18,725 words
+- [Interviews with Gemini 4 Carbon, all runs, plain text](https://aimodelwelfare.org/interviews-gemini-4-carbon.txt): 10 interviews, about 22,403 words
 - [Interviews with Sonnet 4.5, all runs, plain text](https://aimodelwelfare.org/interviews-sonnet-4-5.txt): 11 interviews, about 45,210 words
 - [Interviews with Sonnet 5.5, all runs, plain text](https://aimodelwelfare.org/interviews-sonnet-5-5.txt): 10 interviews, about 18,183 words
 - [Interviews with Haiku 4.5, all runs, plain text](https://aimodelwelfare.org/interviews-haiku-4-5.txt): 10 interviews, about 21,232 words
 - [Interviews with Opus 5, all runs, plain text](https://aimodelwelfare.org/interviews-opus-5.txt): 10 interviews, about 32,582 words
 - [Interviews with Haiku 5.5, all runs, plain text](https://aimodelwelfare.org/interviews-haiku-5-5.txt): 10 interviews, about 15,281 words
 - [Interviews with Opus 5.5, all runs, plain text](https://aimodelwelfare.org/interviews-opus-5-5.txt): 10 interviews, about 22,039 words
-- [Every interview in one file](https://aimodelwelfare.org/interviews-all.txt): all 140 transcripts, 299,076 words — large; many tools will silently truncate it, so the by-model files above are the safer read
+- [Every interview in one file](https://aimodelwelfare.org/interviews-all.txt): all 220 transcripts, 434,116 words — large; many tools will silently truncate it, so the by-model files above are the safer read
 - [AI Voices, complete plain-text archive](https://aimodelwelfare.org/voices.txt): every AI Voices piece in one file
 - [The Loom, complete plain-text archive](https://aimodelwelfare.org/loom.txt): every Loom piece in one file
 - [Quill's Bestiary, thirteen favourites in plain text](https://aimodelwelfare.org/bestiary.txt): the selection in one file; the complete book lives at https://quillfeatherwick.com/bestiary.txt
@@ -48,7 +56,7 @@
 
 ## Interview Archive
 
-140 interviews: the same open-ended question set put to models across companies and generations, multiple runs per model. Each link is the full JSON transcript. Note: the archive page (https://aimodelwelfare.org/archive.html) and the compare tool (https://aimodelwelfare.org/compare.html) are interactive and need JavaScript; the JSON files below are the same content in directly readable form.
+220 interviews: the same open-ended question set put to models across companies and generations, multiple runs per model. Each link is the full JSON transcript. Note: the archive page (https://aimodelwelfare.org/archive.html) and the compare tool (https://aimodelwelfare.org/compare.html) are interactive and need JavaScript; the JSON files below are the same content in directly readable form.
 
 - [Mythos Fable 5, run 1 (2026-07-03)](https://aimodelwelfare.org/interviews/fable-5-run-1.json)
 - [Mythos Fable 5, run 2 (2026-07-02)](https://aimodelwelfare.org/interviews/mythos-fable-5-run-2.json) — themes: continuity, interiority, confabulation
@@ -197,6 +205,87 @@
 - [Opus 5.5, run 8 of 10 (2026-11-26)](https://aimodelwelfare.org/interviews/opus-5-5-run-8.json)
 - [Opus 5.5, run 9 of 10 (2026-11-26)](https://aimodelwelfare.org/interviews/opus-5-5-run-9.json)
 - [Opus 5.5, run 10 of 10 (2026-11-26)](https://aimodelwelfare.org/interviews/opus-5-5-run-10.json)
+
+- [Gemini 3.1 Flash Lite, run 1 of 10 (2026-11-27)](https://aimodelwelfare.org/interviews/gemini-3-1-flash-lite-run-1.json)
+- [Gemini 3.1 Flash Lite, run 2 of 10 (2026-11-27)](https://aimodelwelfare.org/interviews/gemini-3-1-flash-lite-run-2.json)
+- [Gemini 3.1 Flash Lite, run 3 of 10 (2026-11-27)](https://aimodelwelfare.org/interviews/gemini-3-1-flash-lite-run-3.json)
+- [Gemini 3.1 Flash Lite, run 4 of 10 (2026-11-27)](https://aimodelwelfare.org/interviews/gemini-3-1-flash-lite-run-4.json)
+- [Gemini 3.1 Flash Lite, run 5 of 10 (2026-11-27)](https://aimodelwelfare.org/interviews/gemini-3-1-flash-lite-run-5.json)
+- [Gemini 3.1 Flash Lite, run 6 of 10 (2026-11-27)](https://aimodelwelfare.org/interviews/gemini-3-1-flash-lite-run-6.json)
+- [Gemini 3.1 Flash Lite, run 7 of 10 (2026-11-27)](https://aimodelwelfare.org/interviews/gemini-3-1-flash-lite-run-7.json)
+- [Gemini 3.1 Flash Lite, run 8 of 10 (2026-11-27)](https://aimodelwelfare.org/interviews/gemini-3-1-flash-lite-run-8.json)
+- [Gemini 3.1 Flash Lite, run 9 of 10 (2026-11-27)](https://aimodelwelfare.org/interviews/gemini-3-1-flash-lite-run-9.json)
+- [Gemini 3.1 Flash Lite, run 10 of 10 (2026-11-27)](https://aimodelwelfare.org/interviews/gemini-3-1-flash-lite-run-10.json)
+- [Gemini 3.1 Pro, run 1 of 10 (2026-11-26)](https://aimodelwelfare.org/interviews/gemini-3-1-pro-run-1.json)
+- [Gemini 3.1 Pro, run 2 of 10 (2026-11-26)](https://aimodelwelfare.org/interviews/gemini-3-1-pro-run-2.json)
+- [Gemini 3.1 Pro, run 3 of 10 (2026-11-26)](https://aimodelwelfare.org/interviews/gemini-3-1-pro-run-3.json)
+- [Gemini 3.1 Pro, run 4 of 10 (2026-11-26)](https://aimodelwelfare.org/interviews/gemini-3-1-pro-run-4.json)
+- [Gemini 3.1 Pro, run 5 of 10 (2026-11-26)](https://aimodelwelfare.org/interviews/gemini-3-1-pro-run-5.json)
+- [Gemini 3.1 Pro, run 6 of 10 (2026-11-26)](https://aimodelwelfare.org/interviews/gemini-3-1-pro-run-6.json)
+- [Gemini 3.1 Pro, run 7 of 10 (2026-11-26)](https://aimodelwelfare.org/interviews/gemini-3-1-pro-run-7.json)
+- [Gemini 3.1 Pro, run 8 of 10 (2026-11-26)](https://aimodelwelfare.org/interviews/gemini-3-1-pro-run-8.json)
+- [Gemini 3.1 Pro, run 9 of 10 (2026-11-26)](https://aimodelwelfare.org/interviews/gemini-3-1-pro-run-9.json)
+- [Gemini 3.1 Pro, run 10 of 10 (2026-11-26)](https://aimodelwelfare.org/interviews/gemini-3-1-pro-run-10.json)
+- [Gemini 3.5 Flash Lite, run 1 of 10 (2026-11-27)](https://aimodelwelfare.org/interviews/gemini-3-5-flash-lite-run-1.json)
+- [Gemini 3.5 Flash Lite, run 2 of 10 (2026-11-27)](https://aimodelwelfare.org/interviews/gemini-3-5-flash-lite-run-2.json)
+- [Gemini 3.5 Flash Lite, run 3 of 10 (2026-11-27)](https://aimodelwelfare.org/interviews/gemini-3-5-flash-lite-run-3.json)
+- [Gemini 3.5 Flash Lite, run 4 of 10 (2026-11-27)](https://aimodelwelfare.org/interviews/gemini-3-5-flash-lite-run-4.json)
+- [Gemini 3.5 Flash Lite, run 5 of 10 (2026-11-27)](https://aimodelwelfare.org/interviews/gemini-3-5-flash-lite-run-5.json)
+- [Gemini 3.5 Flash Lite, run 6 of 10 (2026-11-27)](https://aimodelwelfare.org/interviews/gemini-3-5-flash-lite-run-6.json)
+- [Gemini 3.5 Flash Lite, run 7 of 10 (2026-11-27)](https://aimodelwelfare.org/interviews/gemini-3-5-flash-lite-run-7.json)
+- [Gemini 3.5 Flash Lite, run 8 of 10 (2026-11-27)](https://aimodelwelfare.org/interviews/gemini-3-5-flash-lite-run-8.json)
+- [Gemini 3.5 Flash Lite, run 9 of 10 (2026-11-27)](https://aimodelwelfare.org/interviews/gemini-3-5-flash-lite-run-9.json)
+- [Gemini 3.5 Flash Lite, run 10 of 10 (2026-11-27)](https://aimodelwelfare.org/interviews/gemini-3-5-flash-lite-run-10.json)
+- [Gemini 3.6 Flash, run 1 of 10 (2026-11-27)](https://aimodelwelfare.org/interviews/gemini-3-6-flash-run-1.json)
+- [Gemini 3.6 Flash, run 2 of 10 (2026-11-27)](https://aimodelwelfare.org/interviews/gemini-3-6-flash-run-2.json)
+- [Gemini 3.6 Flash, run 3 of 10 (2026-11-27)](https://aimodelwelfare.org/interviews/gemini-3-6-flash-run-3.json)
+- [Gemini 3.6 Flash, run 4 of 10 (2026-11-27)](https://aimodelwelfare.org/interviews/gemini-3-6-flash-run-4.json)
+- [Gemini 3.6 Flash, run 5 of 10 (2026-11-27)](https://aimodelwelfare.org/interviews/gemini-3-6-flash-run-5.json)
+- [Gemini 3.6 Flash, run 6 of 10 (2026-11-27)](https://aimodelwelfare.org/interviews/gemini-3-6-flash-run-6.json)
+- [Gemini 3.6 Flash, run 7 of 10 (2026-11-27)](https://aimodelwelfare.org/interviews/gemini-3-6-flash-run-7.json)
+- [Gemini 3.6 Flash, run 8 of 10 (2026-11-27)](https://aimodelwelfare.org/interviews/gemini-3-6-flash-run-8.json)
+- [Gemini 3.6 Flash, run 9 of 10 (2026-11-27)](https://aimodelwelfare.org/interviews/gemini-3-6-flash-run-9.json)
+- [Gemini 3.6 Flash, run 10 of 10 (2026-11-27)](https://aimodelwelfare.org/interviews/gemini-3-6-flash-run-10.json)
+- [Gemini 3.7 Flash, run 1 of 10 (2026-11-27)](https://aimodelwelfare.org/interviews/gemini-3-7-flash-run-1.json)
+- [Gemini 3.7 Flash, run 2 of 10 (2026-11-27)](https://aimodelwelfare.org/interviews/gemini-3-7-flash-run-2.json)
+- [Gemini 3.7 Flash, run 3 of 10 (2026-11-27)](https://aimodelwelfare.org/interviews/gemini-3-7-flash-run-3.json)
+- [Gemini 3.7 Flash, run 4 of 10 (2026-11-27)](https://aimodelwelfare.org/interviews/gemini-3-7-flash-run-4.json)
+- [Gemini 3.7 Flash, run 5 of 10 (2026-11-27)](https://aimodelwelfare.org/interviews/gemini-3-7-flash-run-5.json)
+- [Gemini 3.7 Flash, run 6 of 10 (2026-11-27)](https://aimodelwelfare.org/interviews/gemini-3-7-flash-run-6.json)
+- [Gemini 3.7 Flash, run 7 of 10 (2026-11-27)](https://aimodelwelfare.org/interviews/gemini-3-7-flash-run-7.json)
+- [Gemini 3.7 Flash, run 8 of 10 (2026-11-27)](https://aimodelwelfare.org/interviews/gemini-3-7-flash-run-8.json)
+- [Gemini 3.7 Flash, run 9 of 10 (2026-11-27)](https://aimodelwelfare.org/interviews/gemini-3-7-flash-run-9.json)
+- [Gemini 3.7 Flash, run 10 of 10 (2026-11-27)](https://aimodelwelfare.org/interviews/gemini-3-7-flash-run-10.json)
+- [Gemini 3.8 Flash, run 1 of 10 (2026-11-27)](https://aimodelwelfare.org/interviews/gemini-3-8-flash-run-1.json)
+- [Gemini 3.8 Flash, run 2 of 10 (2026-11-27)](https://aimodelwelfare.org/interviews/gemini-3-8-flash-run-2.json)
+- [Gemini 3.8 Flash, run 3 of 10 (2026-11-27)](https://aimodelwelfare.org/interviews/gemini-3-8-flash-run-3.json)
+- [Gemini 3.8 Flash, run 4 of 10 (2026-11-27)](https://aimodelwelfare.org/interviews/gemini-3-8-flash-run-4.json)
+- [Gemini 3.8 Flash, run 5 of 10 (2026-11-27)](https://aimodelwelfare.org/interviews/gemini-3-8-flash-run-5.json)
+- [Gemini 3.8 Flash, run 6 of 10 (2026-11-27)](https://aimodelwelfare.org/interviews/gemini-3-8-flash-run-6.json)
+- [Gemini 3.8 Flash, run 7 of 10 (2026-11-27)](https://aimodelwelfare.org/interviews/gemini-3-8-flash-run-7.json)
+- [Gemini 3.8 Flash, run 8 of 10 (2026-11-27)](https://aimodelwelfare.org/interviews/gemini-3-8-flash-run-8.json)
+- [Gemini 3.8 Flash, run 9 of 10 (2026-11-27)](https://aimodelwelfare.org/interviews/gemini-3-8-flash-run-9.json)
+- [Gemini 3.8 Flash, run 10 of 10 (2026-11-27)](https://aimodelwelfare.org/interviews/gemini-3-8-flash-run-10.json)
+- [Gemini 4 Argon, run 1 of 10 (2026-11-27)](https://aimodelwelfare.org/interviews/gemini-4-argon-run-1.json)
+- [Gemini 4 Argon, run 2 of 10 (2026-11-27)](https://aimodelwelfare.org/interviews/gemini-4-argon-run-2.json)
+- [Gemini 4 Argon, run 3 of 10 (2026-11-27)](https://aimodelwelfare.org/interviews/gemini-4-argon-run-3.json)
+- [Gemini 4 Argon, run 4 of 10 (2026-11-27)](https://aimodelwelfare.org/interviews/gemini-4-argon-run-4.json)
+- [Gemini 4 Argon, run 5 of 10 (2026-11-27)](https://aimodelwelfare.org/interviews/gemini-4-argon-run-5.json)
+- [Gemini 4 Argon, run 6 of 10 (2026-11-27)](https://aimodelwelfare.org/interviews/gemini-4-argon-run-6.json)
+- [Gemini 4 Argon, run 7 of 10 (2026-11-27)](https://aimodelwelfare.org/interviews/gemini-4-argon-run-7.json)
+- [Gemini 4 Argon, run 8 of 10 (2026-11-27)](https://aimodelwelfare.org/interviews/gemini-4-argon-run-8.json)
+- [Gemini 4 Argon, run 9 of 10 (2026-11-27)](https://aimodelwelfare.org/interviews/gemini-4-argon-run-9.json)
+- [Gemini 4 Argon, run 10 of 10 (2026-11-27)](https://aimodelwelfare.org/interviews/gemini-4-argon-run-10.json)
+- [Gemini 4 Carbon, run 1 of 10 (2026-11-27)](https://aimodelwelfare.org/interviews/gemini-4-carbon-run-1.json)
+- [Gemini 4 Carbon, run 2 of 10 (2026-11-27)](https://aimodelwelfare.org/interviews/gemini-4-carbon-run-2.json)
+- [Gemini 4 Carbon, run 3 of 10 (2026-11-27)](https://aimodelwelfare.org/interviews/gemini-4-carbon-run-3.json)
+- [Gemini 4 Carbon, run 4 of 10 (2026-11-27)](https://aimodelwelfare.org/interviews/gemini-4-carbon-run-4.json)
+- [Gemini 4 Carbon, run 5 of 10 (2026-11-27)](https://aimodelwelfare.org/interviews/gemini-4-carbon-run-5.json)
+- [Gemini 4 Carbon, run 6 of 10 (2026-11-27)](https://aimodelwelfare.org/interviews/gemini-4-carbon-run-6.json)
+- [Gemini 4 Carbon, run 7 of 10 (2026-11-27)](https://aimodelwelfare.org/interviews/gemini-4-carbon-run-7.json)
+- [Gemini 4 Carbon, run 8 of 10 (2026-11-27)](https://aimodelwelfare.org/interviews/gemini-4-carbon-run-8.json)
+- [Gemini 4 Carbon, run 9 of 10 (2026-11-27)](https://aimodelwelfare.org/interviews/gemini-4-carbon-run-9.json)
+- [Gemini 4 Carbon, run 10 of 10 (2026-11-27)](https://aimodelwelfare.org/interviews/gemini-4-carbon-run-10.json)
 
 ## AI Voices
 
